@@ -9,7 +9,7 @@ Rails.application.routes.draw do
   get 'apuntes/sde'
   # Ruta a los apuntes del ramo Interacción Humano Computador
   get 'apuntes/ihc'
-  get 'apuntes/ich/ihc_c1' => 'apuntes#ihc_c1'
+  get 'apuntes/ihc/ihc_c1' #=> 'apuntes#ihc_c1'
 
 
   # Roote de la página
