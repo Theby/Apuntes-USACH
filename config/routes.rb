@@ -2,7 +2,7 @@ Rails.application.routes.draw do
 
 
   # Ruta al home de la página
-  get 'apuntes/home' => 'apuntes#home'
+  get 'home' => 'apuntes#home'
 
 
   # Ruta a los apuntes del ramo Sistemas Distribuidos Escalables
