@@ -1,1 +1,53 @@
-CLASE 1
+		<section id="title">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<h1>Interacción Humano Computador</h1>
+						<p>Edmundo Pablo Leiva Lobos</p>
+					</div>
+					<div class="col-md-6">
+						<p class="pull-right">Fecha: 18-08-2014</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="body">
+			<div class="container">
+				<h2>Clase 1 - Introducción</h2>
+
+				<p>La <b>usabilidad</b> se enfoca en la experiencia de usuario (UX - User Experience).</p>
+
+				<h3>Balanza del Software</h3>
+
+				<p align="center"> <%= image_tag('ihc/balanza_del_software.png') %> </p>
+
+			</div>
+		</section>
+
+		<section id="footer">
+			<div class="container">
+				<div class="panel panel-success">
+					<div class="panel-footer">
+						<div class="row">
+							<div class="col-md-3">
+							</div>
+							<div class="col-md-3">
+								<%= link_to "Interacción Humano Computador", apuntes_ihc_path, :class => "pull-right" %>
+							</div>
+							<div class="col-md-3">
+								<a class="pull-left" href="#top"> Volver Arriba <span class="glyphicon glyphicon-arrow-up"></span></a>
+							</div>
+							<div class="col-md-3">
+								<%= link_to apuntes_ihc_ihc_c2_path, :class => "pull-left" do %>
+									Clase 2 - Usabilidad a la Nielsen <span class="glyphicon glyphicon-arrow-eight"></span>
+								<% end %>
+							</div>
+						</div>
+					</div>
+					<div class="panel-heading">
+						<h3 class="panel-title" align="center"> Desarrollado por Esteban Gaete Flores </h3>
+					</div>
+				</div>
+			</div>
+		</section>
