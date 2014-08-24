@@ -2,14 +2,15 @@ Rails.application.routes.draw do
 
 
   # Ruta al home de la página
-  get 'apuntes/home'
+  get 'home' => 'apuntes#home'
 
 
   # Ruta a los apuntes del ramo Sistemas Distribuidos Escalables
   get 'apuntes/sde'
   # Ruta a los apuntes del ramo Interacción Humano Computador
   get 'apuntes/ihc'
-  get 'apuntes/ihc/ihc_c1' #=> 'apuntes#ihc_c1'
+  get 'apuntes/ihc/ihc_c1' => 'apuntes#ihc_c1'
+  get 'apuntes/ihc/ihc_c2' => 'apuntes#ihc_c2'
 
 
   # Roote de la página
