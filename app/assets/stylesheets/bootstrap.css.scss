@@ -6214,7 +6214,7 @@ body {
 
 .dropdown-menu .sub-menu {
     left: 100%;
-    position: relative;
+    position: absolute;
     top: 0;
     visibility: hidden;
     margin-top: -1px;
@@ -6233,6 +6233,12 @@ body {
 }
 
 .navbar .sub-menu:before {
+    border-bottom: 7px solid transparent;
+    border-left: none;
+    border-right: 7px solid rgba(0, 0, 0, 0.2);
+    border-top: 7px solid transparent;
+    left: -7px;
+    top: 10px;
 }
 .navbar .sub-menu:after {
     border-top: 6px solid transparent;
