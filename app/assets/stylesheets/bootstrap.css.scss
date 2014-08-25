@@ -6222,7 +6222,7 @@ body {
 
 .dropdown-menu li:hover .sub-menu {
     visibility: visible;
-    top: 300px;
+    top: inherit;
 }
 
 .dropdown:hover .dropdown-menu {
