@@ -6212,15 +6212,10 @@ body {
     padding: 9px 0;
 }
 
-.dropdown-menu{
-    width: 250px;
-    hight: 30px;
-}
-
 .dropdown-menu .sub-menu {
     left: 100%;
-    position: relative;
-    top: 0;
+    position: absolute;
+    top: auto;
     visibility: hidden;
     margin-top: -1px;
 }
