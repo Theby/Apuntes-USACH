@@ -6215,7 +6215,7 @@ body {
 .dropdown-menu .sub-menu {
     left: 100%;
     position: absolute;
-    top: inherit;
+    top: inherit - 20px;
     visibility: hidden;
     margin-top: -1px;
 }
