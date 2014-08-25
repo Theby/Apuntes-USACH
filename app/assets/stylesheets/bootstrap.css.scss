@@ -6215,7 +6215,7 @@ body {
 .menu .sub-menu {
     left: 100%;
     position: absolute;
-    top: 0px;
+    top: inherit;
     visibility: hidden;
     margin-top: -1px;
 }
