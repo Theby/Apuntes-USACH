@@ -6216,16 +6216,13 @@ body {
     right: 100%;
     position: relative;
     top: 0;
+    left: 50px;
     visibility: hidden;
     margin-top: -1px;
-    max-widht: 0%;
-    max-height: 0%;
 }
 
 .dropdown-menu li:hover .sub-menu {
     visibility: visible;
-    max-widht: 100%;
-    max-height: 100%;
 }
 
 .dropdown:hover .dropdown-menu {
