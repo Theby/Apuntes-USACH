@@ -6212,10 +6212,10 @@ body {
     padding: 9px 0;
 }
 
-.menu .sub-menu {
+.dropdown-menu .sub-menu {
     left: 100%;
     position: absolute;
-    top: inherit;
+    top: 0px;
     visibility: hidden;
     margin-top: -1px;
 }
