@@ -6264,10 +6264,7 @@ body {
     margin-top: 0;
 }
 
-#sub-menu1 .navbar .sub-menu:before,
-#sub-menu2 .navbar .sub-menu:before,
-#sub-menu3 .navbar .sub-menu:before,
-#sub-menu4 .navbar .sub-menu:before {
+.navbar .sub-menu:before {
     border-bottom: 7px solid transparent;
     border-left: none;
     border-right: 7px solid rgba(0, 0, 0, 0.2);
@@ -6275,11 +6272,7 @@ body {
     left: -7px;
     top: 10px;
 }
-
-#sub-menu1 .navbar .sub-menu:after,
-#sub-menu2 .navbar .sub-menu:after,
-#sub-menu3 .navbar .sub-menu:after,
-#sub-menu4 .navbar .sub-menu:after {
+.navbar .sub-menu:after {
     border-top: 6px solid transparent;
     border-left: none;
     border-right: 6px solid #fff;
