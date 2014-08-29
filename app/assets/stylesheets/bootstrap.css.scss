@@ -6250,15 +6250,24 @@ body {
     visibility: visible;
 }
 
-.dropdown:hover .dropdown-menu {
+#sub-menu1 .dropdown:hover .dropdown-menu,
+#sub-menu2 .dropdown:hover .dropdown-menu,
+#sub-menu3 .dropdown:hover .dropdown-menu,
+#sub-menu4 .dropdown:hover .dropdown-menu {
     display: block;
 }
 
-.nav-tabs .dropdown-menu, .nav-pills .dropdown-menu, .navbar .dropdown-menu {
+#sub-menu1 .nav-tabs .dropdown-menu, .nav-pills .dropdown-menu, .navbar .dropdown-menu,
+#sub-menu2 .nav-tabs .dropdown-menu, .nav-pills .dropdown-menu, .navbar .dropdown-menu,
+#sub-menu3 .nav-tabs .dropdown-menu, .nav-pills .dropdown-menu, .navbar .dropdown-menu,
+#sub-menu4 .nav-tabs .dropdown-menu, .nav-pills .dropdown-menu, .navbar .dropdown-menu {
     margin-top: 0;
 }
 
-.navbar .sub-menu:before {
+#sub-menu1 .navbar .sub-menu:before,
+#sub-menu2 .navbar .sub-menu:before,
+#sub-menu3 .navbar .sub-menu:before,
+#sub-menu4 .navbar .sub-menu:before {
     border-bottom: 7px solid transparent;
     border-left: none;
     border-right: 7px solid rgba(0, 0, 0, 0.2);
@@ -6266,7 +6275,11 @@ body {
     left: -7px;
     top: 10px;
 }
-.navbar .sub-menu:after {
+
+#sub-menu1 .navbar .sub-menu:after,
+#sub-menu2 .navbar .sub-menu:after,
+#sub-menu3 .navbar .sub-menu:after,
+#sub-menu4 .navbar .sub-menu:after {
     border-top: 6px solid transparent;
     border-left: none;
     border-right: 6px solid #fff;
