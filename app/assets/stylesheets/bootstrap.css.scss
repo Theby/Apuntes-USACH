@@ -6243,14 +6243,14 @@ body {
     visibility: hidden;
     margin-top: -1px;
 }
-#sub-menu1 .dropdown-menu li:hover .sub-menu,
-#sub-menu2 .dropdown-menu li:hover .sub-menu,
-#sub-menu3 .dropdown-menu li:hover .sub-menu,
-#sub-menu4 .dropdown-menu li:hover .sub-menu {
+.dropdown-menu li:hover .sub-menu {
     visibility: visible;
 }
 
-.dropdown:hover .dropdown-menu {
+#sub-menu1 .dropdown:hover .dropdown-menu,
+#sub-menu2 .dropdown:hover .dropdown-menu,
+#sub-menu3 .dropdown:hover .dropdown-menu,
+#sub-menu4 .dropdown:hover .dropdown-menu {
     display: block;
 }
 
