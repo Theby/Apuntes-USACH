@@ -19,6 +19,9 @@ Rails.application.routes.draw do
   get 'apuntes/pingeso'
   get 'apuntes/pingeso/pingeso_c1' => 'apuntes#pingeso_c1'
   get 'apuntes/pingeso/pingeso_c2' => 'apuntes#pingeso_c2'
+  # Ruta a los apuntes del ramo Comportamiento Humano en el Trabajo
+  get 'apuntes/cht'
+  get 'apuntes/cht/cht_c1' => 'apuntes#cht_c1'
 
   # Roote de la página
   root 'apuntes#home'
