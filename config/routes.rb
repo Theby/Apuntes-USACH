@@ -15,8 +15,8 @@ Rails.application.routes.draw do
   get 'apuntes/ihc/ihc_c2' => 'apuntes#ihc_c2'
   # Ruta a los apuntes del ramo Evaluación de Proyectos
   get 'apuntes/ep'
-  get 'apuntes/ep/ep_c1' => 'apuntes#ep_c1'
-  get 'apuntes/ep/ep_c2' => 'apuntes#ep_c2'
+  get 'apuntes/ep/ep_c1' => 'apuntes#ep/ep_c1'
+  get 'apuntes/ep/ep_c2' => 'apuntes#ep/ep_c2'
   # Ruta a los apuntes del ramo Proyecto de Ingeniería de Software
   get 'apuntes/pingeso'
   get 'apuntes/pingeso/pingeso_c1' => 'apuntes#pingeso_c1'
