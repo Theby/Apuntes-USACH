@@ -21,6 +21,7 @@ Rails.application.routes.draw do
   get 'apuntes/pingeso'
   get 'apuntes/pingeso/pingeso_c1' => 'apuntes#pingeso_c1'
   get 'apuntes/pingeso/pingeso_c2' => 'apuntes#pingeso_c2'
+  get 'apuntes/pingeso/pingeso_c3' => 'apuntes#pingeso_c3'
   # Ruta a los apuntes del ramo Comportamiento Humano en el Trabajo
   get 'apuntes/cht'
   get 'apuntes/cht/cht_c4' => 'apuntes#cht_c4'
