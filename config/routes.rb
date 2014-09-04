@@ -29,6 +29,9 @@ Rails.application.routes.draw do
 
   # Roote de la página
   root 'apuntes#home'
+
+  # Charla de "Wisdom of Crowds or Wisdom of Few"
+  get 'charla/charla_c1' => 'apuntes#charla_c1' #<== cambiar a un controlador de charlas
   
 
   # The priority is based upon order of creation: first created -> highest priority.
