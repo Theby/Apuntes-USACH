@@ -1,0 +1,79 @@
+		<section id="title">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<h1>Proyecto de Ingeniería de Software</h1>
+						<p>Ayudante: Mario Lopez - mario.lopezl@usach.cl</p>
+					</div>
+					<div class="col-md-6">
+						<p class="pull-right">Fecha: 04-09-2014</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="body">
+			<div class="container">
+				<h2>Ayudantía 0 - JavaEE</h2>
+
+				<p>EAR: Eterprise Archive</p>
+				<ul>
+					<li>
+						EJB: lógica de negocio.
+						<ul>
+							<li>Transacciones</li>
+							<li>Manejo de concurrencia</li>
+							<li>Colas de mensajería</li>
+							<li>Seguridad</li>
+							<li>
+								Beans: Pieza de software
+								<ul>
+									<li>Entidad: modelo; representa un objeto concetro(una tabla de la BD).</li>
+									<li>Mensaje: escucha mensajes en un servicio JMS.(se le puede enviar solicitudes)</li>
+									<li>Sesión: Mantienen un estado de sesión para un cliente.</li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li>
+						WAR (Aplicación Web) != JAR
+						<ul>
+							<li>Servicio de archivos html, xml, css, js, etc.</li>
+							<li>Framework web: tempate, routers, componentes web.</li>
+							<li>Consumen recursos del EJB.</li>
+						</ul>
+					</li>
+
+				</ul>
+
+				<p><b>Selenium:</b> Plugin para Firefox. Automatiza pruebas para aplicaciones WEB.</p>
+			</div>
+		</section>
+
+		<section id="footer">
+			<div class="container">
+				<div class="panel panel-success">
+					<div class="panel-footer">
+						<div class="row">
+							<div class="col-md-3">
+								<%= link_to CLASE_ANTERIOR_PATH, :class => "pull-left" do %>
+									<span class="glyphicon glyphicon-arrow-left"></span> Clase X
+								<% end %>
+							</div>
+							<div class="col-md-3">
+								<%= link_to "NOMBRE DE LA CLASE", CLASE_PATH, :class => "pull-right" %>
+							</div>
+							<div class="col-md-3">
+								<a class="pull-left" href="#top"> Volver Arriba <span class="glyphicon glyphicon-arrow-up"></span></a>
+							</div>
+							<div class="col-md-3">
+								<p class="pull-right"> Clase x+1 <span class="glyphicon glyphicon-arrow-right"></span></p>
+							</div>
+						</div>
+					</div>
+					<div class="panel-heading">
+						<h3 class="panel-title" align="center"> Desarrollado por Esteban Gaete Flores </h3>
+					</div>
+				</div>
+			</div>
+		</section>
