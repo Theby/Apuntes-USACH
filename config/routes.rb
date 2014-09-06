@@ -27,7 +27,7 @@ Rails.application.routes.draw do
   # Ruta a los apuntes del ramo Comportamiento Humano en el Trabajo
   get 'apuntes/cht'
   get 'apuntes/cht/cht_c4' => 'apuntes#cht_c4'
-  get 'apuntes/cht/cht_c4' => 'apuntes#cht_c5'
+  get 'apuntes/cht/cht_c5' => 'apuntes#cht_c5'
 
 
   # Charla de "Wisdom of Crowds or Wisdom of Few"
