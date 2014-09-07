@@ -2,8 +2,8 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6">
-						<h1>Evaluación de Proyectos</h1>
-						<p>Ronald Mac-Ginity Gaete</p>
+						<h1><%= t('ramos.ep') %></h1>
+						<p><%= t('profes.ep') %></p>
 					</div>
 					<div class="col-md-6">
 						<p class="pull-right">Fecha: 1-09-2014</p>
@@ -90,7 +90,7 @@
 								<% end %>
 							</div>
 							<div class="col-md-3">
-								<%= link_to "Evaluación de Proyectos", apuntes_ep_path, :class => "pull-right" %>
+								<%= link_to <%= t('ramos.ep') %>, apuntes_ep_path, :class => "pull-right" %>
 							</div>
 							<div class="col-md-3">
 								<a class="pull-left" href="#top"> Volver Arriba <span class="glyphicon glyphicon-arrow-up"></span></a>
