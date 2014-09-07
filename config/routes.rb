@@ -13,6 +13,7 @@ Rails.application.routes.draw do
   get 'apuntes/ihc'
   get 'apuntes/ihc/ihc_c1' => 'apuntes#ihc_c1'
   get 'apuntes/ihc/ihc_c2' => 'apuntes#ihc_c2'
+  get 'apuntes/ihc/ihc_c3' => 'apuntes#ihc_c3'
   # Ruta a los apuntes del ramo Evaluación de Proyectos
   get 'apuntes/ep'
   get 'apuntes/ep/ep_c1' => 'apuntes#ep_c1'
