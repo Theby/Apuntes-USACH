@@ -20,6 +20,23 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 es:
+  ramos:
+    antropo: "Antropología e Ingeniería"
+    fingeso: "Fundamentos de Ingeniería de Software"
+    cs: "Control y Simulación"
+    sd: "Sistemas Distribuidos"
+    esp1: "Español 1"
+    sde: "Sistemas Distribuidos Escalables
+    ihc: "Interacción Humano Computador"
+    ep: "Evaluación de Proyectos"
+    pingeso: "Proyecto de Ingeniería de Software"
+    cht: "Comportamiento Humano en el Trabajo"
+  profe:
+    sde: "Erika Rosas"
+    ihc: "Edmundo Pablo Leiva Lobos"
+    ep: "Ronald Mac-Ginity Gaete"
+    pingeso: "Felipe Bello Robles && Fernando Montenegro Gallardo"
+    cht: "Eliana Covarrubias"
   date:
     abbr_day_names:
     - dom
