@@ -20,6 +20,7 @@ Rails.application.routes.draw do
   get 'apuntes/ep/ep_c1' => 'apuntes#ep_c1'
   get 'apuntes/ep/ep_c2' => 'apuntes#ep_c2'
   get 'apuntes/ep/ep_c3' => 'apuntes#ep_c3'
+  get 'apuntes/ep/ep_c4' => 'apuntes#ep_c4'
   # Ruta a los apuntes del ramo Proyecto de Ingeniería de Software
   get 'apuntes/pingeso'
   get 'apuntes/pingeso/pingeso_c1' => 'apuntes#pingeso_c1'
@@ -30,6 +31,7 @@ Rails.application.routes.draw do
   get 'apuntes/cht'
   get 'apuntes/cht/cht_c4' => 'apuntes#cht_c4'
   get 'apuntes/cht/cht_c5' => 'apuntes#cht_c5'
+  get 'apuntes/cht/cht_c6' => 'apuntes#cht_c6'
 
 
   # Charla de "Wisdom of Crowds or Wisdom of Few"
