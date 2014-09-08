@@ -29,7 +29,12 @@
 
 				<h3>Data Center Network</h3>
 
-				
+				<p>Usualmente estas redes están distribuidas geograficamente, están bajo un dominio administrativo y third party buscan poner sus aplicaciones en ellas. <br>
+					Están compuestas de racks, cada uno con 100 cores aprox.</p>
+
+				<p>La conección es entre 20-40 servidores, existe redundancia, balanze de carga, firewalls y otros. Cada core tiene una alta tasa de transferencia.</p>
+
+				<p>Para optimizar esto se han usado sistemas centrados en los Switch de conección y centrados en los Servidores.</p>
 			</div>
 		</section>
 
@@ -44,7 +49,7 @@
 								<% end %>
 							</div>
 							<div class="col-md-3">
-								<%= link_to <%= t('ramo.sde') %>, apuntes_sde_path, :class => "pull-right" %>
+								<%= link_to t('ramo.sde'), apuntes_sde_path, :class => "pull-right" %>
 							</div>
 							<div class="col-md-3">
 								<a class="pull-left" href="#top"> Volver Arriba <span class="glyphicon glyphicon-arrow-up"></span></a>
