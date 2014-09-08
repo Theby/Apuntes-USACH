@@ -8,6 +8,7 @@ Rails.application.routes.draw do
   # Ruta a los apuntes del ramo Sistemas Distribuidos Escalables
   get 'apuntes/sde'
   get 'apuntes/sde/sde_c1' => 'apuntes#sde_c1'
+  get 'apuntes/sde/sde_c2' => 'apuntes#sde_c2'
   get 'apuntes/sde/sde_c3' => 'apuntes#sde_c3'
   # Ruta a los apuntes del ramo Interacción Humano Computador
   get 'apuntes/ihc'
