@@ -39,6 +39,10 @@ Rails.application.routes.draw do
   get 'charla/charla_1' => 'apuntes#charla_1' #<== cambiar a un controlador de charlas
 
 
+  # OTROS
+  get 'metodologia/scrum' => 'apuntes#metodologia_1'
+
+
   # Roote de la página
   root 'apuntes#home'
   
