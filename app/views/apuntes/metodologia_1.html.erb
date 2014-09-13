@@ -14,10 +14,42 @@
 			<div class="container">
 				<h2>SCRUM Framework</h2>
 
-				<p>Busca generar valor en el software generado. <br>
-					Acepta cambios ya que funciona con iteraciones, obteniendo mucho feedback del cliente y el usuario.</p>
+				<p>¿Cuándo usar scrum? <br>
+					Cuando… <br>
+					<ul>
+						<li>Hay una prioridad de negocios en la que es de suma importancia entregar un software que cree valor para el cliente.</li>
+						<li>Hay poca estabilidad en los requerimientos y estos cambian frecuentemente.</li>
+						<li>El producto a generar no es muy rígido o grande.</li>
+						<li>El costo de generar prototipos no es elevado.</li>
+						<li>El sistema no es de criticidad elevada, es decir, cuando las posibles fallas tienen un costo mínimo y recuperable.</li>
+						<li>No están bien definidos los alcances.</li>
+						<li>El producto va a ir apareciendo gradualmente a medida que avanza el proyecto.</li>
+						<li>Los clientes aprenden más sobre lo que quieren a medida que avanza el proyecto.</li>
+						<li>Las actividades no puede ser bien definidas.</li>
+						<li>La estimación (planificación) es difícil.</li>
+						<li>Los procesos son iterativos.</li>
+						<li>Cada ciclo depende mucho de los pasados.</li>
+						<li>El éxito está medido por la satisfacción del cliente.</li>
+						<li>Los resultados incrementales son útiles y pueden ser usados por los clientes.</li>
+					<ul>
+
+					¿Cuándo usar métodos tradicionales?<br>
+					Cuando…<br>
+					<ul>
+						<li>Los alcances están bien definidos.</li>
+						<li>Productos similares fueron hechos antes.</li>
+						<li>Los requerimientos están bien definidos.</li>
+						<li>Pocos cambios son esperados durante el proyecto.</li>
+						<li>Los requerimientos no se esperan que cambien mucho.</li>
+						<li>El proyectos se puede separar en fases.</li>
+						<li>La criticidad del sistema es alta.</li>
+						<li>En resumen se puede usar SCRUM si hay muchas incógnitas.</li>
+					</ul>
+				</p>
 
 				<p>Los cambios deben ser establecidos antes de comenzar un sprint, ya que <b>durante un sprint no se aceptan cambios</b>.</p>
+
+				<p> <%= image_tag('scrum/ciclo_vida_scrum.png', :class => 'img-responsive img-thumbnail') %> </p>
 
 				<h3>Roles:</h3>
 				<ul>
@@ -54,6 +86,18 @@
 				<h3>Artefactos:</h3>
 				<ul>
 					<li>
+						Historia de usuario: La idea es que la historia de usuario esté escrita como un deseo de un usuario: “Quiero poder cambiar el nombre de usuario”. <br>
+						Una buena historia de usuario se crea a partir de un método llamado INVEST:
+						<ul>
+							<li>Independiente: Describe una funcionalidad completa, que no tiene una dependencia inherente con otra historia.</li>
+							<li>Negociable: Puede ser modificada hasta que no está en proceso de desarrollo, o incluida en un sprint que se está ejecutando.</li>
+							<li>Valiosa: El producto tiene más valor para el cliente cuando la funcionalidad está completada.</li>
+							<li>Estimable: Es posible estimar el tamaño de la historia.</li>
+							<li>Pequeña (Short en inglés): Tiene que poder estimarse con precisión suficiente empleando técnicas ágiles, que se basan en juicio de expertos y emplean unidades de medida relativas.</li>
+							<li>Comprobable (Testable en inglés): Debe incluir información para determinar cuándo está terminada y cumple las expectativas del cliente.</li>
+						</ul>
+					</li>
+					<li>
 						Product Backlog: Es una lista de todos los trabajos deseados en el proyecto, una lista de requerimientos. Cada elemento se denomina una historia del usuario. Cada historia tiene un valor. La prioridad de las historias es manejada por el <i>Product Owner</i>.<br>
 						Es importante tener estimado y planificado el orden de las historias. Este orden puede cambiar antes de empezar cada Sprint.
 					</li>
@@ -66,6 +110,8 @@
 							<li>Product Burndown: Es del proyecto completo y todas sus tareas conocidas hasta el momento. Se actualiza después de cada sprint.</li>
 							<li>Sprint Burndown: Es del sprint, cada grupo tiene una diferente. Se actualiza diariamente.</li>
 						</ul>
+
+						<p> <%= image_tag('scrum/burndown.png', :class => 'img-responsive img-thumbnail') %> </p>
 					</li>
 				</ul>
 
@@ -75,7 +121,7 @@
 						Sprint Planning: Se seleccionan temas a partir del <b>Product Backlog</b>, los cuales intentarán cumplirse en el siguiente Sprint. <br>
 						Se crea el Sprint Backlog dónde cada tarea a de ser entre 1 a 16 horas.
 
-						<p> <%= image_tag('pingeso/sprint_backlog.png', :class => 'img-responsive img-thumbnail') %> </p>
+						<p> <%= image_tag('scrum/sprint_backlog.png', :class => 'img-responsive img-thumbnail') %> </p>
 					</li>
 					<li>
 						Sprint Review: Se presenta lo realizado en el sprint, como un demo o arquitectura. Es informal (sin ppt).
