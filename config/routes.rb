@@ -21,6 +21,7 @@ Rails.application.routes.draw do
   get 'apuntes/ep/ep_c2' => 'apuntes#ep_c2'
   get 'apuntes/ep/ep_c3' => 'apuntes#ep_c3'
   get 'apuntes/ep/ep_c4' => 'apuntes#ep_c4'
+  get 'apuntes/ep/ep_c5' => 'apuntes#ep_c5'
   # Ruta a los apuntes del ramo Proyecto de Ingeniería de Software
   get 'apuntes/pingeso'
   get 'apuntes/pingeso/pingeso_c1' => 'apuntes#pingeso_c1'
@@ -28,11 +29,13 @@ Rails.application.routes.draw do
   get 'apuntes/pingeso/pingeso_c3' => 'apuntes#pingeso_c3'
   get 'apuntes/pingeso/pingeso_c4' => 'apuntes#pingeso_c4'
   get 'apuntes/pingeso/pingeso_c5' => 'apuntes#pingeso_c5'
+  get 'apuntes/pingeso/pingeso_c6' => 'apuntes#pingeso_c6'
   # Ruta a los apuntes del ramo Comportamiento Humano en el Trabajo
   get 'apuntes/cht'
   get 'apuntes/cht/cht_c4' => 'apuntes#cht_c4'
   get 'apuntes/cht/cht_c5' => 'apuntes#cht_c5'
   get 'apuntes/cht/cht_c6' => 'apuntes#cht_c6'
+  get 'apuntes/cht/cht_c7' => 'apuntes#cht_c7'
 
 
   # Charla de "Wisdom of Crowds or Wisdom of Few"
