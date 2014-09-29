@@ -24,6 +24,7 @@
 					<li>Busca aumentar la productividad permitiendo que todos los roles del grupo de trabajo tenga acceso
 					a todo el material del proyecto.</li>
 					<li>Utiliza UML</li>
+					<li>Las actividades crean y mantienen Modelos</li>
 					<li>Es un proceso configurable que puede cambiar según las necesidades particulares del proyecto</li>
 					<li>
 						Contempla las mejores practicas
@@ -52,7 +53,7 @@
 
 				<h4 id="ABC">Arquitectura Basada en Componentes</h4>
 
-				<p>Es resistente y flexible, permite reutilización de componentes, es más entendible y permite una generación temprana</p>
+				<p>Es resistente y flexible, permite reutilización de componentes, es más entendible y permite una generación temprana.</p>
 
 				<h4 id="VMS">Visualmente Modelar Software</h4>
 
@@ -92,10 +93,11 @@
 				<p>Se define el Stakeholder, se define el costo y se planifica.</p>
 				<p>Se comprenden los requerimientos</p>
 				<p>Se analisan costos, riesgos y <b>primera desviación del proyecto</b></p>
+				<p>Hay prototipos de diseño arquitectural</p>
 
 				<h4 id="elaboracion">Elaboración</h4>
 
-				<p>Mediante muchas muuchas reuniones se análisa el dominio del problema</p>
+				<p>Mediante muchas muchas reuniones se análisa el dominio del problema</p>
 				<p>Se ven las bases arquitecturales: técnologías a usar y metodologías.</p>
 				<p>Se documenta todo y se crea un esqueleto del software</p>
 				<p>Se genera un plan de proyecto y de mitigación. (se negocia según los riegos)</p>
@@ -123,19 +125,77 @@
 
 				<p>Para las operaciones en paralelo se debe hacer una transición de lo viejo a lo nuevo hasta que el nuevo tome todo el control.</p>
 
+				<h5>Objetivos</h5>
+				<p>Lograr capacitar al usuario, lograr concurrencia del stakeholder para realizar una critica, lograr un producto final base, rápidamente a un costo efectivo.</p>
+
 				<h3>Estructura estática del proceso</h3> <small>Roles</small>
 
-				<p>Iterar permite generar mayor calidad debido a que en cada iteración se revisa el programa en su totaidad con test de regresión.</p>
+				<p>Iterar permite generar mayor calidad debido a que en cada iteración se revisa el programa en su totaidad con test de regresión. Los cambios son más manejables, los riegos se mitigan de forma temprana, el equipo aprende más rápido.</p>
 
 				<p>Trabajor</p>
 				<ul>
 					<li>Comportamiento y responsabilidades.</li>
-					<li>Análistas.</li>
-					<li>Desarrolladores.</li>
-					<li>Gestores/jefes.</li>
-					<li>Apoyo.</li>
-					<li>Especialistas en pruebas.</li>
-					<li>Otros.</li>
+					<li>
+						Análistas.
+						<ul>
+							<li>Analista de procesos de negocio</li>
+							<li>Diseñador del negocio</li>
+							<li>Analista de sistema</li>
+							<li>Especificador de requisitos.</li>
+						</ul>
+					</li>
+					<li>
+						Desarrolladores.
+						<ul>
+							<li>Arquitecto de software</li>
+							<li>Diseñador</li>
+							<li>Diseñador de interfaz de usuario</li>
+							<li>Diseñador de cápsulas</li>
+							<li>Diseñador de base de datos.</li>
+							<li>Implementador</li>
+							<li>Integrador</li>
+						</ul>
+					</li>
+					<li>
+						Gestores/jefes.
+						<ul>
+							<li>Jefe de proyecto</li>
+							<li>Jefe de control de cambios</li>
+							<li>Jefe de configuración</li>
+							<li>Jefe de pruebas</li>
+							<li>Jefe de despliegue</li>
+							<li>Ingeniero de procesos</li>
+							<li>Revisor de gestión del proyecto</li>
+							<li>Gestor de pruebas.</li>
+						</ul>
+					</li>
+					<li>
+						Apoyo.
+						<ul>
+							<li>Documentador técnico</li>
+							<li>Administrador de sistema</li>
+							<li>Especialista en herramientas</li>
+							<li>Desarrollador de cursos</li>
+							<li>Artista gráfico</li>
+						</ul>
+					</li>
+					<li>
+						Especialistas en pruebas.
+						<ul>
+							<li>Especialista en pruebas (tester)</li>
+							<li>Analista de pruebas</li>
+							<li>Diseñador de pruebas</li>
+						</ul>
+					</li>
+					<li>
+						Otros.
+						<ul>
+							<li>Stakeholder</li>
+							<li>Revisor</li>
+							<li>Coordinador de revisiones</li>
+							<li>revisor técnico</li>
+						</ul>
+					</li>
 				</ul>
 				
 				<p>Artefactos</p>
@@ -146,7 +206,109 @@
 					<li>Ejecutables</li>
 				</ul>
 
+				<h3>Workflows principales</h3>
 
+				<p>Modelamiento del negocio</p>
+				<ul>
+					<li>Casos de negocio</li>
+					<li>Claridad del proceso de negocio por parte del cliente</li>
+					<li>Reuniones periódicas</li>
+				</ul>
+
+				<p>Requerimientos</p>
+				<ul>
+					<li>Describir que debe hacer el sistema</li>
+					<li>Funcionalidades y restricciones</li>
+					<li>Identificar Actores</li>
+					<li>Casos de Uso</li>
+					<li>Requerimientos no funcionales</li>
+				</ul>
+
+				<p>Analisis y diseño</p>
+				<ul>
+					<li>Como se realizara el sistema</li>
+					<li>Rendimiento en un ambiente específico</li>
+					<li>Completa todos los requerimientos</li>
+					<li>Robusto: facil de modificar si hay cambio en requerimientos funcionales</li>
+					<li>Integración de la solución</li>
+				</ul>
+
+				<p>Implementación</p>
+				<ul>
+					<li>Definir organización del código (Subsistemas/Negocio, Capas)</li>
+					<li>Implementar clases y objetos en términos de componentes (Estructura del proyecto)</li>
+					<li>Test unitarios (Cobertura funcionalidades)</li>
+					<li>Integración de resultados (servidores de integración continua)</li>
+				</ul>
+
+				<p>Test</p>
+				<ul>
+					<li>Verificar interacción entre objetos</li>
+					<li>Verificar integración entre componentes del sistema</li>
+					<li>Verificar requerimientos funcionales</li>
+					<li>Identificar defectos y corregirlos previo a la puesta en producción.</li>
+				</ul>
+
+				<p>Despliegue/Instalación</p>
+				<ul>
+					<li>Releases</li>
+					<li>Empaquetamiento Entregables</li>
+					<li>Distribuir el software</li>
+					<li>Instalación</li>
+					<li>Soporte</li>
+					<li>
+						Adicionalmente:
+						<ul>
+							<li>Plan beta test</li>
+							<li>Migración de datos</li>
+							<li>Aceptación Formal</li>
+						</ul>
+					</li>
+				</ul>
+
+				<p>Gestión de Proyectos</p>
+				<ul>
+					<li>Lograr objetivos</li>
+					<li>Gestión de riesgos</li>
+					<li>Planes de mitigación</li>
+					<li>Restricciones en las entradas</li>
+					<li>Monitoreo del proyecto(herramientas)</li>
+				</ul>
+
+				<p>Configuración y gestión del cambio</p>
+				<ul>
+					<li>
+						Problemas
+						<ul>
+							<li>Actualizaciones simultaneas de artefactos (SVN)</li>
+							<li>Notificaciones Limitadas</li>
+							<li>Versiones Múltiples</li>
+						</ul>
+					</li>
+					<li>
+						Soluciones
+						<ul>
+							<li>SVN</li>
+							<li>Reuniones periódicas</li>
+						</ul>
+					</li>
+				</ul>
+
+				<p>Ambiente</p>
+				<ul>
+					<li>
+						Ambiente de desarrollo
+						<ul>
+							<li>Servidores de desarrollo</li>
+							<li>Servidores de QA</li>
+							<li>Servidores de integración continua</li>
+							<li>Servudires de pruebas de estrés</li>
+						</ul>
+					</li>
+					<li>Herramientas de gestión de proyecto</li>
+					<li>Maquinas para los desarrolladores</li>
+					<li>Infraestructura para trabajar</li>
+				</ul>
 			</div>
 		</section>
 

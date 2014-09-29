@@ -25,6 +25,7 @@ Rails.application.routes.draw do
   get 'apuntes/ep/ep_c3' => 'apuntes#ep_c3'
   get 'apuntes/ep/ep_c4' => 'apuntes#ep_c4'
   get 'apuntes/ep/ep_c5' => 'apuntes#ep_c5'
+  get 'apuntes/ep/ep_c6' => 'apuntes#ep_c6'
   # Ruta a los apuntes del ramo Proyecto de Ingeniería de Software
   get 'apuntes/pingeso'
   get 'apuntes/pingeso/pingeso_c1' => 'apuntes#pingeso_c1'
