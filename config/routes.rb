@@ -10,11 +10,14 @@ Rails.application.routes.draw do
   get 'apuntes/sde/sde_c1' => 'apuntes#sde_c1'
   get 'apuntes/sde/sde_c2' => 'apuntes#sde_c2'
   get 'apuntes/sde/sde_c3' => 'apuntes#sde_c3'
+  get 'apuntes/sde/sde_c4' => 'apuntes#sde_c4'
   # Ruta a los apuntes del ramo Interacción Humano Computador
   get 'apuntes/ihc'
   get 'apuntes/ihc/ihc_c1' => 'apuntes#ihc_c1'
   get 'apuntes/ihc/ihc_c2' => 'apuntes#ihc_c2'
   get 'apuntes/ihc/ihc_c3' => 'apuntes#ihc_c3'
+  get 'apuntes/ihc/ihc_c4' => 'apuntes#ihc_c4'
+  get 'apuntes/ihc/ihc_c5' => 'apuntes#ihc_c5'
   # Ruta a los apuntes del ramo Evaluación de Proyectos
   get 'apuntes/ep'
   get 'apuntes/ep/ep_c1' => 'apuntes#ep_c1'
