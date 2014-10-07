@@ -100,6 +100,31 @@
 						</ul>
 					</li>
 				</ul>
+
+
+				CDI: Herramienta que inyecta dependencias.
+@PersistenceContext() permite traer un objeto previamente creado para poder optimizar memoria reutilizandolos.
+
+Los Entity manager tienen sus tablas en memoria por lo que no se actualizan si otro entity manager crea objetos del tipo que el manejaba.
+
+** Sería ideal tener un único EntityManager para toda la aplicación
+
+public void create(T entity){
+	/* Al crear algo estos datos pasan al cache y el EntityManager decide cuando pasarlos a la BD */
+	getEntityManager().persist(entity);
+
+	/* Esto fuerza que los nuevos datos pasen efectivamente a la base de datos, ignorando el cache */
+	getEntityManager().flush();
+}
+
+
+// Saca un objeto de la base de dato y actualiza su versión en la RAM, provocando que los datos esten disponbles actuales
+getEntityManager().refresh(object o);
+
+// Para las vistas
+bundle: i18n  (WEB-INF\classes)
+jsf: empieza con h.
+primefaces: empieza con p.
 			</div>
 		</section>
 
