@@ -40,6 +40,7 @@ Rails.application.routes.draw do
   get 'apuntes/cht/cht_c5' => 'apuntes#cht_c5'
   get 'apuntes/cht/cht_c6' => 'apuntes#cht_c6'
   get 'apuntes/cht/cht_c7' => 'apuntes#cht_c7'
+  get 'apuntes/cht/cht_c8' => 'apuntes#cht_c8'
 
 
   # Charla de "Wisdom of Crowds or Wisdom of Few"

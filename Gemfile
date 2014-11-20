@@ -32,6 +32,9 @@ gem 'rails_12factor', group: :production
 # Para que heroku sepa que version de ruby se usa
 ruby "2.1.2"
 
+# Para usar markdown en las vistas
+gem 'redcarpet'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
