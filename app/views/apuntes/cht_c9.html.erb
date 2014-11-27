@@ -1,0 +1,43 @@
+		<section id="title">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<h1><%= t('ramos.cht') %></h1>
+						<p><%= t('profe.cht') %></p>
+					</div>
+					<div class="col-md-6">
+						<p class="pull-right">Fecha: 24-09-2014</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="body">
+			<div class="container">
+				<%= markdown(render file: "Ramos/CHT/MaturanaCap2.md") %>
+			</div>
+		</section>
+
+		<section id="footer">
+			<div class="container navbar-fixed-bottom">
+				<div class="panel panel-success">
+					<div class="panel-footer">
+						<div class="row">
+							<div class="col-md-3">
+							</div>
+							<div class="col-md-3">
+								<%= link_to t('ramo.cht'), apuntes_cht_path, :class => "pull-right" %>
+							</div>
+							<div class="col-md-3">
+								<a class="pull-left" href="#top"> Volver Arriba <span class="glyphicon glyphicon-arrow-up"></span></a>
+							</div>
+							<div class="col-md-3">
+							</div>
+						</div>
+					</div>
+					<div class="panel-heading">
+						<h3 class="panel-title" align="center"> Desarrollado por Esteban Gaete Flores </h3>
+					</div>
+				</div>
+			</div>
+		</section>
