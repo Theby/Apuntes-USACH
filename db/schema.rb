@@ -11,9 +11,45 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 0) do
+ActiveRecord::Schema.define(version: 20141128190936) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "entries", force: true do |t|
+    t.string   "fecha"
+    t.string   "linkMD"
+    t.integer  "publicacion_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "entries", ["publicacion_id"], name: "index_entries_on_publicacion_id", using: :btree
+
+  create_table "expositors", force: true do |t|
+    t.string   "nombre"
+    t.integer  "publicacion_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "expositors", ["publicacion_id"], name: "index_expositors_on_publicacion_id", using: :btree
+
+  create_table "publicacions", force: true do |t|
+    t.string   "nombre"
+    t.string   "year"
+    t.string   "semestre"
+    t.integer  "section_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "publicacions", ["section_id"], name: "index_publicacions_on_section_id", using: :btree
+
+  create_table "sections", force: true do |t|
+    t.string   "nombre"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
 end

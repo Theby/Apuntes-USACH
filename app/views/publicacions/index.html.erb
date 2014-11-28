@@ -1,0 +1,31 @@
+<h1>Listing publicacions</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Nombre</th>
+      <th>Year</th>
+      <th>Semestre</th>
+      <th>Section</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @publicacions.each do |publicacion| %>
+      <tr>
+        <td><%= publicacion.nombre %></td>
+        <td><%= publicacion.year %></td>
+        <td><%= publicacion.semestre %></td>
+        <td><%= publicacion.section %></td>
+        <td><%= link_to 'Show', publicacion %></td>
+        <td><%= link_to 'Edit', edit_publicacion_path(publicacion) %></td>
+        <td><%= link_to 'Destroy', publicacion, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Publicacion', new_publicacion_path %>
