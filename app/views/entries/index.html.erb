@@ -3,6 +3,7 @@
 <table>
   <thead>
     <tr>
+      <th>Nombre</th>
       <th>Fecha</th>
       <th>Linkmd</th>
       <th>Publicacion</th>
@@ -13,6 +14,7 @@
   <tbody>
     <% @entries.each do |entry| %>
       <tr>
+        <td><%= entry.nombre %></td>
         <td><%= entry.fecha %></td>
         <td><%= entry.linkMD %></td>
         <td><%= entry.publicacion %></td>
