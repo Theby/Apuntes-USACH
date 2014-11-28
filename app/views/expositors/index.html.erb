@@ -1,0 +1,27 @@
+<h1>Listing expositors</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Nombre</th>
+      <th>Publicacion</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @expositors.each do |expositor| %>
+      <tr>
+        <td><%= expositor.nombre %></td>
+        <td><%= expositor.publicacion %></td>
+        <td><%= link_to 'Show', expositor %></td>
+        <td><%= link_to 'Edit', edit_expositor_path(expositor) %></td>
+        <td><%= link_to 'Destroy', expositor, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Expositor', new_expositor_path %>

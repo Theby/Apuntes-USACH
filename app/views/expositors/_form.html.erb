@@ -1,0 +1,25 @@
+<%= form_for(@expositor) do |f| %>
+  <% if @expositor.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@expositor.errors.count, "error") %> prohibited this expositor from being saved:</h2>
+
+      <ul>
+      <% @expositor.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :nombre %><br>
+    <%= f.text_field :nombre %>
+  </div>
+  <div class="field">
+    <%= f.label :publicacion_id %><br>
+    <%= f.text_field :publicacion_id %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

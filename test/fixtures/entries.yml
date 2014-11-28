@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  fecha: MyString
+  linkMD: MyString
+  publicacion_id: 
+
+two:
+  fecha: MyString
+  linkMD: MyString
+  publicacion_id: 
