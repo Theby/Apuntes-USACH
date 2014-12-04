@@ -168,6 +168,14 @@
 			</div>
 		</nav> <!-- Header -->
 
+		<!-- administración -->
+		<div class="container">
+			<% if user_signed_in? %>
+				<%= link_to  "Log Out", destroy_user_session_path, method: :delete, class: "btn btn-danger pull-right", "role" => "button" %>
+				<%= link_to  "Administración", admin_path, class: "btn btn-success pull-right", "role" => "button" %>
+			<% end %>
+		</div>
+
 		<p class="notice"><%= notice %></p>
 		<p class="alert"><%= alert %></p>
 

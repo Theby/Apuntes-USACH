@@ -2,7 +2,7 @@ Rails.application.routes.draw do
 
 
   devise_for :users
-  
+
   resources :entries
 
   resources :expositors
@@ -14,6 +14,8 @@ Rails.application.routes.draw do
   # Ruta al home de la página
   get 'home' => 'apuntes#home'
 
+  # Ruta a la vista de administración
+  get 'admin' => 'admin#index'
 
   # Ruta a los apuntes del ramo Sistemas Distribuidos Escalables
   get 'apuntes/sde'

@@ -41,5 +41,5 @@ module ApplicationHelper
 		markdown = Redcarpet::Markdown.new(Redcarpet::Render::HTML_TOC, extensions = {})
 
 		markdown.render(text).html_safe
-	end
+	end	
 end
