@@ -1,7 +1,12 @@
 Rails.application.routes.draw do
 
 
-  devise_for :users
+  # Evita que se puedan crear usuarios, pero permite editar los datos de un usuario
+  devise_for :users, :skip => [:registrations]
+  as :user do
+    get 'users/edit' => 'devise/registrations#edit', :as => 'edit_user_registration'
+    get 'users' => 'devise/registrations#update', :as => 'user_registration'
+  end
 
   resources :entries
 
