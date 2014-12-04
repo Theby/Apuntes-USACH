@@ -5,6 +5,8 @@ class ApplicationController < ActionController::Base
 
   helper_method :allSections
 
+  before_action :authenticate_user!
+
   def allSections
   	Section.all
   end
