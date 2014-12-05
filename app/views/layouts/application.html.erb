@@ -133,9 +133,11 @@
 									<li class="dropdown">
 										<a href="#" class="dropdown-toggle" data-toggle="dropdown">
 											<%= auxSection.nombre %> <span class="glyphicon glyphicon-chevron-down"></span> 
-										</a>									
-										<% for publicaciones in auxSection.publicacions %>
-											<ul class="dropdown-menu" role="menu">
+										</a>
+										<ul class="dropdown-menu" role="menu">
+											<li align="center"><%= auxSection.sub_nombre %></li>
+				        					<li class="divider"></li>
+											<% for publicaciones in auxSection.publicacions %>											
 												<% if !publicaciones.entries.blank? %>
 													<li>
 														<%= link_to "#" do %>
@@ -149,9 +151,9 @@
 													</li>
 												<% else %>
 													<li><%= link_to publicaciones.nombre, "#" %></li>
-												<% end %>
-											</ul>
-										<% end %>
+												<% end %>											
+											<% end %>
+										</ul>
 									</li>
 								<% else %>
 									<li><a href="#"><%= auxSection.nombre %></a></li>
