@@ -1,5 +1,27 @@
-<h1>New entry</h1>
+    <section id="title">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h1>New entry</h1>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<%= render 'form' %>
+	<section id="body">
+	 	<div class="container">
+			<%= render 'form' %>
 
-<%= link_to 'Back', entries_path %>
+			<%= link_to 'Back', entries_path, :class => "btn btn-link" %>
+		</div>
+	</section>
+
+	<section id="footer">
+		<div class="container navbar-fixed-bottom">
+		  <div class="panel panel-success">         
+		    <div class="panel-heading">
+		      <h3 class="panel-title" align="center"> Desarrollado por Esteban Gaete Flores </h3>
+		    </div>
+		  </div>
+		</div>
+	</section>		

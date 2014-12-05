@@ -34,9 +34,9 @@
                   <% else %>
                     <td>Sin Section asignada</td>
                   <% end %>
-                  <td><%= link_to 'Show', publicacion %></td>
-                  <td><%= link_to 'Edit', edit_publicacion_path(publicacion) %></td>
-                  <td><%= link_to 'Destroy', publicacion, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+                  <td><%= link_to 'Show', publicacion, :class => "btn btn-link" %></td>
+                  <td><%= link_to 'Edit', edit_publicacion_path(publicacion), :class => "btn btn-link" %></td>
+                  <td><%= link_to 'Destroy', publicacion, method: :delete, data: { confirm: 'Are you sure?' }, :class => "btn btn-link" %></td>
                 </tr>
               <% end %>
             </tbody>

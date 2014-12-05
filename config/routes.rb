@@ -60,11 +60,6 @@ Rails.application.routes.draw do
   get 'apuntes/cht/cht_c8' => 'apuntes#cht_c8'
   get 'apuntes/cht/cht_c9' => 'apuntes#cht_c9'
 
-
-  # Charla de "Wisdom of Crowds or Wisdom of Few"
-  get 'charla/charla_1' => 'apuntes#charla_1' #<== cambiar a un controlador de charlas
-
-
   # OTROS
   get 'metodologia/scrum' => 'apuntes#metodologia_1'
 

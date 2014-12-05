@@ -1,27 +1,51 @@
-<h1>Listing expositors</h1>
+    <section id="title">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h1>Lista de expositores</h1>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<table>
-  <thead>
-    <tr>
-      <th>Nombre</th>
-      <th>Publicacion</th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
+    <section id="body">
+      <div class="container">
+        <div class="table-responsive">
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Nombre</th>
+                <th>Publicacion</th>
+                <th colspan="3"></th>
+              </tr>
+            </thead>
 
-  <tbody>
-    <% @expositors.each do |expositor| %>
-      <tr>
-        <td><%= expositor.nombre %></td>
-        <td><%= expositor.publicacion %></td>
-        <td><%= link_to 'Show', expositor %></td>
-        <td><%= link_to 'Edit', edit_expositor_path(expositor) %></td>
-        <td><%= link_to 'Destroy', expositor, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
+            <tbody>
+              <% @expositors.each do |expositor| %>
+                <tr>
+                  <td><%= expositor.nombre %></td>
+                  <td><%= expositor.publicacion.nombre %></td>
+                  <td><%= link_to 'Show', expositor, :class => "btn btn-link" %></td>
+                  <td><%= link_to 'Edit', edit_expositor_path(expositor), :class => "btn btn-link" %></td>
+                  <td><%= link_to 'Destroy', expositor, method: :delete, data: { confirm: 'Are you sure?' }, :class => "btn btn-link" %></td>
+                </tr>
+              <% end %>
+            </tbody>
+          </table>
 
-<br>
+          <br>
 
-<%= link_to 'New Expositor', new_expositor_path %>
+          <%= link_to 'New Expositor', new_expositor_path, :class => "btn btn-link" %>
+          
+      </div>
+    </section>
+
+    <section id="footer">
+      <div class="container navbar-fixed-bottom">
+        <div class="panel panel-success">         
+          <div class="panel-heading">
+            <h3 class="panel-title" align="center"> Desarrollado por Esteban Gaete Flores </h3>
+          </div>
+        </div>
+      </div>
+    </section>
