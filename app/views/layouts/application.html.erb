@@ -26,18 +26,18 @@
 
 	<body>
 		<!-- Header -->
-		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<nav class="navbar navbar-default navbar-fixed-top strongBlue" role="navigation">
 			<div class="container-fluid">
 
 
 				<div class="navbar-header">
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav-menu">
+					<button type="button" class="navbar-toggle softBlue" data-toggle="collapse" data-target="#nav-menu">
 						<span class="sr-only">Toggle navigation</span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<%= link_to "Apuntes USACH", home_path, :class => 'navbar-brand' %>
+					<%= link_to "Apuntes USACH", home_path, :class => 'navbar-brand softBlue' %>
 			    </div>
 
 			    <div id="nav-menu" class="collapse navbar-collapse">
@@ -48,7 +48,7 @@
 					        <ul class="dropdown-menu" role="menu">
 
 
-					        	<li align="center">Primer Semestre</li>
+					        	<li>Primer Semestre</li>
 					        	<li class="divider"></li>
 						        	<li><%= link_to t('ramos.antropo'), "#" %></li>
 						        	<li><%= link_to t('ramos.fingeso'), "#" %></li>
@@ -58,11 +58,13 @@
 					        	<li class="divider"></li>
 
 
-					        	<li align="center">Segundo Semestre</li>
+					        	<li>Segundo Semestre</li>
 					        	<li class="divider"></li>
 						            <li>
 						            	<%= link_to apuntes_sde_path do %><%= t('ramos.sde') %> <span class="glyphicon glyphicon-chevron-right"></span><% end %>
 						                <ul id="sub-menu2_1" class="dropdown-menu sub-menu">
+						                	<li><%= t('ramos.sde') %></li>
+						                	<li class="divider"></li>
 						                    <li><%= link_to "Clase 1 - Introducción", apuntes_sde_sde_c1_path %></li>
 						                    <li><%= link_to "Clase 2 - Data Centers y Cloud Computing", apuntes_sde_sde_c2_path %></li>
 						                    <li><%= link_to "Clase 3 - Mobile Computing & P2P", apuntes_sde_sde_c3_path %></li>
@@ -128,7 +130,7 @@
 											<%= auxSection.nombre %> <span class="glyphicon glyphicon-chevron-down"></span> 
 										</a>
 										<ul class="dropdown-menu" role="menu">
-											<li align="center"><%= auxSection.sub_nombre %></li>
+											<li><%= auxSection.sub_nombre %></li>
 				        					<li class="divider"></li>
 											<% for publicaciones in auxSection.publicacions %>											
 												<% if !publicaciones.entries.blank? %>
@@ -136,7 +138,7 @@
 														<%= link_to "#" do %>
 															<%= publicaciones.nombre %> <span class="glyphicon glyphicon-chevron-right"></span>
 														<% end %>
-														<ul id="sub-menu2_1" class="dropdown-menu sub-menu">
+														<ul class="dropdown-menu sub-menu">
 															<% for entrada in publicaciones.entries %>
 													        	<li><%= link_to entrada.nombre, "#" %></li>
 													        <% end %>
@@ -164,15 +166,17 @@
 		</nav> <!-- Header -->
 
 		<!-- administración -->
-		<div class="container">
-			<p class="notice pull-left"><%= notice %></p>
-			<p class="alert pull-left"><%= alert %></p>
+		<% if user_signed_in? %>
+			<section id="header" class="softBlue">
+				<div class="container">
+					<p class="notice pull-left"><%= notice %></p>
+					<p class="alert pull-left"><%= alert %></p>
 
-			<% if user_signed_in? %>
-				<%= link_to  "Log Out", destroy_user_session_path, method: :delete, class: "btn btn-danger pull-right", "role" => "button" %>
-				<%= link_to  "Administración", admin_path, class: "btn btn-success pull-right", "role" => "button" %>
-			<% end %>
-		</div>
+					<%= link_to  "Log Out", destroy_user_session_path, method: :delete, class: "btn btn-danger pull-right", "role" => "button" %>
+					<%= link_to  "Administración", admin_path, class: "btn btn-success pull-right", "role" => "button" %>
+				</div>
+			</section>
+		<% end %>
 
 		<%= yield %>
 

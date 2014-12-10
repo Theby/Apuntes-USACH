@@ -1,4 +1,4 @@
-		<section id="title">
+		<section id="title" class="shinyOrange">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6">
@@ -8,32 +8,32 @@
 			</div>
 		</section>
 
-		<section id="body">
-			<div class="container">
+		<section id="body" class="officialGrey">
+			<div class="container allWhite">
 				<h2>1.- Sections</h2>
 				<p>
-					<%= link_to sections_path, class: "btn btn-default", "role" => "button" do %>
+					<%= link_to sections_path, class: "btn btn-primary", "role" => "button" do %>
 						Ver Sections <span class="badge"> <%= allSections.count %></span>
 					<% end %>
 				</p>
 
 				<h2>2.- Publicaciones</h2>
 				<p>
-					<%= link_to publicacions_path, class: "btn btn-default", "role" => "button" do %>
+					<%= link_to publicacions_path, class: "btn btn-primary", "role" => "button" do %>
 						Ver Publicaciones <span class="badge"> <%= allPublicaciones.count %> </span>
 					<% end %>
 				</p>
 
 				<h2>3.- Expositores</h2>
 				<p>
-					<%= link_to expositors_path, class: "btn btn-default", "role" => "button" do %>
+					<%= link_to expositors_path, class: "btn btn-primary", "role" => "button" do %>
 						Ver Expositores <span class="badge"> <%= allExpositores.count %> </span>
 					<% end %>
 				</p>
 
 				<h2>4.- Entries</h2>
 				<p>
-					<%= link_to entries_path, class: "btn btn-default", "role" => "button" do %>
+					<%= link_to entries_path, class: "btn btn-primary", "role" => "button" do %>
 						Ver Entries <span class="badge"> <%= allEntries.count %> </span>
 					<% end %>
 				</p>
