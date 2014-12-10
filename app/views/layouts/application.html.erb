@@ -139,6 +139,8 @@
 															<%= publicaciones.nombre %> <span class="glyphicon glyphicon-chevron-right"></span>
 														<% end %>
 														<ul class="dropdown-menu sub-menu">
+															<li><%= publicaciones.nombre %></li>
+															<li class="divider"></li>
 															<% for entrada in publicaciones.entries %>
 													        	<li><%= link_to entrada.nombre, "#" %></li>
 													        <% end %>
