@@ -1,5 +1,5 @@
 class Publicacion < ActiveRecord::Base
 	belongs_to :section
-	has_many :expositors
+	has_one :expositor
 	has_many :entries
 end
