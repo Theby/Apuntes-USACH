@@ -142,7 +142,7 @@
 															<li><%= publicaciones.nombre %></li>
 															<li class="divider"></li>
 															<% for entrada in publicaciones.entries %>
-													        	<li><%= link_to entrada.nombre, "#" %></li>
+													        	<li><%= link_to entrada.nombre, apunte_path(entrada) %></li>
 													        <% end %>
 													    </ul>
 													</li>
