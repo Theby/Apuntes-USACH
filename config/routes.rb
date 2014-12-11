@@ -1,5 +1,16 @@
 Rails.application.routes.draw do
 
+  # Roote de la página
+  root 'apuntes#home'
+
+  # Ruta al home de la página
+  get 'home' => 'apuntes#home'
+
+  # Ruta a la vista de administración
+  get 'admin' => 'admin#index'
+
+  # Ruta a la vista generica de Apuntes
+  get 'apuntes/:id' => 'apuntes#show', :as => 'apunte'
 
   # Evita que se puedan crear usuarios, pero permite editar los datos de un usuario
   devise_for :users, :skip => [:registrations]
@@ -9,18 +20,14 @@ Rails.application.routes.draw do
   end
 
   resources :entries
-
   resources :expositors
-
   resources :publicacions
-
   resources :sections
 
-  # Ruta al home de la página
-  get 'home' => 'apuntes#home'
 
-  # Ruta a la vista de administración
-  get 'admin' => 'admin#index'
+
+
+
 
   # Ruta a los apuntes del ramo Sistemas Distribuidos Escalables
   get 'apuntes/sde'
@@ -64,8 +71,7 @@ Rails.application.routes.draw do
   get 'metodologia/scrum' => 'apuntes#metodologia_1'
 
 
-  # Roote de la página
-  root 'apuntes#home'
+
   
 
   # The priority is based upon order of creation: first created -> highest priority.
