@@ -6237,31 +6237,11 @@ body {
     padding: 9px 0;
 }
 
-.dropdown-menu .sub-menu {
-    left: 100%;
-    position: absolute;
+.dropdown-menu .sub-menu {    
     visibility: hidden;
-    margin-top: -1px;
-}
-
-#sub-menu2_1 {
-    top: 231px;
-}
-
-#sub-menu2_2 {
-    top: 257px;
-}
-
-#sub-menu2_3 {
-    top: 283px;
-}
-
-#sub-menu2_4 {
-    top: 309px;
-}
-
-#sub-menu2_5 {
-    top: 335px;
+    top: inherit;
+    left: 100%;
+    margin-top: -87px;
 }
 
 .dropdown-menu li:hover .sub-menu {
@@ -6270,10 +6250,6 @@ body {
 
 .dropdown:hover .dropdown-menu {
     display: block;
-}
-
-.nav-tabs .dropdown-menu, .nav-pills .dropdown-menu, .navbar .dropdown-menu {
-    margin-top: -95px;
 }
 
 .navbar .sub-menu:before {

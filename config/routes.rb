@@ -11,6 +11,7 @@ Rails.application.routes.draw do
 
   # Ruta a la vista generica de Apuntes
   get 'apuntes/:id' => 'apuntes#show', :as => 'apunte'
+  get 'publicacion/:id' => 'apuntes#index', :as => 'apunte_index'
 
   # Evita que se puedan crear usuarios, pero permite editar los datos de un usuario
   devise_for :users, :skip => [:registrations]
@@ -24,55 +25,8 @@ Rails.application.routes.draw do
   resources :publicacions
   resources :sections
 
-
-
-
-
-
-  # Ruta a los apuntes del ramo Sistemas Distribuidos Escalables
-  get 'apuntes/sde'
-  get 'apuntes/sde/sde_c1' => 'apuntes#sde_c1'
-  get 'apuntes/sde/sde_c2' => 'apuntes#sde_c2'
-  get 'apuntes/sde/sde_c3' => 'apuntes#sde_c3'
-  get 'apuntes/sde/sde_c4' => 'apuntes#sde_c4'
-  # Ruta a los apuntes del ramo Interacción Humano Computador
-  get 'apuntes/ihc'
-  get 'apuntes/ihc/ihc_c1' => 'apuntes#ihc_c1'
-  get 'apuntes/ihc/ihc_c2' => 'apuntes#ihc_c2'
-  get 'apuntes/ihc/ihc_c3' => 'apuntes#ihc_c3'
-  get 'apuntes/ihc/ihc_c4' => 'apuntes#ihc_c4'
-  get 'apuntes/ihc/ihc_c5' => 'apuntes#ihc_c5'
-  # Ruta a los apuntes del ramo Evaluación de Proyectos
-  get 'apuntes/ep'
-  get 'apuntes/ep/ep_c1' => 'apuntes#ep_c1'
-  get 'apuntes/ep/ep_c2' => 'apuntes#ep_c2'
-  get 'apuntes/ep/ep_c3' => 'apuntes#ep_c3'
-  get 'apuntes/ep/ep_c4' => 'apuntes#ep_c4'
-  get 'apuntes/ep/ep_c5' => 'apuntes#ep_c5'
-  get 'apuntes/ep/ep_c6' => 'apuntes#ep_c6'
-  # Ruta a los apuntes del ramo Proyecto de Ingeniería de Software
-  get 'apuntes/pingeso'
-  get 'apuntes/pingeso/pingeso_c1' => 'apuntes#pingeso_c1'
-  get 'apuntes/pingeso/pingeso_c2' => 'apuntes#pingeso_c2'
-  get 'apuntes/pingeso/pingeso_c3' => 'apuntes#pingeso_c3'
-  get 'apuntes/pingeso/pingeso_c4' => 'apuntes#pingeso_c4'
-  get 'apuntes/pingeso/pingeso_c5' => 'apuntes#pingeso_c5'
-  get 'apuntes/pingeso/pingeso_c6' => 'apuntes#pingeso_c6'
-  # Ruta a los apuntes del ramo Comportamiento Humano en el Trabajo
-  get 'apuntes/cht'
-  get 'apuntes/cht/cht_c4' => 'apuntes#cht_c4'
-  get 'apuntes/cht/cht_c5' => 'apuntes#cht_c5'
-  get 'apuntes/cht/cht_c6' => 'apuntes#cht_c6'
-  get 'apuntes/cht/cht_c7' => 'apuntes#cht_c7'
-  get 'apuntes/cht/cht_c8' => 'apuntes#cht_c8'
-  get 'apuntes/cht/cht_c9' => 'apuntes#cht_c9'
-
-  # OTROS
-  get 'metodologia/scrum' => 'apuntes#metodologia_1'
-
-
-
-  
+  # Ruta a la página de contacto
+  get 'contacto' => 'apuntes#contacto' 
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
