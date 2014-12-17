@@ -17,8 +17,8 @@
 
 Debe ser hecho anual.
 
-Ver _Costos Fijos_ en los que incurre el servicio, también se debe 
-determinar la variable que determina cuál es el _Costo Variable_.
+Ver **Costos Fijos** en los que incurre el servicio, también se debe 
+determinar la variable que determina cuál es el **Costo Variable**.
 
 También se debe determinar cuales son los Ingresos y compararlos con los 
 costos, está igualdad entrega el punto de equilibrio.
