@@ -3,9 +3,9 @@
 ### MANET: Mobile Ad-Hoc Networks
 
 **Limitaciones:** Propagación de la información. Banda Ancha y energía.
-Mobilidad de los Nodos (Topológía).
+Movilidad de los Nodos (Topológía).
 
-**Carecterísticas:** Sin infrastructuras. Uno o varios saltos de transimisión. 
+**Características:** Sin infraestructuras. Uno o varios saltos de transmisión. 
 Nodos Host-Client.
 
 #### Protocolos de Routing
@@ -16,16 +16,16 @@ Nodos Host-Client.
     * Evita Loops
     * Para redes más estáticas
 * Reactive Routing
-  * Sin tablas, debe buscar la conección y el camino antes de enviar la 
+  * Sin tablas, debe buscar la conexión y el camino antes de enviar la 
     información.
   * DSR.
   * AODV: Ad-hoc On-Demand Distance Vector
     * Usado en redes Densas
 * Geo-Routing
   * Se conocen las posiciones físicas, vecinos a un salto de distancia. Se 
-    envia el mensaje al nodo más cerca del destino físico.
-  * Tiene problemas ya que el destino más cercano (fisicamente) podría no 
-    tener conección con el receptor.  
+    envía el mensaje al nodo más cerca del destino físico.
+  * Tiene problemas ya que el destino más cercano (físicamente) podría no 
+    tener conexión con el receptor.  
 * Heirarchical Routing
   * Tiene una búsqueda escalable. Usa protocolos de Clustering.
   * Tiene uno o varios nodos lideres, se eligen cuando hay varios nodos 
@@ -42,16 +42,16 @@ Nodos Host-Client.
 
 ### Delay Tolerant Networks (DTN)
 
-Tolera desconecciones y grandes latencias. Guarda la información antes de 
+Tolera desconexiones y grandes latencias. Guarda la información antes de 
 enviarla. Usa Transportadores de mensajes. Es oportunista con los nodos de 
-conección cercanos que pueda encontrar. No es útil para conecciones de tiempo 
+conexión cercanos que pueda encontrar. No es útil para conexiones de tiempo 
 real.
 
 #### Protocolos de Routing
 
 
  * Epidemic: Envía información a todos los vecinos.
- * Prophet: Usa las conecciones hechas en el pasado para realizar un calculo 
+ * Prophet: Usa las conexiones hechas en el pasado para realizar un calculo 
    probabilistico de cual podría ser el mejor nodo a elegir.
  * Spray and Wait: Eficiencia de recursos ya que determina cuantas copias de 
    la información enviará a la red para que encuentren a su receptor.
@@ -59,7 +59,7 @@ real.
 
 #### Desafios de Investigación
 
-Usar poca Energía. Lidear con particiones de Red. Priorisación y 
+Usar poca Energía. Lidiar con particiones de Red. Priorisación y 
 diversificación de mensajes.
 
 
@@ -95,8 +95,8 @@ realizar diferentes acciones.
 Se comparten los recursos, además todos los nodos son Host-Client. Se auto-
 organizan. Es Descentralizado, tolerante a fallas y escalable.
 
-Las conecciones son a nivel lógico, lo que permite tener redes P2P 
+Las conexiones son a nivel lógico, lo que permite tener redes P2P 
 estructuradas y no estructuradas.
 
-*Este contenido fue mayormente analisado en el curso de Sistemas Distribuidos*
+*Este contenido fue mayormente analizado en el curso de Sistemas Distribuidos*
 *del primer semestre del 2014*

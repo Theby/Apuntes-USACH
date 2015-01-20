@@ -16,22 +16,32 @@
 							<% end %>
 						</p>
 					</div>
+					<div class="col-md-6">
+						<p class="pull-right"><%= @publicacion.year %> - Semestre: <%= @publicacion.semestre %></p>
+					</div>
 				</div>
 			</div>
 		</section>
 
 		<section id="body" class="officialGrey">
 			<div class="container allWhite">
+
+				<%= markdown(render file: "Ramos/"+@publicacion.siglas+"/"+@publicacion.linkMD) %>
+
 				<ul>
 					<% for entry in @publicacion.entries.order("id ASC") %>
-						<li><%= link_to entry.nombre, apunte_path(entry) %></li>
+						<li>
+							<%= link_to apunte_path(entry) do %>
+								<span class="glyphicon glyphicon-link" aria-hidden="true"></span> <%= entry.nombre %>
+							<% end %>
+						</li>
 					<% end %>			
 				</ul>
 			</div>
 		</section>
 
-		<section id="footer">
-			<div class="container navbar-fixed-bottom">
+		<section id="footer" class="officialGrey">
+			<div class="container">
 				<div class="panel panel-success">
 					<div class="panel-heading">
 						<h3 class="panel-title" align="center"> Desarrollado por Esteban Gaete Flores </h3>

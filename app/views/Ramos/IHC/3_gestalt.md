@@ -3,7 +3,7 @@
 **Gestalt:** Escuela de la psicología para percibir bien las formas. La 
 Gestalt considera la Forma, Figura, Configuración y Creación.
 
-Percepción: Es el proceso en el cual se organizan y intereaccionan las 
+Percepción: Es el proceso en el cual se organizan e interaccionan las 
 sensaciones.
 
 *"El todo es más que la suma de sus partes"*
@@ -12,22 +12,22 @@ sensaciones.
 
  1. Principio Proximidad: Cuando los objetos están muy cerca de si tienden a 
     formar un grupo para el observador. Estas formas pueden representar 
-    figuras geometricas.
+    figuras geométricas.
  - Principio Semejanza: Elementos similares tienden a reconocerse como parte 
    de un todo, como parte de un sistema, diferente de otro.
- - Principio Simetría: Aquellos elementos simetricos son más visibles que los 
+ - Principio Simetría: Aquellos elementos simétricos son más visibles que los 
    asimétricos.
  - Principio Buena Continuación: La continuación de elementos separados puede 
    crear la ilusión de que son un objeto más grande, dificultando ver cada 
    item por separado. Esto se logra mediante suaves contornos.        
    - Principio Clausura o Cierra: Tendencia a encerrar formas o completar 
-     entornos, viendo figuras en espacios vacios.
+     entornos, viendo figuras en espacios vacíos.
  - Principio Figura - Fondo: Se destaca lo importante mediante el uso correcto 
    de colores, brillos, contrastes, tamaños, etc.
    - Principio Rodear: Cuando figura y fondo comparten limites, cada una 
      creando diferentes formas ya que se rodean mutuamente.
    - Principio Área/Pequeño: Un área más pequeña sobresale de una más grande.
- - Principio de Pregnancia o equilibrio: Es una mescla de todos los 
+ - Principio de Pregnancia o equilibrio: Es una mezcla de todos los 
    anteriores. Las personas prefieren figuras claras, simétricas y armónicas. 
    Se tiende a la Simplicidad.
 
@@ -38,8 +38,8 @@ puede planearse correctamente con la Gestalt
 
 Una buena GUI es: 
 
- * Claridad en el proposito
- * Enfasis en las partes importantes
+ * Claridad en el propósito
+ * Énfasis en las partes importantes
  * Diferenciar niveles de atención
 
 Se busca responder las siguientes preguntas al usar Gestalt: 
@@ -64,7 +64,7 @@ Se busca responder las siguientes preguntas al usar Gestalt:
    por el tamaño (similitud)
  * Si existe movimientos o llamados de atención de un modo animado, estos debe 
    ser por un período corto de tiempo (similitud)
- * Información complementaria, explicataiva o de ayuda, deben estar juntas o 
+ * Información complementaria, explicativa o de ayuda, deben estar juntas o 
    en grupos (proximidad)
         ") %>
     </div>
@@ -77,7 +77,7 @@ Se busca responder las siguientes preguntas al usar Gestalt:
    proximidad)
  * Las ilustraciones o animaciones, deben contener información escrita o de 
    audio adicional (fundamento de la Gestalt)
- * Las animaciones utilizadas (como puede ser el caso de maerial e-learning) 
+ * Las animaciones utilizadas (como puede ser el caso de material e-learning) 
    debe ser guiada y orientada (fundamentos de la Gestalt)
         ") %>
     </div>

@@ -41,6 +41,9 @@ gem 'quiet_assets', group: :development
 # Para autentificación de usuarios
 gem 'devise'
 
+# Para manipular html desde el código antes del render
+gem 'nokogiri'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 

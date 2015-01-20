@@ -3,7 +3,7 @@
 En una conversación se establecen turnos y silencios.
 
 Escuchar consiste en conformar historias, es un fenómeno humano que crea la 
-realidad. *No solo se secucha con palabras.*
+realidad. *No solo se escucha con palabras.*
    
  * Quien escucha va ligando trozos de información de manera coherente a través 
    de un hilo conductor.
@@ -39,7 +39,7 @@ La certeza es el gran enemigo de la escucha. Una buena escucha requiere de
 voluntad y de destinar tiempo para entender al otro:
     
  * Verificar si se ha escuchado bien
- * Compartir las inquietudos propias
+ * Compartir las inquietudes propias
  * Entender las inquietudes del otro
  * Inquirir en que el otro aclare su punto de vista
     

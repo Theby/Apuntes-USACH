@@ -1,5 +1,6 @@
 class ExpositorsController < ApplicationController
   before_action :set_expositor, only: [:show, :edit, :update, :destroy]
+  before_action :set_new_form, only: [:new]
   before_action :authenticate_user!
 
   # GET /expositors
@@ -16,6 +17,9 @@ class ExpositorsController < ApplicationController
   # GET /expositors/new
   def new
     @expositor = Expositor.new
+    if(!@publicacion.blank?)
+      @expositor.publicacion_id = @publicacion.id
+    end
   end
 
   # GET /expositors/1/edit
@@ -66,6 +70,14 @@ class ExpositorsController < ApplicationController
     # Use callbacks to share common setup or constraints between actions.
     def set_expositor
       @expositor = Expositor.find(params[:id])
+    end
+
+    def set_new_form
+      if(params[:id] == "blank" || params[:id].to_i < 0)
+        @publicacion = nil
+      else
+        @publicacion = Publicacion.find(params[:id])
+      end
     end
 
     # Never trust parameters from the scary internet, only allow the white list through.

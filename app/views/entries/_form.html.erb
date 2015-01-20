@@ -17,24 +17,53 @@
       <%= f.text_field :nombre, :class => "form-control" %>
     </div>      
   </div>
+
   <div class="form-group">
     <%= f.label :fecha, :class => "col-sm-2 control-label" %>
     <div class="col-sm-10">
       <%= f.text_field :fecha, :class => "form-control" %>
     </div>
   </div>
+
   <div class="form-group">
     <%= f.label :linkMD, :class => "col-sm-2 control-label" %>
     <div class="col-sm-10">
       <%= f.text_field :linkMD, :class => "form-control" %>
     </div>
   </div>
+
+  <!-- Publicación ID -->
   <div class="form-group">
     <%= f.label :publicacion_id, :class => "col-sm-2 control-label" %>
     <div class="col-sm-10">
-      <%= f.select :publicacion_id, options_for_select(allPublicaciones.map{ |p| [p.nombre, p.id] }), {}, :class => "form-control" %>
+      <% if @entry.publicacion.blank? %>
+        <%= f.select :publicacion_id, options_for_select(allPublicaciones.order("id ASC").map{ |p| [p.nombre, p.id] }), {}, :class => "form-control" %>
+      <% else %>
+        <%= f.select :publicacion_id, options_for_select(allPublicaciones.order("id ASC").map{ |p| [p.nombre, p.id] }, selected: @entry.publicacion.id), {}, :class => "form-control" %>
+      <% end %>
     </div>
   </div>
+
+  <!-- Entry Anterior ID -->
+  <div class="form-group">
+    <%= f.label :entry_anterior, :class => "col-sm-2 control-label" %>
+    <div class="col-sm-10">
+      <% if @entry.entry_anterior.blank? %>
+        <% if @publicacion.blank? %>
+          <% if @entry.publicacion.blank? %>
+            <%= f.select :entry_anterior_id, options_for_select(allEntries.order("id ASC").map{ |p| [p.nombre, p.id] }), {include_blank: true}, :class => "form-control" %>
+          <% else %>
+            <%= f.select :entry_anterior_id, options_for_select(@entry.publicacion.entries.order("id ASC").map{ |p| [p.nombre, p.id] }), {include_blank: true}, :class => "form-control" %>
+          <% end %>
+        <% else %>
+          <%= f.select :entry_anterior_id, options_for_select(@publicacion.entries.order("id ASC").map{ |p| [p.nombre, p.id] }), {include_blank: true}, :class => "form-control" %>
+        <% end %>
+      <% else %>
+        <%= f.select :entry_anterior_id, options_for_select(@entry.publicacion.entries.order("id ASC").map{ |p| [p.nombre, p.id] }, selected: @entry.entry_anterior.id), {include_blank: true}, :class => "form-control" %>
+      <% end %>
+    </div>
+  </div>  
+
   <div class="form-group">
     <div class="col-sm-offset-2 col-sm-10">
       <%= f.submit "Actualizar Entry", :class => "btn btn-warning" %>

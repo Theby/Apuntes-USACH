@@ -1,1 +1,1 @@
-json.extract! @entry, :id, :fecha, :linkMD, :publicacion_id, :created_at, :updated_at, :nombre
+json.extract! @entry, :id, :fecha, :linkMD, :publicacion_id, :created_at, :updated_at, :nombre, :entry_anterior_id

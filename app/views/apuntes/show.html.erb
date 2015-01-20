@@ -8,9 +8,9 @@
 								<% for index in 0..@publicacion.expositors.count-3 %>
 									<%= @publicacion.expositors[index].nombre %>,
 								<% end %>
-									<%= @publicacion.expositors[@publicacion.expositors.count-2].nombre %>
-									y
-									<%= @publicacion.expositors[@publicacion.expositors.count-1].nombre %>
+								<%= @publicacion.expositors[@publicacion.expositors.count-2].nombre %>
+								y
+								<%= @publicacion.expositors[@publicacion.expositors.count-1].nombre %>
 							<% else %>
 								<%= @publicacion.expositors[0].nombre %>
 							<% end %>
@@ -25,27 +25,44 @@
 
 		<section id="body" class="officialGrey">
 			<div class="container allWhite">
-				<%= markdown(render file: "Ramos/"+@entry.linkMD) %>
+				<div class="row">
+					<div class="col-md-9" role="main">
+						<%= markdown(render file: "Ramos/"+@publicacion.siglas+"/"+@entry.linkMD) %>
+					</div>
+					<div class="col-md-3">
+						<div class="hidden-print hidden-xs hidden-sm affix" role="complementary">
+							<h4>Accesos rápidos</h4>
+
+							<ul class="">
+								<% if !@entry.entry_anterior.blank? %>
+									<li>									
+										<%= link_to @entry.entry_anterior.nombre, apunte_path(@entry.entry_anterior) %>
+									</li>
+								<% end %>								
+								<li><%= link_to @publicacion.nombre, apunte_index_path(@publicacion) %></li>
+								<% if !@entry.entry_siguiente.blank? %>
+									<li>									
+										<%= link_to @entry.entry_siguiente.nombre, apunte_path(@entry.entry_siguiente) %>
+									</li>
+								<% end %>
+							</ul>
+
+							<h4>Índice</h4>
+
+							<%= markdownToc(render file: "Ramos/"+@publicacion.siglas+"/"+@entry.linkMD) %>
+
+							<ul>
+								<li><a class="pull-left" href="#top"> Volver Arriba <span class="glyphicon glyphicon-arrow-up"></span></a></li>								
+							</ul>
+						</div>
+					</div>
+				</div>
 			</div>
 		</section>
 
-		<section id="footer">
-			<div class="container navbar-fixed-bottom">
+		<section id="footer" class="officialGrey">
+			<div class="container">
 				<div class="panel panel-success">
-					<div class="panel-footer">
-						<div class="row">
-							<div class="col-md-3">
-							</div>
-							<div class="col-md-3">
-								<%= link_to @publicacion.nombre, apunte_index_path(@publicacion), :class => "pull-right" %>
-							</div>
-							<div class="col-md-3">
-								<a class="pull-left" href="#top"> Volver Arriba <span class="glyphicon glyphicon-arrow-up"></span></a>
-							</div>
-							<div class="col-md-3">
-							</div>
-						</div>
-					</div>
 					<div class="panel-heading">
 						<h3 class="panel-title" align="center"> Desarrollado por Esteban Gaete Flores </h3>
 					</div>

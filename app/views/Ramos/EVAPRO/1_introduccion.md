@@ -7,12 +7,12 @@ Orientado a la evaluación de proyectos con fines de lucros
 
 ### Clasificación de Proyectos
 
-Según su proposito
+Según su propósito
 
  * Mantenimiento de capacidad: conservar operaciones existentes.
  * Mejoramiento: aumento de productividad y/o calidad.
  * Expansión de capacidad: extiende la capacidad.
- * Innovación técnologica: crear y/o adoptar nuevas técnologias.
+ * Innovación tecnológica: crear y/o adoptar nuevas tecnologías.
 
 
 
@@ -29,7 +29,7 @@ Hacer grupos de hasta 4 personas
 
 ### Clasificación de Proyectos
 
- * Producción: Para produciar más.
+ * Producción: Para producir más.
  * Servicios a la producción: Para mejorar la producción.
  * Bienestar: Para el bien de la gente.
 
@@ -54,7 +54,7 @@ Hacer grupos de hasta 4 personas
    * Análisis de la competencia    
  * Estratégico
  * Técnico
- * Economico
+ * Económico
  * Financiero
  * Ambiental
  * Legal

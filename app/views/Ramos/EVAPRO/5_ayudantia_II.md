@@ -1,4 +1,4 @@
-## _Clase 5 - Ayudantía II: Conceptos ecónomicos_
+## _Clase 5 - Ayudantía II: Conceptos económicos_
  
  * Costo Variable: Un costo variable depende de la producción.
  * Costo Fijo: Los costos fijos son los que debe pagar la empresa 
@@ -6,9 +6,9 @@
  * Depreciación: Cuando un activo es utilizado para generar ingresos, este 
    sufre un desgaste normal durante su vida útil que el final lo lleva a ser 
    inutilizable
- * Tasa de interés: La depreciación es una devaluación. Finalmente estos 
+ * Tasa de interés: La depreciación es una de-valuación. Finalmente estos 
    productos se devalúan y la idea es utilizar la depreciación para 
-   reemplazarlos cuando se destruyan. En el sii existe una tabla para las 
+   reemplazarlos cuando se destruyan. En el SII existe una tabla para las 
    depreciaciones. Tasa de interés es el costo del dinero.
  * Valor futuro del dinero: El valor del futuro del dinero es la cantidad de 
    dinero que alcanzará una inversión en el futuro.

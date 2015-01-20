@@ -1,6 +1,4 @@
-<p id="notice"><%= notice %></p>
-
-    <section id="title">
+    <section id="title" class="shinyOrange">
       <div class="container">
         <div class="row">
           <div class="col-md-6">
@@ -13,30 +11,55 @@
       </div>
     </section>
 
-    <section id="body">
-      <div class="container">
-		<p>
-		  <strong>Fecha:</strong>
-		  <%= @entry.fecha %>
-		</p>
+    <section id="body" class="officialGrey">
+      <div class="container allWhite">
+        <p id="notice"><%= notice %></p>
+    		<p>
+    		  <strong>Fecha:</strong>
+    		  <%= @entry.fecha %>
+    		</p>
 
-		<p>
-		  <strong>Linkmd:</strong>
-		  <%= @entry.linkMD %>
-		</p>
+    		<p>
+    		  <strong>Linkmd:</strong>
+    		  <%= @entry.linkMD %>
+    		</p>
 
-		<p>
-		  <strong>Publicacion:</strong>
-		  <%= @entry.publicacion.nombre %>
-		</p>
+    		<p>
+    		  <strong>Publicacion:</strong>
+          <% if !@entry.publicacion.blank? %>
+    		    <%= @entry.publicacion.nombre %>
+          <% else %>
+            Sin publicación asignada.
+          <% end %>
+    		</p>
 
-		<%= link_to 'Edit', edit_entry_path(@entry), :class => "btn btn-warning" %> |
-		<%= link_to 'Back', entries_path, :class => "btn btn-warning" %>
+        <p>
+          <strong>Entry Anterior:</strong>
+          <% if !@entry.entry_anterior.blank? %>
+            <%= @entry.entry_anterior.nombre %>
+          <% else %>
+            Sin entry anterior asignada.
+          <% end %>
+        </p>
+
+        <p>
+          <strong>Entry Siguiente:</strong>
+          <% if !@entry.entry_siguiente.blank? %>
+            <%= @entry.entry_siguiente.nombre %>
+          <% else %>
+            Sin entry siguiente asignada.
+          <% end %>
+        </p>
+
+    		<%= link_to 'Edit', edit_entry_path(@entry), :class => "btn btn-warning" %>
+        |
+    		<%= link_to 'Back', create_entry_path(@entry.publicacion), :class => "btn btn-warning" %>
+        <br><br>
       </div>
     </section>
 
-    <section id="footer">
-      <div class="container navbar-fixed-bottom">
+    <section id="footer" class="officialGrey">
+      <div class="container">
         <div class="panel panel-success">         
           <div class="panel-heading">
             <h3 class="panel-title" align="center"> Desarrollado por Esteban Gaete Flores </h3>

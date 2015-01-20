@@ -1,5 +1,6 @@
 class EntriesController < ApplicationController
   before_action :set_entry, only: [:show, :edit, :update, :destroy]
+  before_action :set_new_form, only: [:new]
   before_action :authenticate_user!
 
   # GET /entries
@@ -16,6 +17,9 @@ class EntriesController < ApplicationController
   # GET /entries/new
   def new
     @entry = Entry.new
+    if(!@publicacion.blank?)
+      @entry.publicacion_id = @publicacion.id
+    end
   end
 
   # GET /entries/1/edit
@@ -68,8 +72,16 @@ class EntriesController < ApplicationController
       @entry = Entry.find(params[:id])
     end
 
+    def set_new_form
+      if(params[:id] == "blank" || params[:id].to_i < 0)
+        @publicacion = nil
+      else
+        @publicacion = Publicacion.find(params[:id])    
+      end
+    end
+
     # Never trust parameters from the scary internet, only allow the white list through.
     def entry_params
-      params.require(:entry).permit(:fecha, :linkMD, :publicacion_id, :nombre)
+      params.require(:entry).permit(:fecha, :linkMD, :publicacion_id, :nombre, :entry_anterior_id)
     end
 end

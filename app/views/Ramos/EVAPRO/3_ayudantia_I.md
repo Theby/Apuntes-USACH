@@ -2,14 +2,14 @@
 
 ### Evaluación de ayudantía (20%)
 
-Se evaluarua con un 10% la asistencia y con un 10% una tarea a mediados de 
+Se evaluara con un 10% la asistencia y con un 10% una tarea a mediados de 
 semestre.
 
 
 ### 5 Fuerzas de Porter
 
  * Competencia Interna: Cluster Empresarial de empresas que ya están en la 
-   industria. Es con quienes se competira.
+   industria. Es con quienes se competirá.
    * _Integración hacia Adelante_
      <span class="glyphicon glyphicon-arrow-left"></span> Proveedores[^1] : 
      Aquellos que nos darán los materiales para realizar nuestro trabajo.
@@ -21,7 +21,7 @@ semestre.
      Aquellos que comprarán nuestro producto o servicio.
    * <span class="glyphicon glyphicon-arrow-left"></span> Nuevos 
      Competidores (Barrera de entrada): Qué capital se necesita para 
-     ingresar al negocio. Técnologia y rentabilidades.
+     ingresar al negocio. Tecnología y rentabilidades.
    * <span class="glyphicon glyphicon-arrow-right"></span> Barrera de 
      Salida: Se deben recuperar los gastos realizados para entrar al 
      negocio para poder salir de él.        
@@ -39,7 +39,7 @@ A usar con Porter e intentar relacionarlo.
 
  * Diplomado: Dirección y Gestión de Proyectos. PMBOK.
  * Electivo: Gestión de Proyectos / Luis Berrios.
- * PRINCE2: Diplomado que asegura un proyecto éxitoso.
+ * PRINCE2: Diplomado que asegura un proyecto exitoso.
  * Libro de Proyectos para: SchaLbeck, Project Management in Information Teck.
 
 

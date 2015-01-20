@@ -1,4 +1,4 @@
-    <section id="title">
+    <section id="title" class="shinyOrange">
       <div class="container">
         <div class="row">
           <div class="col-md-6">
@@ -8,16 +8,22 @@
       </div>
     </section>
 
-	<section id="body">
-	 	<div class="container">
-			<%= render 'form' %>
+	<section id="body" class="officialGrey">
+      <div class="container allWhite">
+        <br>
+  			<%= render 'form' %>
 
-			<%= link_to 'Back', expositors_path, :class => "btn btn-link" %>
-		</div>
+        <% if @expositor.publicacion.blank? %>
+  			  <%= link_to 'Back', expositors_path, :class => "btn btn-warning" %>
+        <% else %>
+          <%= link_to 'Back', create_expositor_path(@expositor.publicacion), :class => "btn btn-warning" %>
+        <% end %>
+        <br><br>
+  		</div>
     </section>
 
-    <section id="footer">
-      <div class="container navbar-fixed-bottom">
+    <section id="footer" class="officialGrey">
+      <div class="container">
         <div class="panel panel-success">         
           <div class="panel-heading">
             <h3 class="panel-title" align="center"> Desarrollado por Esteban Gaete Flores </h3>

@@ -21,7 +21,7 @@ Reviews:
 		<%= markdown("
 Presentaciones:
 
- * Tipicamente 20 slides.
+ * Típicamente 20 slides.
  * 2-3 de motivación.
  * 1-2 de trasfondo/teoría.
  * 6-7 sides con la idea principal del paper.

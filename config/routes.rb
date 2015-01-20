@@ -20,13 +20,29 @@ Rails.application.routes.draw do
     get 'users' => 'devise/registrations#update', :as => 'user_registration'
   end
 
-  resources :entries
-  resources :expositors
-  resources :publicacions
+  get 'publicacions/new/:id' => 'publicacions#new', :as => 'new_publicacion'
+  get 'publicacions/all' => 'publicacions#all_index', :as => 'all_publicacions'
+  resources :publicacions, except: [:new]
+
+  get 'entries/new/:id' => 'entries#new', :as => 'new_entry'
+  resources :entries, except: [:new]
+
+  get 'expositors/new/:id' => 'expositors#new', :as => 'new_expositor'
+  resources :expositors, except: [:new]
+
   resources :sections
 
+  # Permite crear una publicacion para una sección (ID) especifica
+  get 'SectPub/:id' => 'sections#publicaciones', :as => 'create_publicacion'
+
+  # Permite crear una entrada para una publicación (ID) especifica
+  get 'PubEnt/:id' => 'publicacions#entries', :as => 'create_entry'
+
+  # Permite crear un profesor para una publicación (ID) especifica
+  get 'PubExp/:id' => 'publicacions#expositors', :as => 'create_expositor'
+
   # Ruta a la página de contacto
-  get 'contacto' => 'apuntes#contacto' 
+  get 'contacto' => 'apuntes#contacto'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

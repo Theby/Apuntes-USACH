@@ -1,14 +1,14 @@
 ## _Clase 2 - Estudio del Mercado_
 
-### Descripcíón del Mercado
+### Descripción del Mercado
 
 El mercado se debe describir entre el tamaño actual, el potencial, 
-caracteristicas y especificidades.
+características y especificidades.
 
 También es importante conocer el perfil del consumidor y el tipo de cliente.
 
 También deben ser tomado en cuenta los elementos de: La capacidad técnica, 
-análisis, reglametos, etc. 
+análisis, reglamentos, etc. 
 
 
 
@@ -17,7 +17,7 @@ análisis, reglametos, etc.
 Agrupar a los clientes en grupos similares.
 
  * Medibles: Tamaño y capacidad de compra.
- * Accessibles: Compradores identificables y alcanzables.
+ * Accesibles: Compradores identificables y alcanzables.
  * Suficientemente grandes: cuantificación del mercado.
 
 Para ello se usan criterios geográficos, datos personales, específicos a 
@@ -64,7 +64,7 @@ Se intenta probar una tesis sobre el mercado
      * Lugar.
      * Manejo de interpretación de datos.
      * Tiempo de duración y aplicación.
- * Observacipon.
+ * Observación.
  * Experimentos.
  * Estudio de casos.
  * Técnicas escalares.

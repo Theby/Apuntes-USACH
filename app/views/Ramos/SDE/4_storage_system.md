@@ -2,7 +2,7 @@
 
 En sistemas de almacenamiento en los que se maneja muchos discos de 
 información es necesario tener sistemas de tolerancia a fallas. Para poder 
-hacer esto hay que invertir en grandes costos de rebundancia. Demodo que son 
+hacer esto hay que invertir en grandes costos de redundancia. De modo que son 
 las operaciones de Input y Output las que se escalan.
 
 
@@ -60,7 +60,7 @@ Tiene un has consistente, esto permite replicar el nodo que recibe la query.
 #### Data versioning
 
 La modificación de un archivo puede ser mediante branch y merge, las versiones 
-antiguas no se elimiman. Cuando existen fallas se llega a un acuerdo.
+antiguas no se eliminan. Cuando existen fallas se llega a un acuerdo.
 
 #### Membership
 

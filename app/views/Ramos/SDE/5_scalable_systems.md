@@ -13,7 +13,7 @@ Se maneja los datos mediante un Mapeo y una reducción del volumen de datos.
 
 Para escalar la información se divide todo en sub-partes. Se manejan controles de fallas para no perder información.
 
-Ha sido usado principalmente para calcular cosas en la Web: grafos, busquedas, etc.
+Ha sido usado principalmente para calcular cosas en la Web: grafos, búsquedas, etc.
 
 Las tareas se dividen en servicios, algunos de ellos son servicios maestros.
 
@@ -27,7 +27,7 @@ cantidades de datos.
 
 Se hace un index de links invertidos para detectar urls cambiantes. No se 
 recomienda usar Big Table debido a que es incapaz de generar transacciones 
-entre mutiples filas.
+entre múltiples filas.
 
 Existen Observers que permiten notificar cambios en las líneas de código o 
 datos en general.
@@ -67,13 +67,13 @@ Existen Spouts y Bolts. Similar a S4, pero sin perdida de datos. Agrupa nodos en
 #### Samza
 
 Se abstrae el streaming. El streaming se particiona en diferentes tareas pre-
-difinidas.
+definidas.
 
 Utiliza Kafka y Haddop en algunos casos.
 
 Tiene tolerancia a fallos: usa modos de checkpoints para hacer respaldos.
 
-#### Capacidad elastica
+#### Capacidad elástica
 
 Todos estos sistemas corren con recursos asignados previamente, los cuales son 
 estáticos.
@@ -83,4 +83,4 @@ Se busca que puedan adaptarse a la cantidad de datos que llegan.
 Los query se manejan en grafos, cada nodo tiene un estado, estos pueden ser 
 replicados. Hay nodos que pueden tener un estado fijo y que solo dependen de 
 la información que le llega. Sin embargo hay nodos con estado que reaccionan a 
-los datos historicos de los demás nodos.
+los datos históricos de los demás nodos.

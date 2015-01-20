@@ -1,10 +1,14 @@
 class PublicacionsController < ApplicationController
-  before_action :set_publicacion, only: [:show, :edit, :update, :destroy]
+  before_action :set_publicacion, only: [:show, :edit, :update, :destroy, :entries, :expositors]
+  before_action :set_new_form, only: [:new]
   before_action :authenticate_user!
 
   # GET /publicacions
   # GET /publicacions.json
   def index
+  end
+
+  def all_index
     @publicacions = Publicacion.all
   end
 
@@ -16,6 +20,9 @@ class PublicacionsController < ApplicationController
   # GET /publicacions/new
   def new
     @publicacion = Publicacion.new
+    if(!@section.blank?)
+      @publicacion.section_id = @section.id
+    end
   end
 
   # GET /publicacions/1/edit
@@ -62,14 +69,30 @@ class PublicacionsController < ApplicationController
     end
   end
 
+  # GET /PubEnt/:id
+  def entries
+  end
+
+  # GET /PubExp/:id
+  def expositors
+  end
+
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_publicacion
       @publicacion = Publicacion.find(params[:id])
     end
 
+    def set_new_form
+      if(params[:id] == "blank" || params[:id].to_i < 0)
+        @section = nil
+      else
+        @section = Section.find(params[:id])        
+      end
+    end
+
     # Never trust parameters from the scary internet, only allow the white list through.
     def publicacion_params
-      params.require(:publicacion).permit(:nombre, :year, :semestre, :section_id)
+      params.require(:publicacion).permit(:nombre, :year, :semestre, :section_id, :linkMD, :siglas)
     end
 end

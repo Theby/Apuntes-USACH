@@ -1,61 +1,51 @@
-    <section id="title">
+    <section id="title" class="shinyOrange">
       <div class="container">
         <div class="row">
           <div class="col-md-6">
             <h1>Lista de publicaciones</h1>
+            <br>
           </div>
         </div>
       </div>
     </section>
 
 
-    <section id="body">
-      <div class="container">
-        <div class="table-responsive">
-          <table class="table">
-            <thead>
-              <tr>
-                <th>Nombre</th>
-                <th>Year</th>
-                <th>Semestre</th>
-                <th>Section</th>
-                <th colspan="3"></th>
-              </tr>
-            </thead>
+    <section id="body" class="officialGrey">
+      <div class="container allWhite">
 
-            <tbody>
-              <% @publicacions.each do |publicacion| %>
-                <tr>
-                  <td><%= publicacion.nombre %></td>
-                  <td><%= publicacion.year %></td>
-                  <td><%= publicacion.semestre %></td>
-                  <% if !publicacion.section.blank? %>
-                    <td><%= publicacion.section.nombre %></td>
-                  <% else %>
-                    <td>Sin Section asignada</td>
-                  <% end %>
-                  <td><%= link_to 'Show', publicacion, :class => "btn btn-link" %></td>
-                  <td><%= link_to 'Edit', edit_publicacion_path(publicacion), :class => "btn btn-link" %></td>
-                  <td><%= link_to 'Destroy', publicacion, method: :delete, data: { confirm: 'Are you sure?' }, :class => "btn btn-link" %></td>
-                </tr>
-              <% end %>
-            </tbody>
-          </table>
-        </div>
+        <%= link_to new_section_path, class: "btn btn-success", "role" => "button" do %>
+          Nueva Sección <span class="badge"> <%= allSections.count %></span> 
+        <% end %>
+        <%= link_to all_publicacions_path, class: "btn btn-info", "role" => "button" do %>
+          Listar todas las Publicaciones <span class="badge"> <%= allPublicaciones.count %></span>
+        <% end %>
+      
+        <% for secciones in allSections.order("id ASC") %>
+          <h2>
+            <%= secciones.nombre %>
+            <small><%= secciones.sub_nombre %></small>
 
+            <%= link_to 'Show', secciones, :class => "btn btn-warning" %>
+            <%= link_to 'Edit', edit_section_path(secciones), :class => "btn btn-warning" %>
+            <%= link_to 'Destroy', secciones, method: :delete, data: { confirm: 'Borrar una sección no borra las publicaciones' }, :class => "btn btn-warning" %>
+          </h2>
+          <p>
+            <%= link_to create_publicacion_path(secciones), class: "btn btn-primary", "role" => "button" do %>
+              Ver Publicaciones para esta Sección <span class="badge"> <%= secciones.publicacions.count %></span>
+            <% end %>
+          </p>
+        <% end %>
         <br>
-
-        <%= link_to 'New Publicacion', new_publicacion_path, :class => "btn btn-link" %>
-
       </div>
     </section>
 
-    <section id="footer">
-      <div class="container navbar-fixed-bottom">
-        <div class="panel panel-success">         
-          <div class="panel-heading">
-            <h3 class="panel-title" align="center"> Desarrollado por Esteban Gaete Flores </h3>
-          </div>
+
+    <section id="footer" class="officialGrey">
+        <div class="container">
+            <div class="panel panel-success">
+                <div class="panel-heading">
+                    <h3 class="panel-title" align="center"> Desarrollado por Esteban Gaete Flores </h3>
+                </div>
+            </div>
         </div>
-      </div>
     </section>

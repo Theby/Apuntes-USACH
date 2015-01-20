@@ -1,0 +1,60 @@
+        <section id="title" class="shinyOrange">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h1><%= @section.nombre %></h1>
+                        <p><%= @section.sub_nombre %></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="body" class="officialGrey">
+            <div class="container allWhite">
+
+                <%= link_to new_publicacion_path(@section), class: "btn btn-success", "role" => "button" do %>
+                  Nueva Publicación <span class="badge"> <%= allPublicaciones.count %></span>
+                <% end %>
+                <%= link_to entries_path, class: "btn btn-info", "role" => "button" do %>
+                  Listar todas las Entradas <span class="badge"> <%= allEntries.count %></span>
+                <% end %>
+                <%= link_to expositors_path, class: "btn btn-info", "role" => "button" do %>
+                  Listar todos los Profesores <span class="badge"> <%= allExpositores.count %></span>
+                <% end %>
+
+                <% @section.publicacions.order("id ASC").each do |publicacion| %>
+                  <h2>
+                    <%= publicacion.nombre %>
+                    <small><%= publicacion.siglas %></small>
+                    <small><%= publicacion.linkMD %></small>
+
+                    <%= link_to 'Show', publicacion, :class => "btn btn-warning" %>
+                    <%= link_to 'Edit', edit_publicacion_path(publicacion), :class => "btn btn-warning" %>
+                    <%= link_to 'Destroy', publicacion, method: :delete, data: { confirm: 'Are you sure?' }, :class => "btn btn-warning" %>
+                  </h2>
+                  <p>
+                    <%= link_to create_expositor_path(publicacion), class: "btn btn-default", "role" => "button" do %>
+                      Ver Profesores de esta Publicación <span class="badge"> <%= publicacion.expositors.count %></span>
+                    <% end %>
+                    <br>
+                    <%= link_to create_entry_path(publicacion), class: "btn btn-primary", "role" => "button" do %>
+                      Ver Entradas de esta Publicación <span class="badge"> <%= publicacion.entries.count %></span>
+                    <% end %>
+                  </p>
+                <% end %>                          
+
+                <%= link_to 'Back', publicacions_path, :class => "btn btn-warning" %>
+
+                <br><br>
+            </div>
+        </section>
+
+        <section id="footer" class="officialGrey">
+            <div class="container">
+                <div class="panel panel-success">
+                    <div class="panel-heading">
+                        <h3 class="panel-title" align="center"> Desarrollado por Esteban Gaete Flores </h3>
+                    </div>
+                </div>
+            </div>
+        </section>

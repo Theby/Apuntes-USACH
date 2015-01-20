@@ -1,4 +1,4 @@
-    <section id="title">
+    <section id="title" class="shinyOrange">
       <div class="container">
         <div class="row">
           <div class="col-md-6">
@@ -8,8 +8,11 @@
       </div>
     </section>
 
-    <section id="body">
-      <div class="container">
+    <section id="body" class="officialGrey">
+      <div class="container allWhite">    
+        
+        <%= link_to 'New Expositor', new_expositor_path("blank"), :class => "btn btn-info" %>
+
         <div class="table-responsive">
           <table class="table">
             <thead>
@@ -24,24 +27,29 @@
               <% @expositors.each do |expositor| %>
                 <tr>
                   <td><%= expositor.nombre %></td>
-                  <td><%= expositor.publicacion.nombre %></td>
-                  <td><%= link_to 'Show', expositor, :class => "btn btn-link" %></td>
-                  <td><%= link_to 'Edit', edit_expositor_path(expositor), :class => "btn btn-link" %></td>
-                  <td><%= link_to 'Destroy', expositor, method: :delete, data: { confirm: 'Are you sure?' }, :class => "btn btn-link" %></td>
+                  <td>
+                    <% if !expositor.publicacion.blank? %>
+                      <%= expositor.publicacion.nombre %>
+                    <% else %>
+                      No hay publicación asignada.
+                    <% end %>
+                  </td>
+                  <td><%= link_to 'Show', expositor, :class => "btn btn-warning" %></td>
+                  <td><%= link_to 'Edit', edit_expositor_path(expositor), :class => "btn btn-warning" %></td>
+                  <td><%= link_to 'Destroy', expositor, method: :delete, data: { confirm: 'Are you sure?' }, :class => "btn btn-warning" %></td>
                 </tr>
               <% end %>
             </tbody>
-          </table>
+          </table>          
+        </div>
 
-          <br>
-
-          <%= link_to 'New Expositor', new_expositor_path, :class => "btn btn-link" %>
-          
+        <%= link_to 'Back', publicacions_path, :class => "btn btn-warning" %>
+        <br><br>
       </div>
     </section>
 
-    <section id="footer">
-      <div class="container navbar-fixed-bottom">
+    <section id="footer" class="officialGrey">
+      <div class="container">
         <div class="panel panel-success">         
           <div class="panel-heading">
             <h3 class="panel-title" align="center"> Desarrollado por Esteban Gaete Flores </h3>

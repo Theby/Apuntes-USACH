@@ -1,5 +1,5 @@
 class SectionsController < ApplicationController
-  before_action :set_section, only: [:show, :edit, :update, :destroy]
+  before_action :set_section, only: [:show, :edit, :update, :destroy, :publicaciones]
   before_action :authenticate_user!  
 
   # GET /sections
@@ -60,6 +60,10 @@ class SectionsController < ApplicationController
       format.html { redirect_to sections_url, notice: 'Section was successfully destroyed.' }
       format.json { head :no_content }
     end
+  end
+
+  # GET /SectPub/:id
+  def publicaciones
   end
 
   private

@@ -11,6 +11,9 @@
     <section id="body">
       <div class="container">
         <div class="table-responsive">
+
+          <%= link_to 'Nueva Sección', new_section_path, :class => "btn btn-link" %>
+
           <table class="table">
             <thead>
               <tr>
@@ -32,16 +35,11 @@
               <% end %>
             </tbody>
           </table>
-
-          <br>
-
-          <%= link_to 'New Section', new_section_path, :class => "btn btn-link" %>
-
       </div>
     </section>
 
-    <section id="footer">
-      <div class="container navbar-fixed-bottom">
+    <section id="footer" class="officialGrey">
+      <div class="container">
         <div class="panel panel-success">         
           <div class="panel-heading">
             <h3 class="panel-title" align="center"> Desarrollado por Esteban Gaete Flores </h3>
