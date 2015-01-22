@@ -6293,3 +6293,10 @@ body {
 .allWhite {
   background-color: #FFFFFF;
 }
+
+/* Anchor padding */
+
+:target{
+    padding-top: 52px;
+    background-color: #e5eecc;
+}
