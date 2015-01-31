@@ -1,6 +1,6 @@
 ## _Clase 6 - Introducción a Scrum_
 
-El manifiesto Ágil dice: www.agilemanifesto.org
+El [manifiesto Ágil](www.agilemanifesto.org) dice:
  
  * **Individuos e interacciones** sobre Procesos y herramienta.
  * **Software que funciona** sobre Documentación exhaustiva.

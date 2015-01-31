@@ -5996,9 +5996,9 @@ button.close {
 }
 .affix {
   position: fixed;
-  -webkit-transform: translate3d(0, 0, 0);
-       -o-transform: translate3d(0, 0, 0);
-          transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, -169px, 0);
+       -o-transform: translate3d(0, -169px, 0);
+          transform: translate3d(0, -169px, 0);
 }
 @-ms-viewport {
   width: device-width;
@@ -6296,7 +6296,20 @@ body {
 
 /* Anchor padding */
 
+:target:before{
+  font-family: "Glyphicons Halflings";
+  content: "\e080  ";
+}
 :target{
-    padding-top: 52px;
-    background-color: #e5eecc;
+  padding-top: 52px;
+  background-color: #e5eecc;
+  padding-bottom: 52px;
+  font-weight: bold;
+  padding-left: 5px;
+}
+#fecha {
+  padding-top: 12px;
+}
+#menu-derecho {
+  width: 263px;
 }

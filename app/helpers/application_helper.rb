@@ -37,7 +37,7 @@ module ApplicationHelper
 	def markdownToc(text)
 		options = {
 			filter_html:          				true,   # No acepta tags html en el output.
-			nesting_level:  					   4,	# Asigna hasta que nivel se crean los links
+			nesting_level:  					   3,	# Asigna hasta que nivel se crean los links
 		}
 
 		extensions = {		
@@ -59,8 +59,15 @@ module ApplicationHelper
 
 
 	# Quita todos los tag <u> y <small> de los tags <a>
+	# También agrega el glyphicon de link a cada link
+	# También crea una class nav nav-pills nav-stacked para el <ul>
 	def checkHtml(html)
 		doc = Nokogiri::HTML(html)
+
+		if(!doc.at_css("ul li ul").blank?)
+			doc.at_css("ul") << doc.at_css("ul li ul").children
+		end
+
 		doc.search("//a").each do |link|
 			htmlLimpio = link.content
 			htmlLimpio = htmlLimpio.sub('<small>','')
@@ -68,8 +75,11 @@ module ApplicationHelper
 			htmlLimpio = htmlLimpio.sub('<u>','')
 			htmlLimpio = htmlLimpio.sub('</u>','')
 
-			link.content = htmlLimpio
-		end
+			link.children = "<span class='glyphicon glyphicon-link'></span> " + htmlLimpio
+		end		
+
+		doc.at_css("//ul")['id'] = "indice-derecho"
+		doc.at_css("//ul")['class'] = "nav nav-pills nav-stacked"		
 
 		doc.to_s
 	end

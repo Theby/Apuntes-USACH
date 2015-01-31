@@ -2112,3 +2112,37 @@ if (typeof jQuery === 'undefined') { throw new Error('Bootstrap\'s JavaScript re
   })
 
 }(jQuery);
+
+
+
+// Add your javascript here
+$(function() {  
+
+  $(".nav li").on("click", function() {
+    $(".nav li").removeClass("active");
+    $(this).addClass("active");
+  });
+  
+});
+
+$(function() {
+    $('#contenido p:has(a)').add('#contenido ol:has(a)').add('#contenido ul:has(a)').each(function() {
+        var printing_links = $(this).find('a')
+                                    .not("[href^='#']")
+                                    .not(":has(img)")
+                                    .clone();
+        $(this).after(printing_links);
+
+        printing_links.wrap('<li></li>')
+                      .parent()
+                      .wrapAll('<ul class="visible-print-block"></ul>');
+
+        printing_links.each(function() {
+            var href = $(this).attr('href');
+            if (href.match("^/")) {
+                href = 'http://apuntesusach.herokuapp.com' + href;
+            }
+            $(this).after(': ' + href);
+        });
+    });
+});
