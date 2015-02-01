@@ -5,15 +5,17 @@
 						<h1><%= @publicacion.nombre %></h1>
 						<p>
 							<p class="visible-print-block">Ingeniería Civil Informática</p>
-							<% if @publicacion.expositors.count > 1 %>
-								<% for index in 0..@publicacion.expositors.count-3 %>
-									<%= @publicacion.expositors[index].nombre %>,
+							<% if !@publicacion.expositors.blank? %>
+								<% if @publicacion.expositors.count > 1 %>
+									<% for index in 0..@publicacion.expositors.count-3 %>
+										<%= @publicacion.expositors[index].nombre %>,
+									<% end %>
+									<%= @publicacion.expositors[@publicacion.expositors.count-2].nombre %>
+									y
+									<%= @publicacion.expositors[@publicacion.expositors.count-1].nombre %>
+								<% else %>
+									<%= @publicacion.expositors[0].nombre %>
 								<% end %>
-								<%= @publicacion.expositors[@publicacion.expositors.count-2].nombre %>
-								y
-								<%= @publicacion.expositors[@publicacion.expositors.count-1].nombre %>
-							<% else %>
-								<%= @publicacion.expositors[0].nombre %>
 							<% end %>
 							<p class="visible-print-block">Fecha: <%= @entry.fecha %></p>
 						</p>
