@@ -28,15 +28,17 @@
 
 				<%= markdown(render file: "Ramos/"+@publicacion.siglas+"/"+@publicacion.linkMD) %>
 
-				<ul>
-					<% for entry in @publicacion.entries.order("id ASC") %>
-						<li>
-							<%= link_to apunte_path(entry) do %>
-								<span class="glyphicon glyphicon-link" aria-hidden="true"></span> <%= entry.nombre %>
-							<% end %>
-						</li>
-					<% end %>			
-				</ul>
+				<% if !@publicacion.entries.blank? %>
+					<ul>
+						<% for entry in @publicacion.entries.order("id ASC") %>
+							<li>
+								<%= link_to apunte_path(entry) do %>
+									<span class="glyphicon glyphicon-link" aria-hidden="true"></span> <%= entry.nombre %>
+								<% end %>
+							</li>
+						<% end %>			
+					</ul>
+				<% end %>
 			</div>
 		</section>
 
