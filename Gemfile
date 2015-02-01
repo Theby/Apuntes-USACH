@@ -44,6 +44,12 @@ gem 'devise'
 # Para manipular html desde el código antes del render
 gem 'nokogiri'
 
+# Para manejar Memcached dsde Heroku
+#gem 'memcachier'
+
+# Para manejar memcached desde ruby on rails
+#gem 'dalli'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
