@@ -4,15 +4,17 @@
 					<div class="col-md-6">
 						<h1><%= @publicacion.nombre %></h1>
 						<p>
-							<% if @publicacion.expositors.count > 1 %>
-								<% for index in 0..@publicacion.expositors.count-3 %>
-									<%= @publicacion.expositors[index].nombre %>,
+							<% if !@publicacion.expositors.blank? %>
+								<% if @publicacion.expositors.count > 1 %>
+									<% for index in 0..@publicacion.expositors.count-3 %>
+										<%= @publicacion.expositors[index].nombre %>,
+									<% end %>
+										<%= @publicacion.expositors[@publicacion.expositors.count-2].nombre %>
+										y
+										<%= @publicacion.expositors[@publicacion.expositors.count-1].nombre %>
+								<% else %>
+									<%= @publicacion.expositors[0].nombre %>
 								<% end %>
-									<%= @publicacion.expositors[@publicacion.expositors.count-2].nombre %>
-									y
-									<%= @publicacion.expositors[@publicacion.expositors.count-1].nombre %>
-							<% else %>
-								<%= @publicacion.expositors[0].nombre %>
 							<% end %>
 						</p>
 					</div>
