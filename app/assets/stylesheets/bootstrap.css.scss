@@ -6296,11 +6296,15 @@ body {
 
 /* Anchor padding */
 
-:target:before{
+h2:target:before,
+h3:target:before,
+h4:target:before{
   font-family: "Glyphicons Halflings";
   content: "\e080  ";
 }
-:target{
+h2:target,
+h3:target,
+h4:target{
   padding-top: 52px;
   background-color: #e5eecc;
   padding-bottom: 52px;
@@ -6312,4 +6316,9 @@ body {
 }
 #menu-derecho {
   width: 263px;
+}
+#contenido a {
+  color: #EF8D28;
+  text-decoration: underline;
+  font-weight: bold;
 }
