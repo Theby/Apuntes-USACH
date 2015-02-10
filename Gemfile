@@ -44,6 +44,9 @@ gem 'devise'
 # Para manipular html desde el código antes del render
 gem 'nokogiri'
 
+# Font awesome para iconos y fonts
+gem 'font-awesome-rails'
+
 # Para manejar Memcached dsde Heroku
 #gem 'memcachier'
 

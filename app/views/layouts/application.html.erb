@@ -58,13 +58,15 @@
                                                         <%= link_to apunte_index_path(publicaciones) do %>
                                                             <%= publicaciones.nombre %> <span class="glyphicon glyphicon-chevron-right"></span>
                                                         <% end %>
-                                                        <ul class="dropdown-menu sub-menu">
-                                                            <li><%= link_to publicaciones.nombre, apunte_index_path(publicaciones) %></li>
-                                                            <li class="divider"></li>
-                                                            <% for entrada in publicaciones.entries.order("id ASC") %>
-                                                                <li><%= link_to entrada.nombre, apunte_path(entrada) %></li>
-                                                            <% end %>
-                                                        </ul>
+                                                        <div class="hidden-xs">
+                                                            <ul class="dropdown-menu sub-menu">
+                                                                <li><%= link_to publicaciones.nombre, apunte_index_path(publicaciones) %></li>
+                                                                <li class="divider"></li>
+                                                                <% for entrada in publicaciones.entries.order("id ASC") %>
+                                                                    <li><%= link_to entrada.nombre, apunte_path(entrada) %></li>
+                                                                <% end %>
+                                                            </ul>
+                                                        </div>
                                                     </li>
                                                 <% else %>
                                                     <li><%= link_to publicaciones.nombre, apunte_index_path(publicaciones) %></li>

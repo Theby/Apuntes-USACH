@@ -2,28 +2,104 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6">
-						<h1>Sitio en Construcción y Mantenimiento</h1>
-						<p>Razón: Término del segundo semestre del año 2014</p>
+						<h1>Apuntes USACH</h1>
+						<p>Apuntes de Ingeniería Civil Informática ~</p>
+						<p>¡De la clase al cuaderno, del cuaderno a internet!</p>
 					</div>
 				</div>
 			</div>
 		</section>
 
 		<section id="body" class="officialGrey">
-			<div class="container allWhite">
-				<h2>Mejoras:</h2>
+			<div id="contenido" class="container allWhite">
+				<div class="row">
+					<div class="col-md-12">
+						<h1>¡Bienvenidos!</h1>
+						<p class="lead text-justify">
+							Bienvenidos a mi página de apuntes universitarios, espero que todo lo que esté aquí les sirva en su carrera profesional :) Abajo encontrarán las preguntas más comunes que te ayudarán a entender este sitio web, mientras que arriba encontraras la barra de navegación para todo el sitio.
+						</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4 hidden-xs">
+						<p class="text-center">
+							<%= fa_stacked_icon "heart", base: "square-o", class: "fa-5x text-danger" %>
+						</p>
+					</div>
+					<div class="col-md-8">
+						<h3>Razones y Motivaciones</h3>
+						<blockquote>
+							<p class="text-justify">Los cuadernos gastan mucho espacio, acumulan polvo y son difíciles de navegar, así que: ¿Por qué no mejor tener todo en un solo sitio, más ordenado y accesible? De esta idea nació crear una página de apuntes. La otra motivación es ayudar al resto de mis compañeros con acceso a guías, comentarios y contenido :)</p>
+						</blockquote>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-md-4 hidden-xs">
+						<p class="text-center">
+							<%= fa_stacked_icon "question", base: "square-o", class: "fa-5x text-primary" %>
+						</p>
+					</div>
+					<div class="col-md-8">
+						<h3>¿Y Qué es esta página exactamente?</h3>
+						<blockquote>
+							<p class="text-justify">Está página corresponde a mis apuntes en clase desde el segundo semestre del 2014 hasta el final de mi carrera. Cada apunte es un reflejo de mis cuadernos, por lo que algunos temas no son muy detallados mientras otros sí.</p>
+						</blockquote>
+					</div>
+				</div>
 
-				<ul>
-					<li>Colores más bonitos y Usachinos</li>
-					<li>Mejor organización de los apuntes para tener un acceso más directo y claro.</li>
-					<li>Indices, descargas y guías del material más significativo.</li>
-					<li>Y una que otra cosa más (aparte de todas las mejoras en back-end)</li>
-				</ul>
+				<div class="row">
+					<div class="col-md-4 hidden-xs">
+						<p class="text-center">
+							<%= fa_stacked_icon "search-minus", base: "square-o", class: "fa-5x text-warning" %>
+						</p>
+					</div>
+					<div class="col-md-8">
+						<h3>¿Por qué solo hay apuntes desde el noveno semestre y no desde el comienzo de la carrera?</h3>
+						<blockquote>
+							<p class="text-justify">Porque recién tengo los conocimientos suficientes para crear y montar mi propia página web, además... ¡¡perdí los cuadernos de los semestres anteriores!! Aunque si me preguntas a mí, estos semestres son lejos los más complicados.</p>
+						</blockquote>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-4 hidden-xs">
+						<p class="text-center">
+							<%= fa_stacked_icon "plus", base: "square-o", class: "fa-5x text-success" %>
+						</p>
+					</div>
+					<div class="col-md-8">
+						<h3>¿Puedo incluir mis apuntes en tu página?</h3>
+						<blockquote>
+							<p class="text-justify">¡Claro! tan solo envíame un mail <%= link_to "(Datos de contacto)", contacto_path %> y te daré las indicaciones necesarias para incluir tus apuntes!! ( y por supuesto que tu nombre será incluidos en ellos si lo deseas <i class="fa fa-smile-o"></i> ) </p>
+						</blockquote>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-4 hidden-xs">
+						<p class="text-center">
+							<span class="fa-stack fa-5x">
+							  	<i class="fa fa-square-o fa-stack-2x text-info"></i>
+							  	<i class="fa fa-users fa-stack-1x text-info"></i>
+							  	<i class="fa fa-ban fa-stack-2x text-danger"></i>
+							</span>
+						</p>
+					</div>
+					<div class="col-md-8">
+						<h3>¡No quiero mis apuntes en tu sucia página!</h3>
+						<blockquote>
+							<p class="text-justify">¡Comprendo, pero no te pongas así! :c </br> Esta página es código libre :) Ha sido desarrollada usando Ruby On Rails y Postgresql. Puedes ver el código fuente <a href="https://github.com/Theby/Apuntes-USACH">Aquí</a>. Ante cualquier duda no desistas en <%= link_to "preguntarme!", contacto_path %></p>
+						</blockquote>
+					</div>
+				</div>
+
+				</br></br>
 			</div>
 		</section>
 
-		<section id="footer">
-			<div class="container navbar-fixed-bottom">
+		<section id="footer" class="officialGrey">
+			<div class="container">
 				<div class="panel panel-success">
 					<div class="panel-heading">
 						<h3 class="panel-title" align="center"> Desarrollado por Esteban Gaete Flores </h3>
