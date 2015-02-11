@@ -7,26 +7,24 @@ El código es libre y puedes usarlo para lo que desees, sin embargo agradecería
 
 Aspectos importantes para montar esta aplicación RoR
 
-* Versión Ruby: 
+* Sistema Operativo: Debian 7.7 Wheezy
 
-* Versión Ruby On Rails:
+* Versión Ruby: ruby 2.1.2p95 (2014-05-08 revision 45877) [x86_64-linux]  
 
-* System dependencies
+* Versión Ruby On Rails: Rails 4.1.1
 
-* Configuration
+* Base de datos: psql (PostgreSQL) 9.2.9 
 
-* Database creation
+Configuración
+=============
 
-* Database initialization
+La base de dato usa un administrador el cuál puede ser creado mediante el 
+archivo seed.rb, el formato debe corresponder al de la gema Devise (gema para 
+gestión y autentificación de usuarios.)
 
-* How to run the test suite
+El resto de las gemas importantes que son usadas pueden ser revisadas en 
+Gemfile, cada una tiene sus respectivos comentarios en ese archivo.
 
-* Services (job queues, cache servers, search engines, etc.)
+Para hacer uso de ellas basta con hacer "bundle install", cada página cuenta con documentación en su respectivo repositorio.
 
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Ante cualquier duda contactame a esteban.gaete@usach.cl
