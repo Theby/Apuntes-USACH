@@ -22,6 +22,7 @@ Networks.
 #### Bibliografía
 
 Artículos en ACM y IEEE, papers de conferencias internacionales:
+
  * IPDPS: IEEE International Parallel & Distributed Processing Symposium.
  * PDP: Parallel, Distributed and Network-based Processing.
  * OPODIS: International Conference on Principles of Distributed Systems.
@@ -46,6 +47,7 @@ facilitar su búsqueda:
 
  * [Google Scholar](https://scholar.google.cl/)
  * [High Scalability](http://highscalability.com)
+ * [DataBase Systems and Logic Programming](http://dblp.org/)
 
 ### Apuntes de Clases
 
