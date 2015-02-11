@@ -3,15 +3,13 @@ Apuntes-USACH
 
 Página Web En Ruby On Rails - Dedicada a Apuntes de Ingeniería Civil en Informática
 
+El código es libre y puedes usarlo para lo que desees, sin embargo agradecería mucho si mencionas el origen de este código :)
 
-== README
+Aspectos importantes para montar esta aplicación RoR
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* Versión Ruby: 
 
-Things you may want to cover:
-
-* Ruby version
+* Versión Ruby On Rails:
 
 * System dependencies
 
