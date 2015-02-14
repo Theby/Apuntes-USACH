@@ -75,6 +75,7 @@ module ApplicationHelper
 			htmlLimpio = htmlLimpio.sub('<u>','')
 			htmlLimpio = htmlLimpio.sub('</u>','')
 			htmlLimpio = htmlLimpio.sub('ó','o')
+			htmlLimpio = htmlLimpio.sub('o','ó')
 
 			link.children = "<span class='glyphicon glyphicon-link'></span> " + htmlLimpio
 		end		
