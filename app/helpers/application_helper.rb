@@ -74,7 +74,18 @@ module ApplicationHelper
 			htmlLimpio = htmlLimpio.sub('</small>','')
 			htmlLimpio = htmlLimpio.sub('<u>','')
 			htmlLimpio = htmlLimpio.sub('</u>','')
+			htmlLimpio = htmlLimpio.sub('á','&aacute;')
+			htmlLimpio = htmlLimpio.sub('é','&eacute;')
+			htmlLimpio = htmlLimpio.sub('í','&iacute;')
 			htmlLimpio = htmlLimpio.sub('ó','&oacute;')
+			htmlLimpio = htmlLimpio.sub('ú','&uacute;')
+			htmlLimpio = htmlLimpio.sub('ñ','&ntilde;')
+			htmlLimpio = htmlLimpio.sub('Á','&Aacute;')
+			htmlLimpio = htmlLimpio.sub('É','&Eacute;')
+			htmlLimpio = htmlLimpio.sub('Í','&Iacute;')
+			htmlLimpio = htmlLimpio.sub('Ó','&Oacute;')
+			htmlLimpio = htmlLimpio.sub('Ú','&Uacute;')
+			htmlLimpio = htmlLimpio.sub('Ñ','&Ntilde;')
 
 			link.children = "<span class='glyphicon glyphicon-link'></span> " + htmlLimpio
 		end		

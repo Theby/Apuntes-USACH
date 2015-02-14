@@ -13,6 +13,12 @@ class Entry < ActiveRecord::Base
         nombre.gsub("ó", "o")
         nombre.gsub("ú", "u")
         nombre.gsub("ñ", "n")
+        nombre.gsub("Á", "A")
+        nombre.gsub("É", "E")
+        nombre.gsub("Í", "I")
+        nombre.gsub("Ó", "O")
+        nombre.gsub("Ú", "U")
+        nombre.gsub("Ñ", "N")
     end
 
     # Captura el :id del url antes de pasarsela a otros metodos
