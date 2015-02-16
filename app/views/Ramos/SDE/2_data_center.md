@@ -16,6 +16,9 @@ clusters, como para construir un edificio solo para ellos, se tiene un:
 
 
 
+
+
+
 ### Data Center Network
 
 Usualmente estas redes están distribuidas geográficamente, están bajo un 
@@ -145,3 +148,76 @@ También permite tener la habilidad de modificar dinamicamente el crecimiento
 de los recursos.
 
 Desafíos de la virtualización:
+
+ * Grandes cantidades de información pasando de un servidor a otro.
+ * Re-asignación de VM segpun la sobrecarga, banda ancha y trafico de red.
+
+Acercamiento:
+
+ * Agrupar servidores en clusters.
+ * Minimizar distancia entre VM.
+ * Evitar consumo innecesario de recursos. 
+
+#### Escalabilidad
+
+La escalabilidad de servidores se suele dar con Geo-Distribución.
+
+El problema de optimización es la diversidad geográfica, la redundancia, el 
+tamaño, impuestos diferentes, coste minimo para amortizar costos, latencia, 
+transferencia de usuarios y datos entre datacenters y dependencia entre 
+servicios.
+
+El estado de un usuario debe ser mantenido entre diferentes servidores.
+
+
+
+
+
+
+
+
+
+
+
+
+### Cloud Computing
+
+Permite acceder a una plataforma donde se consumen solo los recursos usados. 
+Permite poner software en producción sin tener que preocuparse directamente 
+por el hardware. 
+
+Mantiene un buen costo de uso, usar mil servidores por una hora cuesta lo mismo
+que usar un servodr por mil horas.
+
+Da servicios como:
+
+ * Saas: Software as a Service
+ * Paas: Platform as a Service, como Google AppEngine, Sandbox Enviroment.
+ * Iaas: Infrastructure as a SErvice, como Amazon EC2, Baremetal VM.
+
+<%= image_tag('sde/servicioscloud.png', :class => 'img-responsive img-thumbnail') %>
+
+Tipos de acceso y privacidad:
+
+ * Private Cloud: Para organizaciones privadas.
+ * Community Cloud: Para comunidades y organizaciones aliadas.
+ * Public cloud: Abierto para el público general.
+ * Hybrid Cloud: Composición de las anteriores.
+
+#### Beneficios
+
+ * Permite comenzar con pocos recursos y solo incrementar el hardware cuando se necesite.
+ * Se paga por lo que se usa.
+ * No necesita staff operacional o de mantenimiento.
+ * Baja preocupación de escalabilidad.
+ * Escala vertical y horizontalmente.
+ * Permite monitoreo de estadisticas.
+ * Gran acceso de banda ancha.
+ * Independiente de la geo-localización.
+ * Sustentable y confiable.
+
+No se recomienda usar en los siguientes escenarios:
+
+ * Aplicaciones con información delicada.
+ * Procesamiento de datos médicos.
+ * Procesamiento de información financiera.
