@@ -2,15 +2,29 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6">
-						<h1>Apuntes USACH</h1>
-						<p>Apuntes de Ingeniería Civil Informática ~</p>
-						<p>¡De la clase al cuaderno, del cuaderno a internet!</p>
+						<div class="hidden-xs">	
+							<div class="col-md-4">
+								<%= image_tag('estilo/header_2.png', :class => 'header-title') %> 	
+							</div>
+							<div class="col-md-8">
+								<p class="title-sub">
+									Apuntes de Ingeniería Civil Informática ~
+									</br>
+									¡De la clase al cuaderno, del cuaderno a internet!
+								</p>		
+							</div>
+						</div>
+						<div class="hidden-sm hidden-md hidden-lg">
+							<h1>Apuntes USACH</h1>
+							<p>Apuntes de Ingeniería Civil Informática ~</p>
+							<p>¡De la clase al cuaderno, del cuaderno a internet!</p>
+						</div>
 					</div>
 				</div>
 			</div>
 		</section>
 
-		<section id="body" class="officialGrey">
+		<section id="body" class="back-image">
 			<div id="contenido" class="container allWhite">
 				<div class="row">
 					<div class="col-md-12">
@@ -18,18 +32,6 @@
 						<p class="lead text-justify">
 							Bienvenidos a mi página de apuntes universitarios, espero que todo lo que esté aquí les sirva en su carrera profesional :) Abajo encontrarán las preguntas más comunes que te ayudarán a entender este sitio web, mientras que arriba encontraras la barra de navegación para todo el sitio.
 						</p>
-						<h2>Un poco de ayuda solidaria</h2>
-						<p class="lead text-justify">
-							Realizar esta página tomó bastante trabajo, esfuerzo y tiempo. Por supuesto es gratis para todos ustedes, pero si deseas devolverme el favor puedes donar presionando este botón! 
-						</p>
-						<div align="center">
-							<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
-								<input type="hidden" name="cmd" value="_s-xclick">
-								<input type="hidden" name="hosted_button_id" value="8PPW7PY96FNNS">
-								<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-								<img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
-							</form>
-						</div>
 					</div>
 				</div>
 				<div class="row">
@@ -110,11 +112,55 @@
 			</div>
 		</section>
 
-		<section id="footer" class="officialGrey">
+		<section id="footer" class="navbar-fixed-bottom footerGrey">
 			<div class="container">
-				<div class="panel panel-success">
-					<div class="panel-heading">
-						<h3 class="panel-title" align="center"> Desarrollado por Esteban Gaete Flores </h3>
+				<div class="triple-footer" align="center">
+					<div class="row">
+						<div class="col-md-4">
+							<div class="row">
+								<div class="paypal-img col-md-4">
+									<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+										<input type="hidden" name="cmd" value="_s-xclick">
+										<input type="hidden" name="hosted_button_id" value="8PPW7PY96FNNS">
+										<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+										<img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+									</form>
+								</div>
+								<div class="col-md-8">
+									<p class="paypal-text text-justify">
+										Realizar esta página tomó bastante trabajo, esfuerzo y tiempo.
+									</br>
+										Por supuesto es gratis para todos ustedes, pero si deseas devolverme el favor puedes donar presionando este botón!
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="row">
+								<div class="col-md-12">
+									<%= image_tag('estilo/footer-03_2.png', class: "footer-logo", :width => "100%") %>	
+								</div>
+								<div class="col-md-12">
+									<p class="firma-footer">
+										Desarrollado por Esteban Gaete Flores
+									</p>
+								</div>
+							</div>							
+						</div>
+						<div class="col-md-4">
+							<div class="col-md-8">
+								<p class="mail-text" align="right">
+									E-mal Contacto
+									</br>
+									¡Respuestas en 24hrs!
+									</br>
+									esteban.gaete@usach.cl
+								</p>
+							</div>
+							<div class="col-md-4">
+								<%= fa_icon "envelope 5x", class: "mail-img" %>
+							</div>		
+						</div>
 					</div>
 				</div>
 			</div>
