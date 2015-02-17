@@ -69,7 +69,8 @@ diversificación de mensajes.
 ### Wireless Sensor Network
 
 Corresponde a redes cerradas de sensores que cubren un área en particular para 
-realizar diferentes acciones.
+realizar diferentes acciones. Fuertemente relacionada con **IoT** - Internet 
+of Things; Smart Cities y Aplicaciones de Sensores.
 
 #### Protocolos de Routing y problemas asociados
 
@@ -89,6 +90,23 @@ realizar diferentes acciones.
    que tiene fallas peligrosas y gasta mucha energía, respectivamente.
  * ONCP: Off Network Control Processing
 
+#### Desafios de Investigación
+
+ * Consumo de energía
+ * Balance de energía
+ * Reducción de sobrecargas
+ * Rebundancia de información y congestión.
+ * Tolerancia a fallos en ambientes inestables.
+
+
+
+
+
+
+
+
+
+
 
 ### Redes P2P
 
@@ -98,5 +116,11 @@ organizan. Es Descentralizado, tolerante a fallas y escalable.
 Las conexiones son a nivel lógico, lo que permite tener redes P2P 
 estructuradas y no estructuradas.
 
+Son auto-organizadas, con alta escalabilidad y tolerante a fallas.
+
+<kbd>
 *Este contenido fue mayormente analizado en el curso de Sistemas Distribuidos*
 *del primer semestre del 2014*
+</kbd>
+
+<a href="https://mega.co.nz/#!yIYijBhS!7JYu5SYdmjDmv8lYjcwxdlTlNJmNDZkQ02CQ-aFYNac" target="_blank"> Descarga una introducción a P2P aquí - Texto en Inglés</a>

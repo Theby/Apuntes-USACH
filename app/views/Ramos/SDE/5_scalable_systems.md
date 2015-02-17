@@ -1,4 +1,4 @@
-## _Clase 5 - Scalable Processing Systems #TODO_
+## _Clase 5 - Scalable Processing Systems_
 
 Estos se usan para sistemas de procesamiento masivo de datos. Una de las 
 fuente de datos son las redes sociales. Se busca discriminar entre los datos 
@@ -9,16 +9,18 @@ que son importantes y los que no.
 
 ### Map Reduce
 
+<%= image_tag('sde/mapreduce.png', :class => 'img-responsive img-thumbnail') %>
+
 Se maneja los datos mediante un Mapeo y una reducción del volumen de datos.
 
 Para escalar la información se divide todo en sub-partes. Se manejan controles de fallas para no perder información.
 
-Ha sido usado principalmente para calcular cosas en la Web: grafos, búsquedas, etc.
+Ha sido usado principalmente para calcular cosas en la Web: grafos, búsquedas, 
+etc. Las tareas se dividen en servicios, algunos de ellos son servicios 
+maestros.
 
-Las tareas se dividen en servicios, algunos de ellos son servicios maestros.
-
-Para los errores se mantiene un ping de los workes constantemente.
-Tener partición de datos es de suma importancia.    
+Para los errores se mantiene un ping de los workes constantemente. Tener 
+partición de datos es de suma importancia.    
 
 #### Percolator
 
@@ -36,8 +38,14 @@ En las transacciones se controla un estado en el que no se puede alterar hasta
 que se termine la transacción.
 
 La mejora de este tipo a MapReduce crea más gastos en recursos si no se maneja 
-bien.
+bien. Para ello es recomendable usar observers para tener un sistema de 
+notificaciones.
 
+#### ¿Cuándo no usar MapReduce?
+
+Cuando la web analizada se actualiza periodicamente, esto proboca que 
+MapReduce lea todos los datos nuevamente, inclusive si el cambio hecho fue
+menor.
 
 
 
