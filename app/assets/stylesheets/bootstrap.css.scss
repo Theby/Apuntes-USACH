@@ -6227,17 +6227,23 @@ button.close {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Custom data */
-
-body {
-    padding-top: 50px;
-    padding-bottom: 0px;
-}
-
-#body {
-    padding-top: 10px;
-    padding-bottom: 15px;
-}
 
 .sidebar-nav {
     padding: 9px 0;
@@ -6407,7 +6413,31 @@ h4:target{
   margin-left: -112px;
   margin-top: -8px;
 }
+#contenido{
+  min-height: 350px;
+}
 
+/* bottom footer */
 
-/* affix */
+#footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
 
+html{
+  height: 100%;
+}
+
+body {
+    padding-top: 50px;
+    padding-bottom: 0px;
+    position: relative;
+    min-height: 100%;
+}
+
+#body {
+    padding-top: 10px;
+    padding-bottom: 190px;
+}
