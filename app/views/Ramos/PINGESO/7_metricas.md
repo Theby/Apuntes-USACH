@@ -68,4 +68,4 @@ Puede ser:
    creación de foros o blogs.
 
  * Diseño Ágil con TDD: El diseño no debe dejarse de lado en metodologías 
-   ágiles. Una de las mejores formas de afrontar esto es aplicando TDD.
+   ágiles. Una de las mejores formas de afrontar esto es aplicando TDD. Revisa la página principal de este ramo para bajar un excelente libro en TDD.

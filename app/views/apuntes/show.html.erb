@@ -1,26 +1,52 @@
 		<section id="title" class="shinyOrange">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-6">
-						<h1><%= @publicacion.nombre %></h1>
-						<p>
-							<p class="visible-print-block">Ingeniería Civil Informática</p>
-							<% if !@publicacion.expositors.blank? %>
-								<% if @publicacion.expositors.count > 1 %>
-									<% for index in 0..@publicacion.expositors.count-3 %>
-										<%= @publicacion.expositors[index].nombre %>,
+					<div class="col-md-10">
+						<div class="hidden-xs">	
+							<div class="col-md-4">
+								<%= image_tag('estilo/header_2.png', :class => 'header-title') %> 	
+							</div>
+							<div class="col-md-8">
+								<h1 class="title-header"><%= @publicacion.nombre %></h1>
+								<p class="visible-print-block">Ingeniería Civil Informática</p>
+								<p class="title-teacher">
+									<% if !@publicacion.expositors.blank? %>
+										<% if @publicacion.expositors.count > 1 %>
+											<% for index in 0..@publicacion.expositors.count-3 %>
+												<%= @publicacion.expositors[index].nombre %>,
+											<% end %>
+											<%= @publicacion.expositors[@publicacion.expositors.count-2].nombre %>
+											y
+											<%= @publicacion.expositors[@publicacion.expositors.count-1].nombre %>
+										<% else %>
+											<%= @publicacion.expositors[0].nombre %>
+										<% end %>
 									<% end %>
-									<%= @publicacion.expositors[@publicacion.expositors.count-2].nombre %>
-									y
-									<%= @publicacion.expositors[@publicacion.expositors.count-1].nombre %>
-								<% else %>
-									<%= @publicacion.expositors[0].nombre %>
+								<p class="visible-print-block">Fecha: <%= @entry.fecha %></p>
+								</p>	
+							</div>
+						</div>
+						<div class="hidden-sm hidden-md hidden-lg">
+							<h1><%= @publicacion.nombre %></h1>
+							<p>
+								<p class="visible-print-block">Ingeniería Civil Informática</p>
+								<% if !@publicacion.expositors.blank? %>
+									<% if @publicacion.expositors.count > 1 %>
+										<% for index in 0..@publicacion.expositors.count-3 %>
+											<%= @publicacion.expositors[index].nombre %>,
+										<% end %>
+										<%= @publicacion.expositors[@publicacion.expositors.count-2].nombre %>
+										y
+										<%= @publicacion.expositors[@publicacion.expositors.count-1].nombre %>
+									<% else %>
+										<%= @publicacion.expositors[0].nombre %>
+									<% end %>
 								<% end %>
-							<% end %>
-							<p class="visible-print-block">Fecha: <%= @entry.fecha %></p>
-						</p>
+								<p class="visible-print-block">Fecha: <%= @entry.fecha %></p>
+							</p>
+						</div>
 					</div>
-					<div id="fecha" class="col-md-6">
+					<div id="fecha" class="col-md-2">
 						<p class="pull-right hidden-print"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span><kbd>Fecha: <%= @entry.fecha %></kbd></p>
 					</div>
 				</div>
@@ -75,7 +101,7 @@
 			</div>
 		</section>
 
-		<section id="footer" class="navbar-fixed-bottom footerGrey">
+		<section id="footer" class="footerGrey">
 			<div class="container">
 				<div class="triple-footer" align="center">
 					<div class="row">

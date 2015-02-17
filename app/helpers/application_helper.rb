@@ -7,8 +7,8 @@ module ApplicationHelper
 			with_toc_data:        				true,    # Agrega anchors a cada header para tener links a las secciones
 			hard_wrap:            				false,   # Permite que un enter en markdown sea un <br> en el output
 			prettify:             				true,    # Permite que las etiquetas <code> tengan colores adecuados para el lenguaje usando google-code-prettify.
-			link_attributes: 	      {rel: "nofollow"}, # Permite agregar atributos a las etiquetas <a></a>
 			xhtml:                              true,    # Permite hacer render de código ruby en .erb
+			link_attributes: 	      			{rel: "nofollow", target: "_blank"}, # Permite agregar atributos a las etiquetas <a></a>
 		}
 
 		extensions = {

@@ -1,4 +1,4 @@
-## _Clase 5 - Software y por que ser Ágil_
+## _Clase 5 - Software y por qué ser Ágil_
 
 Trilogía: Proceso - Personas - Tecnología. 
 
