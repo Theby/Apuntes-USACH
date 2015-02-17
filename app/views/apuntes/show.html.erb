@@ -60,7 +60,7 @@
 						<%= markdown(render file: "Ramos/"+@publicacion.siglas+"/"+@entry.linkMD) %>
 					</div>
 					<div class="col-md-3" role="complementary">
-						<div id="menu-derecho" class="hidden-print hidden-xs hidden-sm" data-spy="affix" data-offset-top="100" data-offset-bottom="50">
+						<div id="menu-derecho" class="hidden-print hidden-xs hidden-sm"> <!--data-spy="affix" data-offset-top="100" data-offset-bottom="50"-->
 
 							<h4>Índice</h4>
 
@@ -154,3 +154,12 @@
 				</div>
 			</div>
 		</section>
+
+		<script>
+			$('#menu-derecho').affix({
+			  offset: {
+			    top: 100,
+			    bottom: 200
+			  }
+			})
+		</script>
