@@ -1,6 +1,6 @@
 ## _Clase 1 - Introducción_
 
-Orientado a la evaluación de proyectos con fines de lucros
+**Orientado a la evaluación de proyectos con fines de lucros.**
 
 
 

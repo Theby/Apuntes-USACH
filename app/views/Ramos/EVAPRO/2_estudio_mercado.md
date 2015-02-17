@@ -10,6 +10,15 @@ También es importante conocer el perfil del consumidor y el tipo de cliente.
 También deben ser tomado en cuenta los elementos de: La capacidad técnica, 
 análisis, reglamentos, etc. 
 
+Algunos aspectos característicos:
+
+ * Perfil del consumidor y del cliente.
+ * Clientes potenciales: distribución geográfica.
+ * Sector, progresión y tendencias.
+ * Análisis de la competencia.
+ * Canales de distribución.
+ * Obstáculos iniciales.
+ * Reglamentos y legislación aplicable.
 
 
 ### Segmentación del Mercado
@@ -23,10 +32,19 @@ Agrupar a los clientes en grupos similares.
 Para ello se usan criterios geográficos, datos personales, específicos a 
 empresas e intangibles.
 
+Algunos criterios de segmentación:
+
+ * Geográficos: (municipio, urbano/rural, densidad de población...)
+ * Datos Personales ( Edad, Sexo, Profesión, Estudios, poder adquisitivo, estado civil, nivel cultural...)
+ * Específicos a Empresas ( Sector, Núm. Trabajadores, Facturación...)
+ * Intangibles ( Estatus Económico, Hobbies, Hábitos de Consumo, Gustos, ...)
 
 
 
-### Investigación del mercado: Comportamiento del Consumidor
+
+### Investigación del mercado:
+
+#### Investigación del mercado: Comportamiento del Consumidor
 
  * El cliente siente una necesidad.
  * Compara.
@@ -48,7 +66,7 @@ Preguntas sobre el consumidor
 
 
 
-### Investigación de Mercado: Definición
+#### Investigación de Mercado: Definición
 
 Se intenta probar una tesis sobre el mercado
 

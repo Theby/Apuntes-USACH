@@ -1,4 +1,4 @@
-## _Clase 9 - Riesgos #TODO_
+## _Clase 8 - Riesgos_
 
 Hay riesgos positivos y negativos.
 
@@ -14,3 +14,6 @@ Herramientas para enfrentar riesgos:
  * Entrevistas.
  * Probabilidades.
  * Clasificación.
+
+Los riesgos deben evaluarse en todos los aspectos y pueden ser usados como 
+razón para realizar el negocio así como también para cancelarlo.

@@ -30,6 +30,7 @@ rentable.
 
  * Reinaldo y Nassir Sapag. Preparación y evaluación de proyectos. 4ta o 5ta edición.
  * Gabriel Baca. Evaluación de Proyectos. 4ta o 5ta edición.
-
+ * <a href="https://mega.co.nz/#!vIY1VagQ!YRxPuILLiqgNb6C9IkeBgKLqSQQd3IU3IlQD-icojJU" target="_blank"> Juan Bravo C. Gestión de Procesos. Edición 2009.</a>
+ 
 ### Apuntes de Clases
 

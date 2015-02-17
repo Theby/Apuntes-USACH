@@ -1,4 +1,4 @@
-## _Clase 8 - Conceptos Económicos_
+## _Clase 7 - Más Conceptos Económicos_
 
 El monto aportado por los inversionistas es un gasto ya que debe ser devuelto 
 con intereses. Lo mismo para los prestamos de los bancos.

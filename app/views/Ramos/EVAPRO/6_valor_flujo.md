@@ -1,4 +1,4 @@
-## _Clase 7 - Valor de Dinero y Flujo de Caja_
+## _Clase 6 - Valor de Dinero y Flujo de Caja_
 
 ### Valor del Dinero
 
