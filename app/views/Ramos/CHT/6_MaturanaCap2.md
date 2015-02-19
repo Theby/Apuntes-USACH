@@ -1,4 +1,4 @@
-## _Emociones y Lenguaje en Educación y Política (Humberto Maturana) - Capitulo 2_
+## _Libro Emociones y Lenguaje en Educación y Política (Humberto Maturana) - Capitulo 2_
 
 ## Lenguaje, emociones y ética en el que hacer político
 

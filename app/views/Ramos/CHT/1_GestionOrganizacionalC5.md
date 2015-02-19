@@ -7,7 +7,7 @@ manipulan a sus empleados para sus propios beneficios.
 
 
 
-## _Poder y Autoridad (Cap. 5 Gestión organizacional)_
+### _Poder y Autoridad (Cap. 5 Gestión organizacional)_
 
 ### El Poder
 
