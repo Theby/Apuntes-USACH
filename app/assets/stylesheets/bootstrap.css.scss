@@ -4301,10 +4301,10 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 }
 .breadcrumb {
   padding: 8px 15px;
-  margin-bottom: 20px;
-  list-style: none;
-  background-color: #f5f5f5;
+  margin-bottom: -10px;
+  list-style: outside none none;
   border-radius: 4px;
+  padding-left: 3px;
 }
 .breadcrumb > li {
   display: inline-block;
@@ -6464,4 +6464,14 @@ body {
 }
 .carousel-indicators .active {
   background-color: #083C87;
+}
+
+#navegador a {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+#navegador .active {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #FFFFFF;
 }

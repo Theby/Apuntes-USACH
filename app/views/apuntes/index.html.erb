@@ -3,25 +3,35 @@
 				<div class="row">
 					<div class="col-md-10">
 						<div class="hidden-xs">	
-							<div class="col-md-4">
-								<%= link_to image_tag('estilo/header_2.png', :class => 'header-title'), home_path %>
-							</div>
-							<div class="col-md-8">
-								<h1 class="title-header"><%= @publicacion.nombre %></h1>
-								<p class="title-teacher">
-									<% if !@publicacion.expositors.blank? %>
-										<% if @publicacion.expositors.count > 1 %>
-											<% for index in 0..@publicacion.expositors.count-3 %>
-												<%= @publicacion.expositors[index].nombre %>,
+							<div class="row">
+								<div class="col-md-12">
+									<ol id="navegador" class="breadcrumb">
+										<li><a href="/home">Home</a></li>
+										<li class="active"><u><%= @publicacion.nombre %></u></li>
+									</ol>
+								</div>
+							</div>							
+							<div class="row">
+								<div class="col-md-4">
+									<%= link_to image_tag('estilo/header_2.png', :class => 'header-title'), home_path %>
+								</div>
+								<div class="col-md-8">
+									<h1 class="title-header"><%= @publicacion.nombre %></h1>
+									<p class="title-teacher">
+										<% if !@publicacion.expositors.blank? %>
+											<% if @publicacion.expositors.count > 1 %>
+												<% for index in 0..@publicacion.expositors.count-3 %>
+													<%= @publicacion.expositors[index].nombre %>,
+												<% end %>
+													<%= @publicacion.expositors[@publicacion.expositors.count-2].nombre %>
+													y
+													<%= @publicacion.expositors[@publicacion.expositors.count-1].nombre %>
+											<% else %>
+												<%= @publicacion.expositors[0].nombre %>
 											<% end %>
-												<%= @publicacion.expositors[@publicacion.expositors.count-2].nombre %>
-												y
-												<%= @publicacion.expositors[@publicacion.expositors.count-1].nombre %>
-										<% else %>
-											<%= @publicacion.expositors[0].nombre %>
 										<% end %>
-									<% end %>
-								</p>	
+									</p>	
+								</div>
 							</div>
 						</div>
 						<div class="hidden-sm hidden-md hidden-lg">
