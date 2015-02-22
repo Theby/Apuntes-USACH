@@ -10,7 +10,7 @@ en ella.
 
 Este libro cuenta con Nueve capítulos, los cuales se repartieron en grupos y 
 cada uno realizo su parte y resumen de forma independiente, como poner todo 
-eso aquí sería demasiado extenso les entrego los apuntes de cada grupo (sin ediciones así que lamento la calidad de algunos de ellos). [Descarga Aquí]().
+eso aquí sería demasiado extenso les entrego los apuntes de cada grupo (sin ediciones así que lamento la calidad de algunos de ellos). [Descarga Aquí](https://mega.co.nz/#!PVAygJwa!hSS8AIQPVDu7q2AgcSz8_6jncD2oQKvTpX5y3cAIjBg).
 
 ### _LA CARA DESAGRADABLE: Las organizaciones como instrumentos de dominación ( Cap. IX Imágenes de la Organización)_
 
