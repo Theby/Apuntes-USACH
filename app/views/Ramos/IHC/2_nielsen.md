@@ -1,10 +1,41 @@
 ## _Clase 2 - Usabilidad a la Nielsen_
 
+**Material de apoyo: [aquí](https://mega.co.nz/#!iMASVQSS!UqEwruKuHl65LtalUdAdF242f4QdfvbaMhOx2JkoRl4)**
+
 **Usabilidad:** efectividad, eficiencia, satisfacción.
 
 Debe proporcionar aprendizaje, de fácil memorización, con baja tasa de errores 
 y con alta satisfacción del usuario.
 
+
+**ISO 9241-11**: Medida en la que un producto se puede usar por determinados 
+usuarios Usabilidad para conseguir objetivos específicos con efectividad, 
+eficiencia y satisfacción en un contexto de uso especificado.
+
+Dimensiones de usabilidad:
+
+ * Aprendizaje
+ * Eficiencia
+ * Retención
+ * Tasa de error
+ * Satisfacción
+
+**¿Por qué es importante la usabilidad?**
+
+ * Una reducción de los costos de producción
+ * Reducción de los costos de mantenimiento y apoyo.
+ * Reducción de los costos de uso
+ * Mejora en la calidad del producto
+
+¿Qué es la evaluación?: Conjunto de metodologías y técnicas que analizan la 
+usabilidad de un sistema interactivo en diferentes etapas del ciclo de vida.
+
+Métodos de evaluación
+ * Inspección: Conjunto de métodos basados en evaluadores que inspeccionan o examinan aspectos relacionados con la usabilidad de la interfaz.
+ * Indagación: La información acerca de los gustos del usuario, desagrados, necesidades y la identificación de requisitos son informaciones indispensables en una etapa temprana del proceso de desarrollo. También es importante obtener información del producto en uso una vez acabado.
+ * Test: Usuarios representativos trabajan en tareas (o el prototipo) y los evaluadores utilizan los resultados para ver cómo la interfaz de usuario soporta a los usuarios con sus tareas.
+
+La evaluación heurística fue desarrollada por Jacob Nielsen, consiste en analizar la conformidad de la interfaz con unos principios reconocidos de usabilidad mediante la inspección de varios evaluadores expertos.
 
 
 ### 10 Heurísticas
