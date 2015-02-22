@@ -5748,6 +5748,7 @@ button.close {
 }
 .carousel-inner > .active {
   left: 0;
+  height: 220px;
 }
 .carousel-inner > .next,
 .carousel-inner > .prev {
@@ -6440,4 +6441,27 @@ body {
 #body {
     padding-top: 10px;
     padding-bottom: 190px;
+}
+
+#item-carrusel {
+  padding-top: 37px;
+}
+#item-carrusel > .col-md-4{
+  padding-left: 20px;
+  padding-top: 16px;
+}
+#item-carrusel > .col-md-8{
+  margin-left: -113px;
+}
+
+.carousel-control.left, 
+.carousel-control.right {
+    background-image: none
+}
+
+.carousel-indicators li {
+  background-color: #1D58A8;
+}
+.carousel-indicators .active {
+  background-color: #083C87;
 }
