@@ -41,6 +41,9 @@
 
                 <div id="nav-menu" class="collapse navbar-collapse">
                     <ul class="nav navbar-nav">
+                        <!-- Mejores Apuntes -->
+                        <li><%= link_to "Mejores Apuntes", mejores_apuntes_path %></li>
+
                         <% if !allSections.blank? %>
                             <% for auxSection in allSections.order("id ASC") %>
                                 <% if !auxSection.publicacions.blank? %>
@@ -81,6 +84,9 @@
 
                         <!-- Tutorial -->
                         <li><%= link_to "Tutoriales", tutorial_path %></li>
+
+                        <!-- Comentarios -->
+                        <li><%= link_to "Comentarios", comentarios_path %></li>
 
                         <!-- Contacto -->
                         <li><%= link_to "Contácto", contacto_path %></li>

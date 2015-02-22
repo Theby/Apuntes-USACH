@@ -45,7 +45,13 @@ Rails.application.routes.draw do
   get 'contacto' => 'apuntes#contacto'
 
   # Ruta a la página de tutoriales
-  get 'tutorial' => 'apuntes#tutorial'
+  get 'tutorial' => 'tutoriales#home'
+
+  # Ruta a la página de comentarios
+  get 'comentarios' => 'apuntes#comentarios'
+
+  # Ruta a los mejores apuntes
+  get 'mejores_apuntes' => 'apuntes#mejores_apuntes'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
