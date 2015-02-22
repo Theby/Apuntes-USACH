@@ -12,7 +12,7 @@ Para temas en más profundidad no olvide revisar los <a href="/tutorial" target=
         <blockquote>       
             <ul>
                 <li>
-                    <%= link_to "Conceptos Importantes", apunte_path("11-Conceptos"), :target => "_blank" %>
+                    <%= link_to "Conceptos Importantes", apunte_path("17-Conceptos"), :target => "_blank" %>
                 </li>
                 <li>
                     <%= link_to "Software y por qué ser Ágil", apunte_path("21-Agil"), :target => "_blank" %>
