@@ -6475,3 +6475,19 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #FFFFFF;
 }
+
+#contenido hr {
+  border-color: black;
+  margin-top: -7px;
+}
+
+#contenido p,
+#contenido ol,
+#contenido ul,
+#contenido td {
+  font-size: 15px;
+}
+
+.disclaimer{
+  padding-bottom: 0px;
+}

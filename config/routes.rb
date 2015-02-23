@@ -46,6 +46,10 @@ Rails.application.routes.draw do
 
   # Ruta a la página de tutoriales
   get 'tutorial' => 'tutoriales#home'
+  # Ruta al tutorial de Memcached
+  get 'tutorial/memcached' => 'tutoriales#memcached', :as => 'memcached'
+  # Ruta al tutorial de SCRUM
+  get 'tutorial/scrum' => 'tutoriales#scrum', :as => 'scrum'
 
   # Ruta a la página de comentarios
   get 'comentarios' => 'apuntes#comentarios'

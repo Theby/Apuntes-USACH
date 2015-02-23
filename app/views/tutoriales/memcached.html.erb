@@ -1,49 +1,42 @@
         <section id="title" class="shinyOrange">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-10">
                         <div class="hidden-xs"> 
                             <div class="col-md-4">
-                                <%= image_tag('estilo/header_2.png', :class => 'header-title') %>   
+                                <%= link_to image_tag('estilo/header_2.png', :class => 'header-title'), home_path %>
                             </div>
                             <div class="col-md-8">
-                                <h1 class="title-contacto">Contacto</h1>      
+                                <h1 class="title-header">Memcached en Ruby on Rails</h1>
+                                <p class="title-teacher">
+                                    Usado en SDE, útil para mejorar la performance de aplicaciones.
+                                </p>    
                             </div>
                         </div>
                         <div class="hidden-sm hidden-md hidden-lg">
-                            <h1>Contacto</h1>
+                            <h1>Memcached en Ruby on Rails</h1>
+                            <p>
+                                Usado en SDE, útil para mejorar la performance de aplicaciones.
+                            </p>
                         </div>
                     </div>
-                    <div id="fecha" class="col-md-6">
-                        <p class="pull-right hidden-print"><kbd>42</kbd></p>
+                    <div id="fecha" class="col-md-2">
+
+                        <p class="pull-right hidden-print"><kbd> <a href="http://venusathenea.tumblr.com/" target="_blank" style="color: red;"> Venus :3</a> </kbd></p>
                     </div>
                 </div>
             </div>
         </section>
 
         <section id="body" class="officialGrey back-image">
-            <div class="container allWhite">
-                <div class="row">
-                    <div id="contenido" class="col-md-12" role="main">
-                        <h3>E-mail <small>¡Respuestas en 24hrs!</small></h3>
-                        <p>
-                            <ul>
-                                <li><a href="mailto:esteban.gaete@usach.cl">esteban.gaete@usach.cl</a></li>
-                            </ul>
-                        </p>
-                        <h3>Páginas relacionadas</h3>
-                        <p>
-                            <ul>
-                                <li><a href="http://www.estebangaete.cl" target="_blank">Página central del Creador</a></li>
-                                <li><a href="http://salasusach.herokuapp.com/" target="_blank">Salas Usach por Felipe Garay</a></li>
-                            </ul>
-                        </p>
-                    </div>
-                </div>
+            <div id="contenido" class="container allWhite">
+
+                <%= markdown(render file: "Tutoriales/memcached.md")%>
+
             </div>
         </section>
 
-        <section id="home-footer" class="navbar-fixed-bottom footerGrey hidden-print">
+        <section id="footer" class="footerGrey hidden-print">
             <div class="container">
                 <div class="triple-footer" align="center">
                     <div class="row">

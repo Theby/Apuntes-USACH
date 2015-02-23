@@ -83,7 +83,21 @@
                         <% end %>
 
                         <!-- Tutorial -->
-                        <li><%= link_to "Tutoriales", tutorial_path %></li>
+                        <li class="dropdown">
+                            <%= link_to tutorial_path do %>
+                                Tutoriales <span class="glyphicon glyphicon-chevron-down"></span>
+                            <% end %>
+                            <ul class="dropdown-menu" role="menu">
+                                <li>Mediiic!!!!</li>
+                                <li class="divider"></li>
+                                <li>
+                                    <%= link_to "Metodología Ágil: Scrum", scrum_path %>
+                                </li>
+                                <li>
+                                    <%= link_to "Memcached en Ruby on Rails", memcached_path %>
+                                </li>
+                            </ul>
+                        </li>
 
                         <!-- Comentarios -->
                         <li><%= link_to "Comentarios", comentarios_path %></li>
