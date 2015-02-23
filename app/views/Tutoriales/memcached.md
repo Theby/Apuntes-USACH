@@ -14,6 +14,11 @@ completamente útil, sin embargo con versiones anteriores no puedo asegurar
 nada. Si identificas alguna falla o algún paso no funciona no dudes en 
 [contactarme!](/contacto).
 
+<%= fa_icon "star 2x" %> <%= fa_icon "star 2x" %> <%= fa_icon "star 2x" %>
+Código libre para todos! Puedes ver el código fuente completo de este tutorial 
+[Aquí!<%= fa_icon "star 2x" %> ](https://github.com/Theby/memcached-tutorial)
+
+
 <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#tutorial-indice" aria-expanded="false" aria-controls="tutorial-indice">
   <b>Índice</b> <small>Mostrar/Esconder</small>
 </button>
