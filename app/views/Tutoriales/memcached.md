@@ -49,6 +49,7 @@ Código libre para todos! Puedes ver el código fuente completo de este tutorial
             <li><a href="#cache-de-una-acción">Cache de una acción</a></li>
             <li><a href="#cache-de-una-vista">Cache de una vista</a></li>
         </ol>
+        <li><a href="#estadísticas-en-una-vista">Estadísticas en una Vista</a></li>
         <li><a href="#comandos-del-cache-de-rails">Comandos del cache de Rails</a></li>
         <li><a href="#enlaces-externos">Enlaces Externos</a></li>
     </ol>
@@ -671,6 +672,7 @@ fragmento seleccionado.
 
 
 ## Estadísticas en una Vista
+<hr class="divider">
 
 Es posible incluir estadísticas de forma visual en alguna vista de la página, 
 para ello se debe:
@@ -734,6 +736,7 @@ Y luego en la vista deseada (en este caso el index):
 
 
 ## Comandos del cache de Rails
+<hr class="divider">
 
 Los comandos a usar en rails para usar la cache son:
 
