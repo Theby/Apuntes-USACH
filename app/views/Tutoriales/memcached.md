@@ -670,6 +670,69 @@ fragmento seleccionado.
 
 
 
+## Estadísticas en una Vista
+
+Es posible incluir estadísticas de forma visual en alguna vista de la página, 
+para ello se debe:
+
+~~~.ruby
+    En: memcached-tutorial/app/controllers/home_controller.rb:
+
+    Agregar en el metodo Index:
+
+    [...]
+    @stats = Rails.cache.stats.first.last
+~~~
+
+Y luego en la vista deseada (en este caso el index):
+
+
+~~~.html.erb
+    En: memcached-tutorial/app/views/home/index.html.erb
+
+    Agregar:
+    [...]
+    <h1>Cache Stats</h1>
+
+    <table>
+      <tr>
+        <th>Metric</th>
+        <th>Value</th>
+      </tr>
+      <tr>
+        <td>Cache hits:</td>
+        <td>< %= @stats['get_hits'] % ></td>
+      </tr>
+      <tr>
+        <td>Cache misses:</td>
+        <td>< %= @stats['get_misses'] % ></td>
+      </tr>
+      <tr>
+        <td>Cache flushes:</td>
+        <td>< %= @stats['cmd_flush'] % ></td>
+      </tr>
+    </table>
+~~~
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Comandos del cache de Rails
 
 Los comandos a usar en rails para usar la cache son:
@@ -680,6 +743,8 @@ Los comandos a usar en rails para usar la cache son:
  * **Rails.cache.fetch(:bar){ 1 }:** Busca el id "bar" en el cache, si lo encuentra traerá su contenido, si no ejecutará lo que se encuentra entré llaves y guardará lo que retorne.
  * **Rails.cache.delete(:foo):**  Borra irremediablemente el contenido referenciado por el id "foo".
  * **Rails.cache.stats:** Permite acceder a diferentes estadísticas de la memoria cache.
+ * **Rails.cache.clear:** Limpia el cache borrando todo el contenido e IDs.
+
 
  Otros:
 
@@ -715,3 +780,6 @@ Los comandos a usar en rails para usar la cache son:
  * [<span class="glyphicon glyphicon-link"></span>Gema Quiet Assets](https://github.com/evrone/quiet_assets)
  * [<span class="glyphicon glyphicon-link"></span>Caching with Rails](http://guides.rubyonrails.org/caching_with_rails.html)
  * [<span class="glyphicon glyphicon-link"></span>Telnet](http://es.wikipedia.org/wiki/Telnet).
+ * [<span class="glyphicon glyphicon-link"></span>Memcache en MySQL](https://mega.co.nz/#!yVxiDJ4Q!cxqSkpagZF519M4By5L0hNrkNRz4vHFvIAHvD6IM5VI)
+ * [<span class="glyphicon glyphicon-link"></span>Memcached Wiki Oficial](https://code.google.com/p/memcached/source/browse/Resources.wiki?repo=wiki)
+ * [<span class="glyphicon glyphicon-link"></span>Redis Vs Memcached](http://stackoverflow.com/questions/2873249/is-memcached-a-dinosaur-in-comparison-to-redis)
