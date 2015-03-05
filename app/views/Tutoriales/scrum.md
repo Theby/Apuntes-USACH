@@ -179,7 +179,7 @@ es lo que el cliente deseaba en primer lugar.
 ### El Manifiesto Ágil
 
 En este contexto nacieron las metodologías ágiles en conjunto con el
-[manifiesto Ágil](www.agilemanifesto.org), el cual prioriza:
+[Manifiesto Ágil](http://www.agilemanifesto.org), el cual prioriza:
  
  * **Individuos e interacciones** sobre Procesos y herramienta.
  * **Software que funciona** sobre Documentación exhaustiva.
@@ -537,7 +537,14 @@ anteriores de modo que este nuevo software representa un incremento en
 funcionalidades, cualidades y calidad.
 
 El producto en su totalidad debe ser capaz de desplegarse en un ambiente de 
-producción talque el Cliente pueda usarlo para su negocio, a menos qué el Product Owner especifique lo contrario.
+producción talque el Cliente pueda usarlo para su negocio, a menos qué el 
+Product Owner especifique lo contrario.
+
+Además no hay que olvidar la documentación básica:
+
+ * Manuales de Instalación
+ * Manuales de Uso para Mantención
+ * Manuales de Uso para Usuarios (de bajo y alto nivel)
 
 ### Cancelando un Sprint
 
@@ -816,7 +823,8 @@ jornada de trabajo.
 Otro tipo de historia son las Tasks técnicas, estás representan tareas
 independiente de cualquier historia y que existen para satisfacer necesidades
 técnicas del Team, estás no deben ser discutidas con el Product Owner ya que
-satisfacen necesidades especificas del Team durante el desarrollo, como por ejemplo: Conectar la Base de datos con el Framework.
+satisfacen necesidades especificas del Team durante el desarrollo, como por 
+ejemplo: Conectar la Base de datos con el Framework.
 
 En resumen, las Task:
 
@@ -1870,7 +1878,36 @@ asíncrono.
 Respecto a las reuniones diarias, **haganlas todos los días en el mismo lugar 
 a la misma hora**. Usar una minuta es buena idea :)
 
-**5.- Sprint Review informal y comodo**
+**5.- Auto-organización**
+
+Es importante que el Team se auto-organice y que cada miembro tome sus 
+propias Historias y Task para comenzar el trabajo, sin embargo trabajar auto-
+organizadamente sin objetivo claro es complicado, para ello el Objetivo del 
+Sprint ayuda bastante, sin embargo puede surgir la duda ¿Y qué historia 
+debiéramos hacer primero?
+
+Naturalmente cada historia debiera tener el valor de negocio del cliente y la 
+estimación de complejidad dada por el Team, pero ambos indicadores no nos 
+ayudan a entender a simple vista que historias hacer primero para agilitar el 
+proceso.
+
+Pues yo les tengo una solución bastante sencilla llamada MoSCoW, esto consiste 
+en clasificar cada historia en:
+
+ * **M** (Must): Describe un requerimiento de muy alta prioridad y que no debe 
+   dejarse de lado.
+ * **S** (Should): Representa a un requerimiento de alta prioridad que debe 
+   completarse si es posible.
+ * **C** (Could): Describe requerimientos que se desea que se completen pero 
+   que pueden esperar.
+ * **W** (Won't): Representa requerimientos que el Product OWner desea que se 
+   implementen pero quizás en un futuro y si el tiempo lo permite (También 
+   conocidos como **NICE TO HAVE**)
+
+Esta clasificación debe hacerse en el Sprint Planning con el Product Owner 
+presente, de forma que todos estén de acuerdo con la prioridad dada.
+
+**6.- Sprint Review informal y comodo**
 
 Esta reunión no es de estrés, es para mostrar lo avanzado. No terminar un 
 Sprint no significa haber fallado. Se debe aprender de los errores y mejorar 
@@ -1883,20 +1920,20 @@ para que el tenga todo el tiempo del mundo de experimentar con él, esto
 provocará que en el siguiente Backlog Refinement la discución sea más fluida, 
 el Product Owner sabrá con un poco más de claridad que es lo que quiere.
 
-**6.- Sprint Retrospective, a celebrar!**
+**7.- Sprint Retrospective, a celebrar!**
 
 Tal cuál como allí dice, esto se puede hacer de dos simples formas, realizar 
 la reunión primero y luego celebrar o hacer ambas cosas al mismo tiempo. Lo 
 que mejor resulte para ustedes.
 
-**7.- Transparencia**
+**8.- Transparencia**
 
 Todo el contenido, todos los errores, todas tareas, todo todo, debe ser 
 transparente para el Team, el Scrum Master y el Product Owner. Mayor 
 transparencia da mayor confianza, lo que creará un ambiente de trabajo más 
 amigable.
 
-**8.- Ingeniero en experimentación**
+**9.- Ingeniero en experimentación**
 
 Uno de los grandes aspectos de las metodologías ágiles y de Scrum en general 
 es que no son metodologías rígidas in-alterables, ¿Crees que lo que haces no 
@@ -1908,7 +1945,7 @@ Retrospective, experimenten prueben y mejoren! Tan solo no olviden el
 manifiesto ágil y serán capaces de mejorar sus aspectos de trabajo de forma 
 increíble.
 
-**9.- Compartir el conocimiento**
+**10.- Compartir el conocimiento**
 
 "Claro, todos en el equipo deben saber como se hacen las cosas y blah blah", 
 sí es cierto, el equipo debe transmitir el conocimiento técnico entre ellos, 
@@ -1924,7 +1961,7 @@ Tan solo recuerda, si estos se implementan o no se debe decidir durante un
 Sprint Retrospective para implementarlos en el siguiente Sprint!
 
 
-**10.- Herramientas**
+**11.- Herramientas**
 
 Por último, es importante usar herramientas que ayuden a ser ágil, usar 
 sistemas como Google Drive para compartir archivos está bien, pero usarlo para 
@@ -1985,6 +2022,7 @@ para diferentes superficies :)
  * [Atlassian: Sprint Review](http://blogs.atlassian.com/2015/02/sprint-review-atlassian/)
  * [Atlassian: Retrospectives](http://blogs.atlassian.com/2014/12/retrospectives-atlassian/)
  * [OWASP - Seguridad Web](https://www.owasp.org/index.php/Main_Page)
+ * [MoSCoW Method](http://en.wikipedia.org/wiki/MoSCoW_method)
 
 
 
@@ -2031,8 +2069,9 @@ para diferentes superficies :)
 ## Enlaces Externos
 <hr class="divider">
 
+ * [Chile Ágil](http://www.chileagil.cl/)
  * [Agile Methodology](http://agilemethodology.org/)
- * [Agile Manifesto](www.agilemanifesto.org)
+ * [Agile Manifesto](http://www.agilemanifesto.org)
  * [Scrum](https://www.scrum.org/)
  * [Scrum Methodology](http://scrummethodology.com/)
  * [Guía Scrum](http://www.scrumguides.org/scrum-guide.html)
