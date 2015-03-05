@@ -3,7 +3,7 @@
 
 <%= fa_icon "star 2x" %> **Antes de comenzar este tutorial por favor leer esto**. <%= fa_icon "star 2x" %>
 
-Este ha tutorial nacido del gran desempeño que mi equipo tuvo usando esta 
+Este tutorial ha nacido del gran desempeño que mi equipo tuvo usando esta 
 metodología en el ramo PINGESO durante el segundo semestre del año 2014 y desde
 entonces lo hemos seguido usando en proyectos personales y reales por lo que 
 este tutorial abarca incluso más de lo que se ve en PINGESO.
@@ -94,7 +94,13 @@ Ante cualquier consulta, duda o conflicto no dudes en [contactarme!](\contacto).
                 </li>
             </ol>
         </li>
-        <li><a href="#glosario">Glosario</a></li>
+        <li><a href="#criterio-de-listo-y-de-aceptación">Criterio de listo y de aceptación</a>
+            <ol>
+                <li><a href="#criterio-de-listo">Criterio de Listo</a></li>
+                <li><a href="#criterio-de-aceptación">Criterio de Aceptación</a></li>
+            </ol>
+        </li>
+        <li><a href="#empezando-tu-primer-sprint">Empezando tu Primer Sprint</a></li>
         <li><a href="#material-de-ayuda">Material de Ayuda</a></li>
         <li><a href="#software-de-ayuda">Software de Ayuda</a></li>
         <li><a href="#enlaces-externos">Enlaces Externos</a></li>
@@ -513,6 +519,10 @@ Durante el Sprint:
    plan flexible y bien diseñado que guiará a construirlo y el producto 
    resultante.
 
+Sin embargo es importante tener en cuenta que durante el Sprint pueden haber 
+reuniones aclaratorias respecto a las historias, el feedback entre el Team y 
+el Product Owner es muy importante.
+
 [^5]: Alcance del software, que tan grande es y cuantas funcionalidades tiene
 
 ### Producto final de un Sprint
@@ -815,8 +825,6 @@ En resumen, las Task:
  * Es responsabilidad de todo el equipo
  * Un miembro debe ofrecerse a realizarla y nunca ser obligado a hacerlo.
 
-
-
 ### Product Backlog
 
 El Product Backlog es una lista de todos los trabajos deseados en el proyecto, 
@@ -890,8 +898,8 @@ diarias.
 Es natural que las Tasks de cada historia vayan cambiando mientras se trabaja 
 en el Sprint, así como también el hecho que se agreguen nuevas historias 
 técnicas para cumplir con ciertos requerimientos. Las Tasks no son discutidas 
-con el Product Owner y son de total responsabilidad del Team, por lo que no pueden ser 
-una escusa para decir porque un Sprint no ha sido terminado.
+con el Product Owner y son de total responsabilidad del Team, por lo que no 
+pueden ser una escusa para decir porque un Sprint no ha sido terminado.
 
 Todo el trabajo avanzado, el nuevo trabajo y el trabajo eliminado del Sprint 
 Backlog durante el Sprint, ya sean Tasks técnicas, task normales, nuevas 
@@ -1170,7 +1178,9 @@ a que todos revelen su número al mismo tiempo, esto es muy importante, una vez
 que todos revelan sus números aquellos que dieron el menor y mayor valor deben 
 opinar porqué piensan que ese valor es el indicado, en esta discusión puede 
 intervenir todo el Team, y el Product Owner, luego de llegar a un acuerdo el 
-Scrum Master asigna un valor a la historia y se procede con la siguiente.
+Scrum Master asigna un valor a la historia y se procede con la siguiente. En 
+este proceso el Product Owner solo participa en la discusión de los temas pero 
+nunca interviene en los Story Points.
 
 [^6]: http://www.planningpoker.com/
 [^7]: Para Scrum Poker se pueden usar otras escalas, el usar la de Fibonacci modificada es una recomendación personal.
@@ -1197,6 +1207,12 @@ elegir cuales formaran parte del Sprint Backlog ha realizar en este Sprint.
 Esta selección se lleva en conjunto con el Product Owner para que todos estén 
 de acuerdo a lo elegido. El objetivo principal es maximizar el valor entregado 
 al cliente.
+
+Adicionalmente es posible tener una lista de historias llamada **NICE TO HAVE**
+, las cuáles son historias que el Product Owner quisiera terminar durante este 
+Sprint, pero que solo serán tomadas en cuenta si el Team termina antes el 
+Sprint Backlog, lo que le da tiempo para avanzar en estas historias, las 
+cuales no deben ser terminadas necesariamente.
 
 Al final de esta reunión el Team debe ser capas de explicar al Product Owner y 
 al Scrum Master como va a trabajar durante el Sprint para lograr el objetivo 
@@ -1647,20 +1663,295 @@ Team y debe ser transparente para todos.
 
 
 
-## Glosario
+## Criterio de listo y de aceptación
 <hr class="divider">
 
-### **O**
+Los criterios de listo y de aceptación ayudan a entender cuando una historia ha
+sido completada satisfactoriamente, asegurando su calidad. Es importante que 
+ambos términos se discutan a fondo con el Product Owner hasta que ambos 
+criterios sea transparentes para todos.
 
- * Objetivo del Sprint: Razón por la cual se está desarrollando el Sprint. 
-   Determina cada historia seleccionada del Product Backlog. Es parte del 
-   Sprint Backlog.
+En caso de que el Team de Scrum trabaje en una organización se debe revisar si 
+existe alguna definición formal de criterio de listo o aceptación a nivel 
+organizacional y usar esa definición como línea base. Esto asegura 
+compatibilidad con los negocios de la organización. Además estos criterios 
+pueden cambiar de Team en Team.
+
+Este criterio puede cambiar durante el desarrollo del software, es decir, un 
+Sprint puede tener un criterio de listo o aceptación diferente al de otro 
+Sprint, pero nunca se debe cambiar durante el desarrollo de un Sprint. Se 
+aconseja que este punto sea repasado durante el Sprint Retrospective. Mientras 
+se avanza en el proyecto se espera que el Team pueda tener un criterios más 
+estrictos y severos para aumentar la calidad del producto.
+
+Para mejorar el entendimiento y la transparencia de estos criterios se 
+recomienda hacerse las siguientes preguntas:
+
+* ¿Están las historias bien definidas por el Product Owner, Scrum Master y por 
+  todo el Team antes de implementarse?
+* ¿Todos en el Team entienden y viven la cultura y valores de un Team de 
+  ingenieros?
+* ¿Están claras las definiciones y requerimientos sobre test automatizados, 
+  revisión de código e integración continua para
+  asegurar un desarrollo ágil?
+* ¿Una vez completada una historia aparecen muchos bugs? En otras palabras, 
+  terminar, completar o dejar algo listo realmente significa que está listo?
+
+### Criterio de Listo
+
+El criterio de listo se establece en el Sprint Planning y se aplica de forma 
+global a todos los ítemes del Product Backlog, por lo que determina que se 
+debe hacer como mínimo para terminar una historia. Cuando una historia ha sido 
+terminada y se dice que está "lista" quiere decir que que todos entienden 
+porque está lista y que es lo que esto implica.
+
+Está definición permite decidir cuanto trabajo es capas de hacer un Team 
+durante un Sprint, dándoles así un buen criterio para decidir que historia de
+usuario irá en el Sprint Backlog o no.
+
+Un ejemplo normal de criterio de listo es:
+
+ * Cada método generado tiene un caso de prueba para cada aspecto de el. (
+  usualmente es fácil de cumplir con esto usando TDD).
+ * Todos los casos de prueba asociados no fallan.
+ * La integración no ha arruinado otras historias ni sus casos de pruebas(en 
+   caso de que si lo haga deben ser reparadas).
+ * El código fuente está apropiadamente comentado.
+ * El Product Owner ha aceptado le estado actual de la historia. (Esto es muy 
+   importante, el Product Owner debe evaluar cada historia para considerarla 
+   lista)
+
+El Workflow de trabajo para las Task también es parte del criterio de listo, 
+por ejemplo que una Task tenga que pasar de "A hacer" a "Haciendo", "Testing" 
+y "Listo".
+
+Estos criterios se aplican para todos los aspectos del software, sin embargo si
+existen historias particulares que no pueden cumplir con uno o más puntos del 
+criterio se debe especificar esto en el criterio de aceptación y el Product 
+Owner debe estar de acuerdo con ello.
+
+### Criterio de Aceptación
+
+Se establece en el Sprint Planning, sirve para saber que se debe cumplir para 
+que una historia en particular esté completa. Esto debe ser bastante detallado
+por lo que solo debe aplicarse en las historias del Sprint Backlog.
+
+La mejor forma de crear criterios de aceptación es creando diversos escenarios 
+de prueba para todas las funcionalidades de la historia, esto se puede hacer 
+siguiendo este esquema:
+
+~~~
+    Historia: [Nombre]
+
+    Escenario 1: [Titulo]
+    Dado [Contexto]
+      Y [Más contexto]...
+    Cuando  [Evento]
+    Entonces  [Resultado/Output]
+      Y [Otro resultado/output]...
+     
+    Escenario 2: ...
+~~~
+
+Ejemplo: YO COMO "rol", QUIERO "necesidad", PARA "razón".
+
+~~~
+    "Story: El Dueño de la cuenta puede retirar dinero
+     Yo como 'Dueño de la cuenta'
+     Quiero 'quiero retirar dinero de una ATM'
+     Para 'poder retirar dinero cuando el banco esté cerrado'"
+     
+    Escenario 1: [la cuenta tiene suficientes fondos]
+    Dado [el balance de la cuenta es $100]
+     Y [la tarjeta es valida]
+     Y [la maquina tiene suficiente dinero]
+    Cuando [el dueño de la cuenta requiera $20]
+    Entonces [el ATM debiera entregar $20]
+     Y [el balance de la cuenta debiera ser $80]
+     Y [la tarjeta debiera ser devuelta]
+     
+    Escenario 2: [la cuenta tiene fondo insuficientes]
+    Dado [el balance de la cuenta es $10]
+     Y [la tarjeta es valida]
+     Y [la maquina tiene suficiente dinero]
+    Cuando [el dueño de la cuenta requiera $20]
+    Entonces [el ATM no debe entregar ningún dinero]
+     Y [el ATM debe decir que no hay suficientes fondos]
+     Y [el balance de la cuenta debiera ser $20]
+     Y [la tarjeta debiera ser devuelta]
+     
+    Escenario 3: [La tarjeta ha sido deshabilitada]
+    Dado [que la tarjeta está deshabilitada]
+    Cuando [el dueño de la cuenta requiera $20]
+    Entonces [el ATM debiera retener la tarjeta]
+    Y [el ATM debiera decir que la tarjeta ha sido retenida]
+     
+    Escenario 4: [el ATM tiene fondos insuficientes]
+    ...
+~~~
+
+En este proceso se deben abarcar absolutamente todos los escenarios posibles.
 
 
 
 
 
- 
+
+
+
+
+
+
+
+
+
+
+
+## Empezando tu Primer Sprint
+<hr class="divider">
+
+Esta sección es una recomendación personal para todos aquellos comenzando 
+Scrum por primera vez, en esta página contiene todo lo necesario para usar 
+Scrum, sin embargo puedo imaginarme como se agarran la cabeza para poder 
+entender esta gran cantidad de contenido en tan poco tiempo, pues la 
+recomendación es: *no lo hagas*. No todo al mismo tiempo al menos.
+
+Scrum se desarrollo en Sprints de dos o 4 semanas y no todas las reuniones 
+ocurren el mismo día, lo que te permite ir aprendiendo mientras lo vives.
+
+Por ello a continuación les dejo con una serie de recomendaciones para comenzar
+a ser ágil y aprender Scrum!
+
+**1.- Armar el equipo**
+
+En este sentido el equipo es: Scrum Master + Team. Al armar el equipo se debe 
+repasar muy bien cual es el rol y responsabilidad de estos aspectos, de forma 
+que el Scrum Master se ofresca por si mismo y no que sea impuesto por el resto 
+del equipo.
+
+También es importante que exista confianza en el equipo, para ello se 
+recomienda pasar más tiempo juntos, ya sea en el ambiente laboral o 
+compartiendo tiempo libre.
+
+**2.- Reuniones previas**
+
+Antes de empezar cualquier Sprint lo más probable es que no se tenga ni idea 
+de lo que se va a hacer, para ello se recomienda tener una reunión previa en 
+la que el Product Owner explicará el negocio a grandes rasgos, todo lo que el 
+anhela y lo maravilloso de su idea. Asegurence de hacer todas las preguntas 
+posibles para entender de que se trata, no se preocupen todavía de si es 
+factible o no, solo preocúpense de entender el negocio.
+
+En esta reunión es posible que noten que el cliente no sabe lo que es un 
+Product Owner, esta reunión sirve también para explicar este rol.
+
+**3.- Backlog Refinement + Sprint Planning**
+
+Esta es la primera reunión de Scrum, infórmate muy bien de ellas en esta guía 
+antes de continuar.
+
+La primera vez es bueno realizar ambas en una sola reunión, esto ayudará tanto 
+al Product Owner a entender a Scrum como al Team comprender el sistema de 
+trabajo ágil. Ahora, este primer Sprint debe considerar historias importantes 
+pero no muy complejas, es el comienzo de varias iteraciones por lo que no hay 
+que ser ambicioso.
+
+El objetivo máximo para el Team durante este Sprint debe ser el entender Scrum 
+y todas sus partes.
+
+**4.- Feedback y reuniones diarias**
+
+Se aconseja tener una o dos reuniones semanales con el Product Owner para ir 
+aclarando dudas sobre las historias del Sprint Backlog, siempre y cuando sea 
+necesario, no hay que ser muy riguroso en esto y se debe pedir la colaboración
+del Product Owner. Si no pueden ser presenciales se recomienda usar un chat 
+asíncrono.
+
+Respecto a las reuniones diarias, **haganlas todos los días en el mismo lugar 
+a la misma hora**. Usar una minuta es buena idea :)
+
+**5.- Sprint Review informal y comodo**
+
+Esta reunión no es de estrés, es para mostrar lo avanzado. No terminar un 
+Sprint no significa haber fallado. Se debe aprender de los errores y mejorar 
+para el siguiente Sprint, por ello, en esta reunión, se debe anotar cada 
+acotación dada por el Product Owner para entregar mucho más valor en la 
+siguiente iteración.
+
+También se recomienda que el Product Owner se quede con el software terminado 
+para que el tenga todo el tiempo del mundo de experimentar con él, esto 
+provocará que en el siguiente Backlog Refinement la discución sea más fluida, 
+el Product Owner sabrá con un poco más de claridad que es lo que quiere.
+
+**6.- Sprint Retrospective, a celebrar!**
+
+Tal cuál como allí dice, esto se puede hacer de dos simples formas, realizar 
+la reunión primero y luego celebrar o hacer ambas cosas al mismo tiempo. Lo 
+que mejor resulte para ustedes.
+
+**7.- Transparencia**
+
+Todo el contenido, todos los errores, todas tareas, todo todo, debe ser 
+transparente para el Team, el Scrum Master y el Product Owner. Mayor 
+transparencia da mayor confianza, lo que creará un ambiente de trabajo más 
+amigable.
+
+**8.- Ingeniero en experimentación**
+
+Uno de los grandes aspectos de las metodologías ágiles y de Scrum en general 
+es que no son metodologías rígidas in-alterables, ¿Crees que lo que haces no 
+funciona para tu equipo? ¿Crees que sería mejor implementar el siguiente 
+esquema de trabajo? ¿Quizas usar la siguiente métrica nos pueda ser útil?
+
+En Scrum todo esto es posible y debe ser discutido por el Team en las Sprint 
+Retrospective, experimenten prueben y mejoren! Tan solo no olviden el 
+manifiesto ágil y serán capaces de mejorar sus aspectos de trabajo de forma 
+increíble.
+
+**9.- Compartir el conocimiento**
+
+"Claro, todos en el equipo deben saber como se hacen las cosas y blah blah", 
+sí es cierto, el equipo debe transmitir el conocimiento técnico entre ellos, 
+pero también es **sumamente importante** compartir con otros equipos Scrum, 
+sin importar si ellos están haciendo un proyecto absolutamente diferente.
+
+Compartir con otro equipo el como ellos abarcan, desde la perspectiva de la 
+metodología, los diferentes problemas, reuniones y artefactos es un excelente 
+método para mejorar la agilidad. Se deben compartir herramientas, métodos, 
+sistemas, etc.
+
+Tan solo recuerda, si estos se implementan o no se debe decidir durante un 
+Sprint Retrospective para implementarlos en el siguiente Sprint!
+
+
+**10.- Herramientas**
+
+Por último, es importante usar herramientas que ayuden a ser ágil, usar 
+sistemas como Google Drive para compartir archivos está bien, pero usarlo para 
+graficar Burndowns y tener tableros Kanban, oh no.
+
+Al final de esta guía encontraras tres secciones: material de ayuda, software 
+de ayuda y enlaces externos.
+
+Te aconsejo revisar los tres e intentar usar algunos de los softwares
+propuestos, verás como la vida es más fácil cuando sabes que pegamento usar 
+para diferentes superficies :)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1694,14 +1985,6 @@ Team y debe ser transparente para todos.
  * [Atlassian: Sprint Review](http://blogs.atlassian.com/2015/02/sprint-review-atlassian/)
  * [Atlassian: Retrospectives](http://blogs.atlassian.com/2014/12/retrospectives-atlassian/)
  * [OWASP - Seguridad Web](https://www.owasp.org/index.php/Main_Page)
- * Agile and Iterative Development: A Manager’s Guide by Craig Larman
- * Agile Estimating and Planning by Mike Cohn
- * Agile Project Management with Scrum by Ken Schwaber
- * Agile Retrospectives by Esther Derby and Diana Larsen
- * Agile Software Development Ecosystems by Jim Highsmith
- * Agile Software Development with Scrum by Ken Schwaber and Mike Beedle
- * Scrum and The Enterprise by Ken Schwaber
- * User Stories Applied for Agile Software Development by Mike Cohn
 
 
 
@@ -1722,7 +2005,12 @@ Team y debe ser transparente para todos.
 
  * [SonarQube](http://www.sonarqube.org/)
  * [JIRA - Atlassian](https://www.atlassian.com/software/jira/)
+ * [Git-Flow](http://nvie.com/posts/a-successful-git-branching-model/)
  * [Wapiti](http://wapiti.sourceforge.net/)
+ * [Bamboo - Atlassian](https://www.atlassian.com/software/bamboo)
+ * [Travis CI](https://travis-ci.org/recent)
+ * [Jenkins CI](http://jenkins-ci.org/)
+ * [HipChat](https://haskmell.hipchat.com/home)
 
 
 
