@@ -2022,9 +2022,10 @@ para diferentes superficies :)
  * [Atlassian: Sprint Review](http://blogs.atlassian.com/2015/02/sprint-review-atlassian/)
  * [Atlassian: Retrospectives](http://blogs.atlassian.com/2014/12/retrospectives-atlassian/)
  * [OWASP - Seguridad Web](https://www.owasp.org/index.php/Main_Page)
+ * [Libro - OWASP Testing Guide](https://mega.co.nz/#!PcYSxCwQ!HKtqRvXO131WpFErFEsyTHA9QA3BVyfi3QI9_2pOqSw)
  * [MoSCoW Method](http://en.wikipedia.org/wiki/MoSCoW_method)
-
-
+ * [Libro - The Lean StartUp](http://theleanstartup.com/)
+ * [Libro - Is Design Dead](https://mega.co.nz/#!fNoyTYBS!mmEZCGziDYrUkyrsqs1YDHkQqVstMkutM44mAIVtsjM)
 
 
 
@@ -2081,5 +2082,6 @@ para diferentes superficies :)
  * [Scrum Alliance](https://www.scrumalliance.org/)
  * [Mountain Goat Software](http://www.mountaingoatsoftware.com/agile/scrum)
  * [Scrum Development: Yahoo Groups](https://groups.yahoo.com/neo/groups/scrumdevelopment/info)
+ * [Lean StartUp](https://en.wikipedia.org/wiki/Lean_startup)
 
 </br>
