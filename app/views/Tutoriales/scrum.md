@@ -3,7 +3,7 @@
 
 <%= fa_icon "star 2x" %> **Antes de comenzar este tutorial por favor leer esto**. <%= fa_icon "star 2x" %>
 
-Este tutorial nacido del gran desempeño que mi equipo tuvo usando esta 
+Este ha tutorial nacido del gran desempeño que mi equipo tuvo usando esta 
 metodología en el ramo PINGESO durante el segundo semestre del año 2014 y desde
 entonces lo hemos seguido usando en proyectos personales y reales por lo que 
 este tutorial abarca incluso más de lo que se ve en PINGESO.
