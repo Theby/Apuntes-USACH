@@ -316,7 +316,7 @@ productividad del equipo y el conocimiento de este sobre el software
 desarrollado, permitiendo así que todos los miembros sean multi-disciplinados.
 
 [^3]: Un Sprint es una iteración completa, desde ver requisitos hasta entregar el software funcional.
-[^4]: [Página de guías de Scrum oficial](http://www.scrumguides.org/scrum-guide.html#definition)
+[^4]: http://www.scrumguides.org/scrum-guide.html#definition
 
 Scrum ha sido usado por:
 
