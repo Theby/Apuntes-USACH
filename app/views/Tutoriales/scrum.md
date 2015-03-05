@@ -24,10 +24,10 @@ Ante cualquier consulta, duda o conflicto no dudes en [contactarme!](\contacto).
     <ol>
         <li><a href="#¿qué-es-una-metodología-ágil?">¿Qué es una metodología ágil?</a>
             <ol>
-                <li><a href="#el-manifiesto-ágil">El Manifiesto Ágil</a></li>
-                <li><a href="#principios-agiles">Principios Ágiles</a></li>
-                <li><a href="#¿cuándo-ser-ágil?">¿Cuándo ser Ágil?</a></li>
-                <li><a href="#contrato-ágil">Contrato Ágil</a></li>
+                <li><a href="#el-manifiesto-Ágil">El Manifiesto Ágil</a></li>
+                <li><a href="#principios-Ágiles">Principios Ágiles</a></li>
+                <li><a href="#¿cuándo-ser-Ágil?">¿Cuándo ser Ágil?</a></li>
+                <li><a href="#contrato-Ágil">Contrato Ágil</a></li>
             </ol>
         </li>
         <li><a href="#scrum">Scrum</a>
@@ -35,7 +35,7 @@ Ante cualquier consulta, duda o conflicto no dudes en [contactarme!](\contacto).
                 <li><a href="#breve-introducción">Breve Introducción</a></li>
                 <li><a href="#características-importantes">Características Importantes</a></li>
                 <li><a href="#¿cuándo-usar-scrum?">¿Cuándo usar Scrum?</a></li>
-                <li><a href="#otras-metodologías-ágiles">Otras metodologías Ágiles</a></li>
+                <li><a href="#otras-metodologías-Ágiles">Otras metodologías Ágiles</a></li>
             </ol>
         </li>
         <li><a href="#el-ciclo-scrum">El ciclo Scrum</a>
@@ -239,17 +239,17 @@ significar que el proyecto siempre estuvo condenado al fracaso.
 
 ### Contrato Ágil
 
-    Existen dos extremos para contratos ágiles:
+Existen dos extremos para contratos ágiles:
 
-     * Pago con tiempo fijo: Software llave en mano: Se estima tiempo y costo. El 
-       Cliente tiene el poder, si existen problemas que atrasen el proyecto, los 
-       gastos involucrados son responsabilidad de los desarrolladores.
+ * Pago con tiempo fijo: Software llave en mano: Se estima tiempo y costo. El 
+   Cliente tiene el poder, si existen problemas que atrasen el proyecto, los 
+   gastos involucrados son responsabilidad de los desarrolladores.
 
-     * Pago por hora: El poder es del desarrollador. Se paga por hora trabajada, 
-       por lo que los problemas y cambios surgidos serán pagados de forma extra 
-       por el Cliente hasta que el software esté terminado.
+ * Pago por hora: El poder es del desarrollador. Se paga por hora trabajada, 
+   por lo que los problemas y cambios surgidos serán pagados de forma extra 
+   por el Cliente hasta que el software esté terminado.
 
-    Lo ideal es llegar a un termino central entre estos dos extremos.
+Lo ideal es llegar a un termino central entre estos dos extremos.
 
 
 
@@ -515,7 +515,7 @@ Durante el Sprint:
 
 [^5]: Alcance del software, que tan grande es y cuantas funcionalidades tiene
 
-# Producto final de un Sprint
+### Producto final de un Sprint
 
 Se compone de todo el software desarrollado en un Sprint que esté directamente 
 vinculado con las historia terminada bajo el criterio de listo del equipo.
