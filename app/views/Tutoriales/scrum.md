@@ -1693,6 +1693,7 @@ Team y debe ser transparente para todos.
  * [Atlassian: Stand-Up](http://blogs.atlassian.com/2015/03/standup-atlassian/)
  * [Atlassian: Sprint Review](http://blogs.atlassian.com/2015/02/sprint-review-atlassian/)
  * [Atlassian: Retrospectives](http://blogs.atlassian.com/2014/12/retrospectives-atlassian/)
+ * [OWASP - Seguridad Web](https://www.owasp.org/index.php/Main_Page)
  * Agile and Iterative Development: A Manager’s Guide by Craig Larman
  * Agile Estimating and Planning by Mike Cohn
  * Agile Project Management with Scrum by Ken Schwaber
@@ -1721,6 +1722,7 @@ Team y debe ser transparente para todos.
 
  * [SonarQube](http://www.sonarqube.org/)
  * [JIRA - Atlassian](https://www.atlassian.com/software/jira/)
+ * [Wapiti](http://wapiti.sourceforge.net/)
 
 
 

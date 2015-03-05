@@ -1,8 +1,6 @@
 # En scrum.md
 
- * Pasar donde dice equipo a Team
- * Poner en negrita todas las palabras de roles, artefactos y reuniones.y
- * En tareas de historias: 
+  * En tareas de historias: 
     http://en.wikipedia.org/wiki/MoSCoW_method
  * SM checklist:
     http://scrumreferencecard.com/ScrumMasterChecklist.pdf
