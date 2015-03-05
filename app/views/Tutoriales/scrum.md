@@ -27,6 +27,7 @@ Ante cualquier consulta, duda o conflicto no dudes en [contactarme!](\contacto).
                 <li><a href="#el-manifiesto-ágil">El Manifiesto Ágil</a></li>
                 <li><a href="#principios-agiles">Principios Ágiles</a></li>
                 <li><a href="#¿cuándo-ser-ágil?">¿Cuándo ser Ágil?</a></li>
+                <li><a href="#contrato-ágil">Contrato Ágil</a></li>
             </ol>
         </li>
         <li><a href="#scrum">Scrum</a>
@@ -40,6 +41,7 @@ Ante cualquier consulta, duda o conflicto no dudes en [contactarme!](\contacto).
         <li><a href="#el-ciclo-scrum">El ciclo Scrum</a>
             <ol>
                 <li><a href="#el-sprint">El Sprint</a></li>
+                <li><a href="#producto-final-de-un-sprint">Producto final de un Sprint</a></li>
                 <li><a href="#cancelando-un-sprint">Cancelando un Sprint</a></li>
             </ol>
         </li>
@@ -209,7 +211,7 @@ Las metodologías ágiles se caracterizan por los siguientes principios básicos
  * En intervalos regulares, el equipo reflexiona sobre la forma de ser más 
    efectivo y ajusta su conducta en consecuencia.
 
-[^1]: Software de valor: Es un software que no solo cumple con las expectativas del cliente, sino a demás mejora sustancialmente el negocio en el que se aplica, dando así no solo valor a la empresa si no que también valor de satisfacción y usabilidad.
+[^1]: Es un software que no solo cumple con las expectativas del cliente, sino a demás mejora sustancialmente el negocio en el que se aplica, dando así no solo valor a la empresa si no que también valor de satisfacción y usabilidad.
 
 
 
@@ -235,7 +237,19 @@ significar que el proyecto siempre estuvo condenado al fracaso.
 [^2]: Cuando es mucho y cuando es poco depende completamente bajo que criterios se realiza la comparación, esto es absolutamente dependiente de cada proyecto por lo que no es posible acotarlo a una regla mundial.
 
 
+### Contrato Ágil
 
+    Existen dos extremos para contratos ágiles:
+
+     * Pago con tiempo fijo: Software llave en mano: Se estima tiempo y costo. El 
+       Cliente tiene el poder, si existen problemas que atrasen el proyecto, los 
+       gastos involucrados son responsabilidad de los desarrolladores.
+
+     * Pago por hora: El poder es del desarrollador. Se paga por hora trabajada, 
+       por lo que los problemas y cambios surgidos serán pagados de forma extra 
+       por el Cliente hasta que el software esté terminado.
+
+    Lo ideal es llegar a un termino central entre estos dos extremos.
 
 
 
@@ -501,11 +515,25 @@ Durante el Sprint:
 
 [^5]: Alcance del software, que tan grande es y cuantas funcionalidades tiene
 
+# Producto final de un Sprint
+
+Se compone de todo el software desarrollado en un Sprint que esté directamente 
+vinculado con las historia terminada bajo el criterio de listo del equipo.
+Aquellas características que no corresponden a una historia terminada no deben 
+formar parte de este producto.
+
+Este software debe ser compatible con el software realizado en Sprint 
+anteriores de modo que este nuevo software representa un incremento en 
+funcionalidades, cualidades y calidad.
+
+El producto en su totalidad debe ser capaz de desplegarse en un ambiente de 
+producción talque el Cliente pueda usarlo para su negocio, a menos qué el Product Owner especifique lo contrario.
+
 ### Cancelando un Sprint
 
 Un Sprint puede ser cancelado antes de que acabe su tiempo. Solo el Product 
 Owner tiene la autorización para cancelar un Sprint, aunque este lo haga bajo 
-la influencia de stakeholders, el equipo de trabajo o el SM.
+la influencia de stakeholders, el equipo de trabajo o el Scrum Master.
 
 Un Sprint solo debe ser cancelado cuando: el objetivo del Sprint se vuelve 
 obsoleto, la compañia cambio de directorio o si existe un cambio de tecnología 
@@ -610,7 +638,7 @@ El Scrum Master ayuda al Product Owner en varia formas, incluidas:
  * A que el Product Owner entienda y practique la agilidad.
  * Facilitando las reuniones de Scrum cuando se solicite o se necesite.
 
-El SM ayuda al Team en varias formas, incluidas:
+El Scrum Master ayuda al Team en varias formas, incluidas:
 
  * Entrenando al Team para que sean auto-organizados y multi-funcionales.
  * Ayudando al Team a crear productos de alto nivel.
@@ -619,7 +647,7 @@ El SM ayuda al Team en varias formas, incluidas:
  * Entrenando al Team en ambientes organizacionales en donde Scrum aun no ha 
    sido totalmente adaptado.
 
-El SM ayuda a la Organización a la que se trabaja en varias formas, incluidas:
+El Scrum Master ayuda a la Organización a la que se trabaja en varias formas, incluidas:
 
  * Guíando y entrenando la organización para que adopte Scrum
  * Planeando implementaciones en Scrum dentro de la organización,
@@ -719,7 +747,7 @@ sea transparente para todos.
 La transparencia es muy importante en Scrum, ya que asegura que todos los 
 miembros entienden a la perfección que es lo que se está representando. Una 
 buena transparencia asegura que lo que el equipo desarrolla es exactamente lo 
-que el PO desea. 
+que el Product OWner desea. 
 
 Que exista transparencia es completa responsabilidad del Scrum Master ya que 
 el debe asegurarse que los temas sean discutidos y aclarados, así como también 
@@ -862,7 +890,7 @@ diarias.
 Es natural que las Tasks de cada historia vayan cambiando mientras se trabaja 
 en el Sprint, así como también el hecho que se agreguen nuevas historias 
 técnicas para cumplir con ciertos requerimientos. Las Tasks no son discutidas 
-con el PO y son de total responsabilidad del Team, por lo que no pueden ser 
+con el Product Owner y son de total responsabilidad del Team, por lo que no pueden ser 
 una escusa para decir porque un Sprint no ha sido terminado.
 
 Todo el trabajo avanzado, el nuevo trabajo y el trabajo eliminado del Sprint 
@@ -1178,9 +1206,9 @@ comienza el Sprint.
 Es importante que luego, sin el Product Owner presente, el Team se reúna, ya 
 que las historias deben ser subdivididas en Tasks. Esto es un aspecto técnico 
 qué no debe afectar al Product Owner ya que son propias del Team. Es posible 
-valorar con SP cada tarea si se desea. Es probable que durante la ejecución de 
-alguna tarea se den cuenta de que existen nuevas, estas pueden ser 
-implementadas sin problema, siempre y cuando no afecten las historias ni 
+valorar con Story Points cada tarea si se desea. Es probable que durante la 
+ejecución de alguna tarea se den cuenta de que existen nuevas, estas pueden 
+ser implementadas sin problema, siempre y cuando no afecten las historias ni 
 agregue historias nuevas ya que esto no debe cambiar durante la ejecución del 
 Sprint.
 
@@ -1515,8 +1543,8 @@ post-it un número del 1 (terrible) al 10 (increible)
 representando como ellos se sienten respecto al Sprint en general. 
 Esto debe ser hecho de forma que nadie pueda ver tu número, por lo que al 
 escribirlo se debe entregar al Scrum Master quién luego calcula el promedio,
-finalmente se comunica este número el equipo y se compara con el del SR 
-anterior.
+finalmente se comunica este número el equipo y se compara con el del Sprint 
+Retrospective anterior.
 
 Opcionalmente se puede dar una ventana de 4 minutos para que los miembros 
 dibujen en un post-it algo que describa el Sprint desde el punto de vista de 
@@ -1538,8 +1566,8 @@ También al analizar la Burndown se deben hacer las siguientes preguntas:
 Es importante comparar la curva esperada con la curva real y entender porque 
 son diferentes.
 
-Otro dato importante a usar es la **Velocidad**, esta representa cuantos SP y 
-cuanto valor se ha entregado en los últimos 7 Sprints ( o menos si
+Otro dato importante a usar es la **Velocidad**, esta representa cuantos Story 
+Points y cuanto valor se ha entregado en los últimos 7 Sprints ( o menos si
 no existen tantos). Un buen desarrollo de Scrum asegura que la velocidad 
 siempre va en aumento.
 
@@ -1665,6 +1693,14 @@ Team y debe ser transparente para todos.
  * [Atlassian: Stand-Up](http://blogs.atlassian.com/2015/03/standup-atlassian/)
  * [Atlassian: Sprint Review](http://blogs.atlassian.com/2015/02/sprint-review-atlassian/)
  * [Atlassian: Retrospectives](http://blogs.atlassian.com/2014/12/retrospectives-atlassian/)
+ * Agile and Iterative Development: A Manager’s Guide by Craig Larman
+ * Agile Estimating and Planning by Mike Cohn
+ * Agile Project Management with Scrum by Ken Schwaber
+ * Agile Retrospectives by Esther Derby and Diana Larsen
+ * Agile Software Development Ecosystems by Jim Highsmith
+ * Agile Software Development with Scrum by Ken Schwaber and Mike Beedle
+ * Scrum and The Enterprise by Ken Schwaber
+ * User Stories Applied for Agile Software Development by Mike Cohn
 
 
 
@@ -1713,5 +1749,8 @@ Team y debe ser transparente para todos.
  * [AgileContracts](http://www.agilecontracts.org/)
  * [Foros FailFast](http://failfast.chileagil.cl/)
  * [Planning Poker](http://www.planningpoker.com/)
+ * [Scrum Alliance](https://www.scrumalliance.org/)
+ * [Mountain Goat Software](http://www.mountaingoatsoftware.com/agile/scrum)
+ * [Scrum Development: Yahoo Groups](https://groups.yahoo.com/neo/groups/scrumdevelopment/info)
 
 </br>
