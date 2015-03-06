@@ -5,6 +5,10 @@
 	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	  <meta name="description" content="Apuntes universitarios de Universidad de Santiago de Chile USACH">
 	  <meta name="author" content="Esteban Gaete Flores">
+      <meta property="og:url" content="<%= "http://#{request.host+request.fullpath}" %>" />
+      <!--meta property="og:title" content="http://ia.media-imdb.com/rock.jpg"/-->
+      <meta property="og:description" content="Apuntes de Ingeniería Civil Informática ~ ¡De la clase al cuaderno, del cuaderno a internet!"/>
+      <meta property="og:image" content="http://apuntesusach.herokuapp.com/assets/estilo/header_3.png"/>
 	  <title>Apuntes USACH</title>
 	  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
 	  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
