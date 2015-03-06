@@ -51,9 +51,6 @@ Rails.application.routes.draw do
   # Ruta al tutorial de SCRUM
   get 'tutorial/scrum' => 'tutoriales#scrum', :as => 'scrum'
 
-  # Ruta a la página de comentarios
-  get 'comentarios' => 'apuntes#comentarios'
-
   # Ruta a los mejores apuntes
   get 'mejores_apuntes' => 'apuntes#mejores_apuntes'
 
