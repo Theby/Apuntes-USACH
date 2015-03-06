@@ -1506,11 +1506,11 @@ un Sprint de un mes.
 Se realiza antes de comenzar el siguiente Sprint. Se revisa lo que funciona y 
 lo que no. Se busca mejorar el proceso discutiendo:
 
- * Que les gustaría empezar a hacer, 
- * que les gustaría dejar de hacer y 
- * que les gustaría continuar haciendo.
+ * Que les gustaría empezar a hacer
+ * Que les gustaría dejar de hacer 
+ * Que les gustaría continuar haciendo.
 
-También se evalúa:
+Estas preguntas deben estar orientadas con estos 3 puntos de vista:
 
  * Felicidad
  * Productividad
