@@ -104,6 +104,8 @@ Ante cualquier consulta, duda o conflicto no dudes en [contactarme!](\contacto).
         <li><a href="#material-de-ayuda">Material de Ayuda</a></li>
         <li><a href="#software-de-ayuda">Software de Ayuda</a></li>
         <li><a href="#enlaces-externos">Enlaces Externos</a></li>
+        <li><a href="#citas">Citas</a></li>
+        <li><a href="#comentarios">Comentarios</a></li>
     </ol>
   </div>
 </div>
@@ -2084,4 +2086,4 @@ para diferentes superficies :)
  * [Scrum Development: Yahoo Groups](https://groups.yahoo.com/neo/groups/scrumdevelopment/info)
  * [Lean StartUp](https://en.wikipedia.org/wiki/Lean_startup)
 
-</br>
+## Citas
