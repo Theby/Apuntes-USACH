@@ -51,7 +51,7 @@ posible por ayudar y mejorar este contenido!
     </br>
     <input id="five" type="checkbox" class="selection_checkbox" />
     <label for="five" class="selection_label">
-        <b>Backlog Refinement Meeting</b>: porqué resultó útil, si no, por qué?
+        <b>Backlog Refinement Meeting</b>: porqué resultó útil, si no, por qué?.
     </label>
     </br>
     <input id="six" type="checkbox" class="selection_checkbox" />
@@ -96,17 +96,17 @@ posible por ayudar y mejorar este contenido!
     </br>
     <input id="fourteen" type="checkbox" class="selection_checkbox" />
     <label for="fourteen" class="selection_label">
-        <b>BurnUp</b>: va bien el proyecto?, se ha desviado mucho?, se ha entreado el valor esperado al cliente?, cuanto es el valor entregado por Sprint?
+        <b>BurnUp</b>: va bien el proyecto?, se ha desviado mucho?, se ha entreado el valor esperado al cliente?, cuanto es el valor entregado por Sprint?.
     </label>
     </br>
     <input id="fifteen" type="checkbox" class="selection_checkbox" />
     <label for="fifteen" class="selection_label">
-        <b>BurnUp</b>: Como es la proyección actual? (con 10% para ver recta de buena, esperada y mala) se llegará a la meta si se sigue así?
+        <b>BurnUp</b>: Como es la proyección actual? (con 10% para ver recta de buena, esperada y mala) se llegará a la meta si se sigue así?.
     </label>
     </br>
     <input id="sixteen" type="checkbox" class="selection_checkbox" />
     <label for="sixteen" class="selection_label">
-        <b>Velocidad</b> del equipo: velocidad actual y comparar velocidades pasadas. ¿Van mejorando o empeorando?
+        <b>Velocidad</b> del equipo: velocidad actual y comparar velocidades pasadas. ¿Van mejorando o empeorando?.
     </label>
     </br>
     <input id="seventeen" type="checkbox" class="selection_checkbox" />
@@ -121,12 +121,12 @@ posible por ayudar y mejorar este contenido!
     </br>
     <input id="nineteen" type="checkbox" class="selection_checkbox" />
     <label for="nineteen" class="selection_label">
-        <b>Test</b> de regresión, integración y unitarios
+        <b>Test</b> de regresión, integración y unitarios.
     </label>
     </br>
     <input id="twenty" type="checkbox" class="selection_checkbox" />
     <label for="twenty" class="selection_label">
-        Énfasis en el uso de <b>TDD</b>, ¿Sirve o no sirve?, ¿Por qué?
+        Énfasis en el uso de <b>TDD</b>, ¿Sirve o no sirve?, ¿Por qué?.
     </label>
     </br>
     <input id="twenty-one" type="checkbox" class="selection_checkbox" />
@@ -201,7 +201,7 @@ posible por ayudar y mejorar este contenido!
     </br>
     <input id="thirty-five" type="checkbox" class="selection_checkbox" />
     <label for="thirty-five" class="selection_label">
-        Requerimientos en Ram y procesamiento usadado por la aplicación
+        Requerimientos en Ram y procesamiento usadado por la aplicación.
     </label>
     </br>
     <input id="thirty-six" type="checkbox" class="selection_checkbox" />
@@ -211,6 +211,6 @@ posible por ayudar y mejorar este contenido!
     </br>
     <input id="thirty-seven" type="checkbox" class="selection_checkbox" />
     <label for="thirty-seven" class="selection_label">
-        Especificar problemas, cambios, topes, problemas con licencias, etc
+        Especificar problemas, cambios, topes, problemas con licencias, etc.
     </label>
 </div>
