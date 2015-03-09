@@ -25,6 +25,19 @@ no se entiendan o que preferirían un orden de algunos ítemes. Ante cualquiera
 de estas cosas déjame un mensaje en la parte inferior de esta página y haré lo 
 posible por ayudar y mejorar este contenido!
 
+<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#tutorial-indice" aria-expanded="false" aria-controls="tutorial-indice">
+  <b>Índice</b> <small>Mostrar/Esconder</small>
+</button>
+<div class="collapse in" id="tutorial-indice">
+  <div class="well">
+    <ol>
+        <li><a href="#checklist">Checklist</a></li>
+        <li><a href="#entregables">Entregables</a></li>
+        <li><a href="#comentarios">Comentarios</a></li>
+    </ol>
+  </div>
+</div>
+
 ## Checklist
 <hr class="divider">
 
@@ -212,5 +225,25 @@ posible por ayudar y mejorar este contenido!
     <input id="thirty-seven" type="checkbox" class="selection_checkbox" />
     <label for="thirty-seven" class="selection_label">
         Especificar problemas, cambios, topes, problemas con licencias, etc.
+    </label>
+</div>
+
+## Entregables
+<hr class="divider">
+
+<div class="checkbox">
+    <input id="one-A" type="checkbox" class="selection_checkbox" />
+    <label for="one-A" class="selection_label">
+        Aplicación con todas sus partes.
+    </label>
+    </br>
+    <input id="two-A" type="checkbox" class="selection_checkbox" />
+    <label for="two-A" class="selection_label">
+        Manual de instalación, es decir, para dejar la aplicación en modo de producción.
+    </label>
+    </br>
+    <input id="three-A" type="checkbox" class="selection_checkbox" />
+    <label for="three-A" class="selection_label">
+        Manual de usuario y un manual para administrador si es que es necesario.
     </label>
 </div>

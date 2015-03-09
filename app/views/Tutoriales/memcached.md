@@ -52,6 +52,7 @@ Código libre para todos! Puedes ver el código fuente completo de este tutorial
         <li><a href="#estadísticas-en-una-vista">Estadísticas en una Vista</a></li>
         <li><a href="#comandos-del-cache-de-rails">Comandos del cache de Rails</a></li>
         <li><a href="#enlaces-externos">Enlaces Externos</a></li>
+        <li><a href="#comentarios">Comentarios</a></li>
     </ol>
   </div>
 </div>
