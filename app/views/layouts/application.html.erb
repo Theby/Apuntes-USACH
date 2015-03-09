@@ -31,7 +31,32 @@
 	  </script>
 	</head>
 
-	<body>
+    <% if controller.controller_name == "tutoriales" %>
+	<body data-no-turbolink>
+    <% else %>
+    <body>
+    <% end %>
+
+        <!-- Script SDK de facebook -->
+        <div id="fb-root"></div>
+        <script>
+          window.fbAsyncInit = function() {
+            FB.init({
+              appId      : '623051041131579',
+              xfbml      : true,
+              version    : 'v2.1',
+              status     : true
+            });
+          };
+
+          (function(d, s, id){
+             var js, fjs = d.getElementsByTagName(s)[0];
+             if (d.getElementById(id)) return;
+             js = d.createElement(s); js.id = id;
+             js.src = "//connect.facebook.net/es_LA/all.js";
+             fjs.parentNode.insertBefore(js, fjs);
+           }(document, 'script', 'facebook-jssdk'));
+        </script>
 
         <!-- Header -->
         <nav class="navbar navbar-default navbar-fixed-top strongBlue" role="navigation">
@@ -53,6 +78,7 @@
                         <!-- Mejores Apuntes -->
                         <li><%= link_to "Mejores Apuntes", mejores_apuntes_path %></li>
 
+                        <!-- Apuntes -->
                         <% if !allSections.blank? %>
                             <% for auxSection in allSections.order("id ASC") %>
                                 <% if !auxSection.publicacions.blank? %>
