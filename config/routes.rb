@@ -50,6 +50,8 @@ Rails.application.routes.draw do
   get 'tutorial/memcached' => 'tutoriales#memcached', :as => 'memcached'
   # Ruta al tutorial de SCRUM
   get 'tutorial/scrum' => 'tutoriales#scrum', :as => 'scrum'
+  # Ruta al tutorial de pingeso Checklist
+  get 'tutorial/pingesoChecklist' => 'tutoriales#pingesoChecklist', :as => 'pingesoChecklist'
 
   # Ruta a los mejores apuntes
   get 'mejores_apuntes' => 'apuntes#mejores_apuntes'

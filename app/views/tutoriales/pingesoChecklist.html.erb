@@ -1,0 +1,99 @@
+<section id="title" class="shinyOrange">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10">
+                <div class="hidden-xs"> 
+                    <div class="col-md-4">
+                        <%= link_to image_tag('estilo/header_3.png', :class => 'header-title'), home_path %>
+                    </div>
+                    <div class="col-md-8">
+                        <h1 class="title-header">Guía para Presentaciones en PINGESO</h1>
+                        <p class="title-teacher">
+                            Porque siempre falta algo por hacer y nunca está claro que es
+                        </p>    
+                    </div>
+                </div>
+                <div class="hidden-sm hidden-md hidden-lg">
+                    <h1>Guía para Presentaciones en PINGESO</h1>
+                    <p>
+                        Porque siempre falta algo por hacer y nunca está claro que es
+                    </p>
+                </div>
+            </div>
+            <div id="fecha" class="col-md-2">
+                <p class="pull-right hidden-print"><kbd> <a href="http://venusathenea.tumblr.com/" target="_blank" style="color: red;"> Venus :3</a> </kbd></p>
+                <div class="fb-like hidden-print" data-href="http://apuntesusach.herokuapp.com/tutorial/pingesoChecklist" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true" data-width="100%"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="body" class="officialGrey back-image">
+    <div id="contenido" class="container allWhite">
+
+        <%= markdown(render file: "Tutoriales/pingesoChecklist.md")%>
+
+        <h2 id="comentarios" class="hidden-print">Comentarios</h2>
+        <hr class="divider hidden-print">
+        <div class="fb-comments hidden-print" 
+             data-href="http://apuntesusach.herokuapp.com/tutorial/pingesoChecklist" 
+             data-numposts="5" 
+             data-colorscheme="light"
+             data-width="100%"
+        ></div>
+    </div>
+</section>
+
+<section id="footer" class="footerGrey hidden-print">
+    <div class="container">
+        <div class="triple-footer" align="center">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="row">
+                        <div class="paypal-img col-md-4">
+                            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+                                <input type="hidden" name="cmd" value="_s-xclick">
+                                <input type="hidden" name="hosted_button_id" value="8PPW7PY96FNNS">
+                                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                <img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+                            </form>
+                        </div>
+                        <div class="col-md-8">
+                            <p class="paypal-text text-justify">
+                                Realizar esta página tomó bastante trabajo, esfuerzo y tiempo.
+                            </br>
+                                Por supuesto es gratis para todos ustedes, pero si deseas devolverme el favor puedes donar presionando este botón!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <%= image_tag('estilo/footer_5.png', class: "footer-logo", :width => "100%") %>
+                        </div>
+                        <div class="col-md-12">
+                            <p class="firma-footer">
+                                Desarrollado por Esteban Gaete Flores
+                            </p>
+                        </div>
+                    </div>                          
+                </div>
+                <div class="col-md-4">
+                    <div class="col-md-8">
+                        <p class="mail-text" align="right">
+                            E-mal Contacto
+                            </br>
+                            ¡Respuestas en 24hrs!
+                            </br>
+                            esteban.gaete@usach.cl
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <%= fa_icon "envelope 5x", class: "mail-img" %>
+                    </div>      
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
