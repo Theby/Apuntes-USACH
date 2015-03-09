@@ -107,6 +107,11 @@ posible por ayudar y mejorar este contenido!
         <b>Burndown</b>: explicar las diferentes etapas y las razones, lo que se aprendió, como se enfrentaron los problemas, etc.
     </label>
     </br>
+    <input id="thirdteen-dos" type="checkbox" class="selection_checkbox" />
+    <label for="thirdteen-dos" class="selection_label">
+        <b>Burndown</b>: tener una burdown con la re-estimación real de los Story Points (puntos de historia) y compararla con la burndown estimativa.
+    </label>
+    </br>
     <input id="fourteen" type="checkbox" class="selection_checkbox" />
     <label for="fourteen" class="selection_label">
         <b>BurnUp</b>: va bien el proyecto?, se ha desviado mucho?, se ha entreado el valor esperado al cliente?, cuanto es el valor entregado por Sprint?.

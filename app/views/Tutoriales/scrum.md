@@ -66,6 +66,7 @@ Ante cualquier consulta, duda o conflicto no dudes en [contactarme!](\contacto).
                     <ol>
                         <li><a href="#burn-up">Burn-Up</a></li>
                         <li><a href="#burn-down">Burn-Down</a></li>
+                        <li><a href="#entendiendo-las-burndown">Entendiendo las Burndown</a></li>
                         <li><a href="#calidad">Calidad</a></li>
                         <li><a href="#seguridad">Seguridad</a></li>
                     </ol>
@@ -161,7 +162,7 @@ es lo que el cliente deseaba en primer lugar.
             conflictos durante toda la vida del software.
             </br></br>
             La gran razón de porque el desarrollo de software ha sido así se 
-            debe a que estos modelos son una herencia de el desarrollo de 
+            debe a que estos modelos son una herencia del desarrollo de 
             proyectos de otras ingenierías, como arquitectura u obras civiles, 
             donde un contexto duro y rígido es más útil debido a la naturaleza 
             de los problemas que estos profesionales enfrentan, sin embargo el 
@@ -257,7 +258,7 @@ Existen dos extremos para contratos ágiles:
    por lo que los problemas y cambios surgidos serán pagados de forma extra 
    por el Cliente hasta que el software esté terminado.
 
-Lo ideal es llegar a un termino central entre estos dos extremos.
+Lo ideal es llegar a un punto central entre estos dos extremos.
 
 
 
@@ -293,7 +294,7 @@ un mes).
 El negocio fija las prioridades. Los equipos se auto-organizan a fin de 
 determinar la mejor manera de entregar las funcionalidades de más alta 
 prioridad. Cada dos semanas o un mes, cualquiera puede ver el software real 
-funcionando y decidir si liberarlo o seguir mejorandolo en otro Sprint[^3].
+funcionando y decidir si liberarlo o seguir mejorándolo en otro Sprint[^3].
 
 Scrum se caracteriza por constar con equipos, los cuales cuentan con roles, 
 artefactos y reuniones, de forma que estas tres partes interaccionan 
@@ -403,7 +404,7 @@ puntos:
    Backlog".
  * No hay prácticas de ingeniería prescritas.
  * El producto es diseñado, codificado y testeado durante el Sprint.
- * Se deben usar herramientas o practicas para facilitar un entorno ágil de 
+ * Se deben usar herramientas o prácticas para facilitar un entorno ágil de 
    trabajo.
  * La incertidumbre existe y debe aceptarse.
  * Las fases del desarrollo son solapadas.
@@ -416,7 +417,7 @@ eso está esta guía!
 
 ### ¿Cuándo usar Scrum?
 
-Scrum es optimo cuando los siguientes escenarios están presentes:
+Scrum es óptimo cuando los siguientes escenarios están presentes:
 
  * Hay una prioridad de negocios en la que es de suma importancia entregar un 
    software que cree valor para el cliente.
@@ -473,7 +474,7 @@ Scrum hace que esta sea una metodología bastante fácil de aprender.
             En resumen Scrum se compone de una lista de Requerimientos llamada 
             Product Backlog, de esta lista se selecciona un número acotado de 
             requerimientos, también llamados Historias de Usuario, este 
-            listado de requerimientos conforma el Sprint Backlog, el cuál se 
+            listado de requerimientos conforma el Sprint Backlog, el cual se 
             usa durante un Sprint. Un Sprint es una iteración del ciclo, en 
             ella se realiza una serie de reuniones y se desarrolla el software 
             según los requerimientos seleccionados. Este proceso se repite 
@@ -482,7 +483,7 @@ Scrum hace que esta sea una metodología bastante fácil de aprender.
             </br></br>
             Esto fue una descripción bien breve de lo que es el Ciclo Scrum, 
             por lo que desde este punto en adelante se revisará, explicará y 
-            se recomendarán las mejores practicas para cada aspecto de Scrum.
+            se recomendarán las mejores prácticas para cada aspecto de Scrum.
         </p>
     </div>
     <div class="col-md-6">
@@ -501,13 +502,13 @@ siempre esta dividido en varios Sprints.
 
 Debe tener un tiempo fijo y que, idealmente, debe mantenerse igual para todos 
 los demás Sprints. Se recomienda que dure entre 2 semanas y un mes según la
-embargadura del proyecto.
+envergadura del proyecto.
 
 Un nuevo Sprint debe empezar inmediatamente después que a acabado uno, de esta 
 forma no se pierde el ritmo de trabajo y se puede aplicar más efectivamente el
 desarrollo ágil de proyectos.
 
-A grandes rasgos el Sprint consiste de un Sprint Planning, Reuniones diarías, 
+A grandes rasgos el Sprint consiste de un Sprint Planning, Reuniones diarias, 
 trabajo de desarrollo, Sprint Review y Sprint Retrospective.
 
 Durante el Sprint:
@@ -539,7 +540,7 @@ anteriores de modo que este nuevo software representa un incremento en
 funcionalidades, cualidades y calidad.
 
 El producto en su totalidad debe ser capaz de desplegarse en un ambiente de 
-producción talque el Cliente pueda usarlo para su negocio, a menos qué el 
+producción talque el Cliente pueda usarlo para su negocio, a menos que el 
 Product Owner especifique lo contrario.
 
 Además no hay que olvidar la documentación básica:
@@ -555,11 +556,11 @@ Owner tiene la autorización para cancelar un Sprint, aunque este lo haga bajo
 la influencia de stakeholders, el equipo de trabajo o el Scrum Master.
 
 Un Sprint solo debe ser cancelado cuando: el objetivo del Sprint se vuelve 
-obsoleto, la compañia cambio de directorio o si existe un cambio de tecnología 
+obsoleto, la compañía cambio de directorio o si existe un cambio de tecnología 
 importante. Nunca se debe cancelar un Sprint porque el tiempo dado es muy 
 corto.
 
-Todas las tareas o historias realizadas deben ser revisada por el Product 
+Todas las tareas o historias realizadas deben ser revisadas por el Product 
 Owner, si tienen la capacidad de ser implementadas por si solas es posible 
 hacerlo. Las que no y las que no se completaron deben ser re-estimadas y 
 re-valoradas para volver a incluirlas en el Product Backlog.
@@ -621,9 +622,9 @@ funcionalidades y las ajusta en cada iteración.
 Finalmente es quién acepta o rechaza el trabajo del Team al finalizar cada
 Sprint y por tanto decide si el desarrollo continua o no.
 
-Este miembro no es parte del Team(equipo de desarrolladores), si no que es 
+Este miembro no es parte del Team(equipo de desarrolladores), sino que es 
 aquel que conoce a la perfección el negocio donde el software será aplicado y 
-quien dirá al Team que es lo que se necesita y cuales son los requerimientos.
+quien dirá al Team que es lo que se necesita y cuáles son los requerimientos.
 
 El Product Owner DEBE ser solo una persona y no un comité, en caso de existir 
 un comité el Product Owner debe ser el representante de dicho comité.
@@ -642,17 +643,17 @@ agente externo o perturbación externa pasas a través del Scrum master antes de
 llegar al Team, quiénes están enfocados en desarrollar el software. 
 
 En teoría el Scrum Master no desarrolla ni hace test ni QA, pero en caso de 
-ser necesario este puede ayudar, ya sea por que el Team es pequeño o porque 
+ser necesario este puede ayudar, ya sea porque el Team es pequeño o porque 
 es necesario incrementar la producción.
 
 El Scrum Master ayuda al Product Owner en varia formas, incluidas:
 
  * Encontrando técnicas para manejar efectivamente el Product Backlog.
- * Ayudando al Team a entender las necesidades de forma clara para cada item 
+ * Ayudando al Team a entender las necesidades de forma clara para cada ítem 
    del Product Backlog.
  * Dando a entender como es el manejo de proyectos en ambientes empíricos
    (basados en la experiencia).
- * Asegurando que el Product Owner sabe como ordenar el Product Backlog para 
+ * Asegurando que el Product Owner sabe cómo ordenar el Product Backlog para 
    maximizar el valor entregado.
  * A que el Product Owner entienda y practique la agilidad.
  * Facilitando las reuniones de Scrum cuando se solicite o se necesite.
@@ -663,7 +664,7 @@ El Scrum Master ayuda al Team en varias formas, incluidas:
  * Ayudando al Team a crear productos de alto nivel.
  * Removiendo impedimentos en el progreso del Team.
  * Facilitando las reuniones de Scrum cuando sean requeridas o necesarias.
- * Entrenando al Team en ambientes organizacionales en donde Scrum aun no ha 
+ * Entrenando al Team en ambientes organizacionales en donde Scrum aún no ha 
    sido totalmente adaptado.
 
 El Scrum Master ayuda a la Organización a la que se trabaja en varias formas, incluidas:
@@ -732,7 +733,7 @@ los costos asociados a entrenamiento.
 Los Stakeholders, financiados por los Gerentes, le dicen al Product Owner que 
 es lo que desean y sus intereses, luego el Product Owner se contacta con el 
 Scrum Master para fijar una reunión en la que se habla con el Team completo 
-para decidir que es lo que se requiere para el siguiente Sprint.
+para decidir qué es lo que se requiere para el siguiente Sprint.
 
 Al final de cada Sprint se pueden usar usuarios para Testing en ambientes de 
 producción o estos ya pueden ser usados cuando el proyecto ha sido finalizado.
@@ -806,10 +807,10 @@ Una buena historia de usuario se crea a partir de un método llamado **INVEST**:
 Existen historias de usuario llamadas **transversales**, ya que debido a la 
 características de estas, las historias transversales deben ser aplicadas a
 todos los Sprint del proyecto. Estas no son ni estimadas ni valoradas. Un 
-ejemplo de historia transversal es: "Aplicar heúristicas de Nielsen para 
+ejemplo de historia transversal es: "Aplicar heurísticas de Nielsen para 
 aumentar la usabilidad."
 
-También existen historias de usuarios llamadas **Epic**, la cuál es una 
+También existen historias de usuarios llamadas **Epic**, la cual es una 
 historia de usuario que por su gran tamaño el TEAM debe descomponer en 
 historias más pequeñas y más precisas. Si existe un conjunto de Epics 
 relacionados, estos se dicen que son parte de un "Tema", ya que apuntan a
@@ -818,7 +819,7 @@ una misma funcionalidad del sistema.
 Cada historia se compone de un conjunto de **Tasks** (tareas), las cuáles 
 corresponden a todos los pasos que debieran llevarse a cabo para poder 
 completar la historia satisfactoriamente. Las Task no se reparten ni se 
-asignan entre los miembros del Team, si no más bien, cada miembro del Team 
+asignan entre los miembros del Team, sino más bien, cada miembro del Team 
 elige que Task realizar. La idea es que las Tasks no duren más allá de una 
 jornada de trabajo. 
 
@@ -843,7 +844,7 @@ usuario.
 
 El Product Backlog es manejado principalmente por el Product Owner, quién
 prioriza las diferentes historias desde la más importante(la que está más
-arriba) a la menos importante(la que está maś abajo). Esta importancia debe
+arriba) a la menos importante(la que está más abajo). Esta importancia debe
 reflejar el valor de negocio de dicha historia, este valor también es asignado
 por el Product Owner. Él puede actualizar el Product Backlog cuando lo desee y 
 puede cambiar cualquier aspecto de él.
@@ -856,8 +857,8 @@ requerimientos, incluso en el último Sprint. Si el Product Backlog se ha
 completado solo se puede deber a que el Product Owner no ha dicho todas sus 
 necesidades. 
 
-Toda historia en el Produc Backlog debe tener un titulo, una descripción, un 
-orden y un valor, al menos. Donde los primeros ítemes son los más detallados 
+Toda historia en el Produc Backlog debe tener un título, una descripción, un 
+orden y un valor, al menos. Donde los primeros ítems son los más detallados 
 ya que representan los más importantes. **Las historias a este nivel no deben tener Tasks.**
 
 El Product Backlog es un **ente vivo**, siempre va a cambiar por lo que es un 
@@ -876,16 +877,16 @@ debe ser posible ver el avance del valor entregado en cada Sprint.
     <%= image_tag('tutoriales/scrum/Sprint-Backlog.png', :class => 'img-responsive img-thumbnail', :height => '50%', :width => '50%') %>
 </p>
 
-El Sprint Backlog onsiste de una serie de historias seleccionadas del Produtc 
+El Sprint Backlog consiste de una serie de historias seleccionadas del Product 
 Backlog, estás historias serán las que se realizarán durante el Sprint. **Ha 
-este nivel todas las historias deben dividirse en en diferentes Task**. Estas 
+este nivel todas las historias deben dividirse en diferentes Task**. Estas 
 Tasks no son asignadas, cada individuo elige su Task. Para ver la estimación 
-de trabajo se usa gráficos BurnDown. Estos deben actualizarce diariamente. 
+de trabajo se usa gráficos BurnDown. Estos deben actualizarse diariamente. 
 También es posible añadir, modificar o borrar Tasks del Sprint Backlog siempre 
 y cuando no se cambie el objetivo del Sprint ni de las historias.
 
 Todas las historias del sprint backlog debe estar enfocadas a cumplir con el 
-objetivo del Sprint. Sin embargo en este punto puede que el Team se de cuenta
+objetivo del Sprint. Sin embargo en este punto puede que el Team se dé cuenta
 que harán falta trabajos extras y de carácter técnico para avanzar en el 
 Sprint, como por ejemplo:
 
@@ -913,7 +914,7 @@ pueden ser una escusa para decir porque un Sprint no ha sido terminado.
 
 Todo el trabajo avanzado, el nuevo trabajo y el trabajo eliminado del Sprint 
 Backlog durante el Sprint, ya sean Tasks técnicas, task normales, nuevas 
-estimaciones para historias, etc, debe estar claramente reflejado burndown 
+estimaciones para historias, etc., debe estar claramente reflejado burndown 
 relacionada.
 
 El incremento entregado por un Sprint Backlog es representado por todas las 
@@ -940,7 +941,7 @@ proyecto completo y de todos los Sprints, no solo del Sprint actual.
 Se hace respecto al valor de negocio total de cada Sprint, a modo de ver si el 
 estimado y el actual son iguales.
 
-Permite saber con que velocidad se le está haciendo entrega al Product Owner
+Permite saber con qué velocidad se le está haciendo entrega al Product Owner
 el valor del proyecto, lo ideal es que al final del último Sprint se entregue
 el total del valor estimado.
 
@@ -974,9 +975,9 @@ Las burndown pueden ser:
  * Sprint Burndown: Es del sprint, cada sprint tiene una diferente. Se 
    actualiza diariamente. Está basada en el Sprint Backlog.
 
-Adémas, el Sprint Burndown puede hacerse de dos maneras diferentes:
+Además, el Sprint Burndown puede hacerse de dos maneras diferentes:
 
- * **Respecto a las Task**: Se gráfican los Story Points restantes respecto a 
+ * **Respecto a las Task**: Se grafican los Story Points restantes respecto a 
    las Task realizadas. Cada vez que una Task ha sido terminada se restan los 
    Story Points de aquella Task en el gráfico. Lo ideal es llegar a 0 el día 
    final del Sprint.
@@ -986,16 +987,225 @@ Adémas, el Sprint Burndown puede hacerse de dos maneras diferentes:
        que no garantiza que se haya entregado valor real al cliente.
      - Útil para: El equipo, no tiene valor para gente fuera del grupo de 
        trabajo.
- * **Respecto a las Historias**: Se gráfican los Story Points restantes 
-   respecto a las historias realizadas. cada vez que una historias ha sido 
+ * **Respecto a las Historias**: Se grafican los Story Points restantes 
+   respecto a las historias realizadas. Cada vez que una historias ha sido 
    terminada se restan los Story Points de aquella historias en el gráfico. Lo 
    ideal es llegar a 0 el día final del Sprint.
      - Ventaja: Muestra el avance por historia, por lo que permite saber si
-       se está entregando valor real al cliente y en que velocidad y magnitud.
+       se está entregando valor real al cliente y en qué velocidad y magnitud.
      - Desventaja: No permite saber si el proyecto va avanzando ya que no 
-       se sabe cuando se terminan las Task, por lo que si este gráfico no 
+       se sabe cuándo se terminan las Task, por lo que si este gráfico no 
        avanza no significa realmente que el proyecto no avance.
      - Útil para: El equipo y gente externa al grupo de trabajo.
+
+**Se recomienda** que al finalizar un Sprint se realice una nueva burndown, 
+para ello se deben re-estimar todas las historias, pero como está vez todo el 
+Team ya sabe que tan compleja **fueron** entonces serán capaces de dar Story 
+Points reales, lo que permitirá tener una burndown con la capacidad real del 
+equipo, esto permite también estimar la velocidad real del equipo.
+
+#### Entendiendo las Burndown
+
+Durante el desarrollo de cada Sprint las burndown irán cambiando de una u otra 
+forma, por lo que es muy importante poder identificar cuando estos cambios 
+realmente significan que el Team va bien o que todo va mal. Para poder leer 
+apropiadamente las burndown se deben reconocer primero los casos generales[^6]
+[^7] [^8] y desde allí comenzar a entender que quiere decir tu propia burndown:
+
+[^6]: http://www.scrumdesk.com/is-it-your-burn-down-chart/
+[^7]: https://www.scrumalliance.org/community/articles/2013/august/burn-down-chart-%E2%80%93-an-effective-planning-and-tracki
+[^8]: http://www.methodsandtools.com/archive/scrumburndown.php
+
+* **El Team ideal**
+
+<p align="center">
+    <%= image_tag('tutoriales/scrum/teamIdeal.jpg', :class => 'img-responsive img-thumbnail', :height => '50%', :weight => '50%') %> 
+</p>
+
+Cuando veas un Burndown como esta se debe felicitar al Team, es un reflejo 
+de un gran trabajo, de que no se sobrecargan de trabajo, no van ni tarde ni 
+adelantados, entregan el producto a tiempo y son totalmente auto-organizados. 
+Una Burndown así solo se presenta en Team con vasta experiencia.
+
+Esto también refleja que el Product Owner es experimentado ya que las historias
+han de estar en perfecto estado para poder trabajar de esta forma. También 
+refleja un gran Scrum Master ya que el Team ha trabajado sin impedimentos. 
+
+Para que la Burndown sea así el Team sabe estimar correctamente la complejidad 
+de cada historia.
+
+**¿Qué mejorar?** ¡Nada, sigan así!
+
+* **Un gran Team**
+
+<p align="center">
+    <%= image_tag('tutoriales/scrum/granTeam.jpg', :class => 'img-responsive img-thumbnail', :height => '50%', :weight => '50%') %> 
+</p>
+
+Esta es la Burndown típica que se suele ver en Team con experiencia, esto 
+refleja que el Team está comprometido con el objetivo del Sprint, se adaptan 
+correctamente a los cambios del scope, son capaces de mejorar la velocidad 
+para lograr el objetivo, es un Team que continuamente se pregunta como 
+lograr llegar a la fecha de entrega.
+
+**¿Qué mejorar?** El Team debe cuestionarse en el Sprint Retrospetive 
+Meeting que es lo que los está haciendo tener un mal comienzo en el Sprint y 
+mejorarlo, también deben cuestionarse sobre la carga de historias y la 
+precisión de las estimaciones hechas.
+
+* **Un buen Team**
+
+<p align="center">
+    <%= image_tag('tutoriales/scrum/buenTeam.jpg', :class => 'img-responsive img-thumbnail', :height => '50%', :weight => '50%') %> 
+</p>
+
+Esta es la típica Burndown de Team con cierta experiencia en Scrum, el team 
+está comprometido con el objetivo del Sprint, se han logrado adaptar al cambio 
+de scope, el Team aumenta su velocidad para llegar al objetivo, es un Team 
+que continuamente se pregunta cómo lograr llegar a la fecha de entrega.
+
+**¿Qué mejorar?** El Team debe cuestionarse en el Sprint Retrospetive 
+Meeting porque el Team no puede avanzar a la velocidad estimada, se puede 
+deber a mala estimación de historias, mal uso de herramientas o métodos de 
+Scrum mal empleados o que no funcionan con este Team. Quizás se deban mover 
+algunas historias para el siguiente Sprint.
+
+* **Muy Tarde**
+
+<p align="center">
+    <%= image_tag('tutoriales/scrum/tarde.jpg', :class => 'img-responsive img-thumbnail', :height => '50%', :weight => '50%') %> 
+</p>
+
+Esta Burndown nos dice que no lograron entregar todo el trabajo prometido y 
+que estuvieron atrasados todo el tiempo. El Team no es capaz de adaptarse al 
+scope del Sprint.
+
+**¿Qué mejorar?** Revisa el tamaño de las historias incluida en el Sprint 
+Backlog, quizás las historias son muy grandes y se pueden dividir, conviene 
+dejar historias con menos prioridad para otros Sprints, enfóquense en dar 
+valor al cliente con pocas historias. Se deben tomar menos historias en el 
+siguiente Sprint.
+
+* **Muy temprano**
+
+<p align="center">
+    <%= image_tag('tutoriales/scrum/temprano.jpg', :class => 'img-responsive img-thumbnail', :height => '50%', :weight => '50%') %> 
+</p>
+
+Está Burndown nos dice que el trabajo fue terminado antes de lo estimado, esto 
+no es exactamente bueno ni un reflejo de un buen Team Scrum, en esta 
+situación se entiende que el Team sobre-estimo las historias, no hay mucho 
+compromiso de parte del Team, se ha calculado mal la capacidad del Sprint, 
+algunos miembros del Team no trabajaron y que no se ha suplantado la 
+necesidad de trabajo con historias del Product Backlog.
+
+**¿Qué mejorar?** Estimación de las historias o en su defecto el Scrum Master 
+debe ser muy proactivo para así asignar nuevas historias al Sprint Backlog.
+
+* **Tomándose un descanso**
+
+<p align="center">
+    <%= image_tag('tutoriales/scrum/descanso.jpg', :class => 'img-responsive img-thumbnail', :height => '50%', :weight => '50%') %> 
+</p>
+
+Esta Burndown demuestra que el Team se está tomando un descanso ya que el 
+Team está terminando historias antes de lo esperado, por lo que podría hacer 
+más o quizás no hay suficientes ítems en el Sprint Backlog o el Product Owner 
+no ha sabido explicar sus requerimientos. Es posible que el team tenga muchos 
+miembros o que las historias estén sobre-estimadas.
+
+**¿Qué mejorar?** Incluye más historias al Sprint Backlog. Esto debe ser 
+hablado con el Product Backlog, aumentando así la carga de trabajo de cada 
+Sprint.
+
+* **La línea recta**
+
+<p align="center">
+    <%= image_tag('tutoriales/scrum/recta.jpg', :class => 'img-responsive img-thumbnail', :height => '50%', :weight => '50%') %> 
+</p>
+
+Esta Burndown no nos permite saber si el trabajo ha sido hecho apropiadamente 
+o no y si es que el Team sabía si iban a terminar el Sprint a tiempo o no.
+
+Quizás el equipo está trabajando bien, pero alguien está agregando trabajo con 
+una complejidad igual al trabajo terminado. También puede ser que el Team no 
+actualiza la Burndown cuando corresponde o las historias fueron sobre-
+estimadas. Puede que el Product Owner no se preocupe realmente de las 
+metodologías ágiles o no entienda su rol.
+
+**¿Qué mejorar?** Tanto el Team como el Scrum Master necesitan más 
+entrenamiento con Scrum a nivel teórico. Si el caso es que se está añadiendo 
+trabajo en la misma magnitud que se termina es responsabilidad del Scrum Master
+evitar este fenómeno y organizar el proyecto.
+
+Si se ve que este fenómeno de la línea recta ocurre durante tres días el Scrum 
+Master debe tomar las riendas y hacer una reunión con el equipo para detectar 
+el problema.
+
+* **Cumple con tus obligaciones**
+
+<p align="center">
+    <%= image_tag('tutoriales/scrum/obligaciones.jpg', :class => 'img-responsive img-thumbnail', :height => '50%', :weight => '50%') %> 
+</p>
+
+En esta Burdown se puede ver como el equipo no es para nada funcional ni auto-
+organizado. El Team no es capaz de llegar a la meta ni cumplir con historias. 
+El Scrum Master no es capaz de ayudar al Team para que realicen su trabajo ni 
+incentivarlos a ello. El Product Owner tampoco debe estar preocupado del 
+desarrollo del software para hacer notar la falta de trabajo.
+
+**¿Qué mejorar?** En esta situación el equipo debe comenzar de 0, estudiando 
+Scrum y reforzando la metodología. Se recomienda hacer una retrospectiva para 
+encontrar el problema principal de este fenómeno.
+
+* **Cero esfuerzo**
+
+<p align="center">
+    <%= image_tag('tutoriales/scrum/cero.jpg', :class => 'img-responsive img-thumbnail', :height => '50%', :weight => '50%') %> 
+</p>
+
+Claramente no hay historias estimadas o es posible que no existan historias en 
+el Sprint Backlog, esto se puede deber a que el Sprint no ha comenzado 
+oficialmente aun.
+
+**¿Qué mejorar?** El Team debe estimar las historias, conformar el Sprint 
+Backlog, estimar la velocidad y capacidad del Team y comenzar el Sprint!
+
+* **Vuela alto Burndown**
+
+<p align="center">
+    <%= image_tag('tutoriales/scrum/arriba.jpg', :class => 'img-responsive img-thumbnail', :height => '50%', :weight => '50%') %> 
+</p>
+
+Esto suele ocurrir en el primer Sprint de tu vida, si es así es totalmente 
+aceptable :)
+
+Aquí se puede ver que continuamente se agregan nuevas historias al Sprint 
+Backlog, se añade más trabajo del que es completado, puede que alguien esté re-
+estimando constantemente las historias durante el Sprint. Es probable que el 
+Team no sepa cuál es el problema que existe al ver este Burndown, el Scrum 
+Master es crucial en estos casos.
+
+**¿Qué mejorar?** El Sprint Backlog debe ser re-estimado una única vez, de 
+forma que en este caso todo el Team debe hacerlo para dejar un valor que deje 
+a todos conformes. Se debe pedir consulta a Scrum Master experimentados para 
+poder arreglar la situación en caso de que el Team no cuente con uno.
+
+* **Lomo de Toro**
+
+<p align="center">
+    <%= image_tag('tutoriales/scrum/toro.jpg', :class => 'img-responsive img-thumbnail', :height => '50%', :weight => '50%') %> 
+</p>
+
+Claramente las historias no han sido estimadas antes de comenzar el Sprint, 
+además a la mitad del Sprint se han agregado historias nuevas, sin embargo 
+demuestra que el Team se dio cuenta del error y logro llegar a la meta, aunque 
+probablemente no ha entregado un valor importante al cliente ni ha cumplido el 
+objetivo del Sprint.
+
+**¿Qué mejorar?** Lo mejor es reiniciar el ciclo Scrum desde el Sprint 
+Planning Meeting, este nuevo Sprint puede durar meno si es necesario ya que 
+esto entregará mucho más valor que antes.
 
 #### Calidad:
 
@@ -1003,7 +1213,7 @@ Adémas, el Sprint Burndown puede hacerse de dos maneras diferentes:
    software entregado en cada Sprint, así como también medir la calidad de 
    valor entregado al cliente.
 
-   Para esto no existe un modo especifico por lo que se pueden usar 
+   Para esto no existe un modo específico por lo que se pueden usar 
    herramientas o métricas ya establecidas así como métricas nuevas inventadas
    por el equipo de trabajo.
 
@@ -1062,14 +1272,14 @@ Por ejemplo, si la aplicación es web se recomienda usar OWASP.
             El orden de las reuniones es:
              <ol>
                  <li>Sprint Planning Meeting: Al comenzar el Sprint.</li>
-                 <li>Daily Scrum: díaramente durante el Sprint.</li>
+                 <li>Daily Scrum: diariamente durante el Sprint.</li>
                  <li>Sprint Review Meeting: Al finalizar el Sprint.</li>
                  <li>Sprint Retrospective: Antes de comenzar el siguiente Sprint.</li>
              </ol>
 
-            Adicionalmente existe la Backlog Refinement Meeting, la cuál puede 
+            Adicionalmente existe la Backlog Refinement Meeting, la cual puede 
             ocurrir en cualquier momento, aunque es altamente recomendable que 
-            por lo menos ocurra una vez antse del Sprint Planning Meeting.
+            por lo menos ocurra una vez antes del Sprint Planning Meeting.
         </p>
     </div>
     <div class="col-md-6">
@@ -1095,10 +1305,10 @@ o requerimientos capturados, el valor asignado representa la magnitud de
 importancia, es decir, aquella con mayor valor es la más importante, si una 
 historia vale la mitad de otra es porque es la mitad de importante, etc.
 
-Con esto el Product Owner a dado a conocer que es lo más importante para él, 
+Con esto el Product Owner ha dado a conocer que es lo más importante para él, 
 sin embargo en este proceso se debe guiar al Product Owner, preguntándole 
 porque el piensa que una historia es más importante que otra y mostrándole 
-otras alternativas hasta que tanto el Product Owner y el Team este satisfecho 
+otras alternativas hasta que tanto el Product Owner y el Team esté satisfecho 
 en el orden dado. Para esto, tanto el Team como el Scrum Master deben ser los 
 guías.
 
@@ -1122,7 +1332,7 @@ modo que las historias más importantes sean lo más transparente posible.
 
 Tanto en esta reunión como en el Sprint Planning el Team debe aprender a 
 decirle "NO" al Product Owner, muchas veces sueña muy grande y es 
-responsabilidad del Team y el Scrum Mmaster el saber cuando decir que no a 
+responsabilidad del Team y el Scrum Mmaster el saber cuándo decir que no a 
 ciertos requerimientos.
 
 
@@ -1145,7 +1355,7 @@ Se intentan responder al menos estas dos preguntas:
 
     * El Team discute las funcionalidades que serán implementadas en el Sprint.
     * El Product Owner discute el objetivo que debe tener este Sprint y que 
-      items del Product Backlog ayudarán a cumplir este objetivo.
+      ítems del Product Backlog ayudarán a cumplir este objetivo.
     * Todos comparten lo que piensan al respecto para que las razones y 
       objetivos sean claros para todos.
     * Solo el Team puede decir que son capaces de cumplir 
@@ -1170,7 +1380,7 @@ Se intentan responder al menos estas dos preguntas:
 Con las historias seleccionadas se crea el Sprint Backlog.
 
 El Sprint Planning Meeting parte con un repaso al Product Backlog resultante 
-del Backlog Refinement Meeting, ha este punto todas los requerimientos del 
+del Backlog Refinement Meeting, a este punto todas los requerimientos del 
 Product Owner han sido escritos apropiadamente como historia. Esto debe ser 
 repasado con el Product Owner para comprobar que no se ha perdido la intención 
 de ninguna historia, luego se le pide al Product Owner que re-ordene y re-
@@ -1180,10 +1390,10 @@ Product Backlog, re-valorados y re-ordenados.
 
 Luego los miembros del Team y el Scrum Master comienzan a evaluar las 
 historias en Story Points, en particular se recomienda usar el método Scrum 
-Poker[^6]. Este proceso consiste en estimar la complejidad de una historia del 
+Poker[^9]. Este proceso consiste en estimar la complejidad de una historia del 
 Sprint Backlog, cada miembro del Team y el Scrum Master elige un número de la 
-escala de Fibonacci modificado[^7] en silencio y de forma privada (nadie debe 
-saber el número del otro), una ves que todos tienen claro su número se procede 
+escala de Fibonacci modificado[^10] en silencio y de forma privada (nadie debe 
+saber el número del otro), una vez que todos tienen claro su número se procede 
 a que todos revelen su número al mismo tiempo, esto es muy importante, una vez 
 que todos revelan sus números aquellos que dieron el menor y mayor valor deben 
 opinar porqué piensan que ese valor es el indicado, en esta discusión puede 
@@ -1192,8 +1402,8 @@ Scrum Master asigna un valor a la historia y se procede con la siguiente. En
 este proceso el Product Owner solo participa en la discusión de los temas pero 
 nunca interviene en los Story Points.
 
-[^6]: http://www.planningpoker.com/
-[^7]: Para Scrum Poker se pueden usar otras escalas, el usar la de Fibonacci modificada es una recomendación personal.
+[^9]: http://www.planningpoker.com/
+[^10]: Para Scrum Poker se pueden usar otras escalas, el usar la de Fibonacci modificada es una recomendación personal.
 
 El valor dado representa la complejidad de dicha historia, mientras más alto 
 más difícil será de hacer y más tiempo tomará. Si una historia es 
@@ -1213,7 +1423,7 @@ a un valor más estable, de modo que en cada Sprint se pueda ofrecer un poco
 más que la vez anterior.
 
 Una vez que se han valorizado y evaluado todas las historias se procede a 
-elegir cuales formaran parte del Sprint Backlog ha realizar en este Sprint. 
+elegir cuales formaran parte del Sprint Backlog a realizar en este Sprint. 
 Esta selección se lleva en conjunto con el Product Owner para que todos estén 
 de acuerdo a lo elegido. El objetivo principal es maximizar el valor entregado 
 al cliente.
@@ -1224,7 +1434,7 @@ Sprint, pero que solo serán tomadas en cuenta si el Team termina antes el
 Sprint Backlog, lo que le da tiempo para avanzar en estas historias, las 
 cuales no deben ser terminadas necesariamente.
 
-Al final de esta reunión el Team debe ser capas de explicar al Product Owner y 
+Al final de esta reunión el Team debe ser capaz de explicar al Product Owner y 
 al Scrum Master como va a trabajar durante el Sprint para lograr el objetivo 
 del Sprint. Luego de llegar a un acuerdo se da por finalizada la reunión y se 
 comienza el Sprint.
@@ -1270,9 +1480,9 @@ Lo primero a discutir durante el Sprint Planning es el objetivo del Sprint, de
 modo que toda la reunión se enfoque en cumplir este objetivo. En la reunión 
 deben participar todos: Product Owner, Scrum Master y Team.
 
-**3.- Guíar al Product Owner**
+**3.- Guiar al Product Owner**
 
-Al comenzar el Scrum Master debe presentar cuales son los ítemes más 
+Al comenzar el Scrum Master debe presentar cuales son los ítems más 
 importantes del Product Backlog y luego el Product Owner debe actualizar al 
 Team sobre las nuevas condiciones del negocio, que ha cambiado, que es nuevo y 
 que ha dejado de ser importante.
@@ -1283,7 +1493,7 @@ Sprint, el Product Owner debiera comenzar por ver la velocidad del Team para
 tener una idea de cuantas historias el Team es capaz de abarcar en el
 siguiente Sprint. El Product Owner También debiera considerar:
 
- * Días feriados, vacaciones del personal, eventos del Team y/o organización.
+ * Días feriados, vacaciones del personal, eventos del Team y/u organización.
  * Prioridad de las historias en el Product Backlog.
  * Como y cuando esa historia ayudará a terminar el producto.
 
@@ -1316,7 +1526,7 @@ Las preguntas que ayudan a guiar este proceso son:
  * ¿Cuales son las implicaciones en Testing que tiene esta historia? ¿Se puede 
    automatizar el testing?
  * ¿Se necesita habilidades o conocimientos técnicos específicos para realizar 
-   esta historia? De ser así, ¿Como optimizar el tiempo del especialista que 
+   esta historia? De ser así, ¿Cómo optimizar el tiempo del especialista que 
    realizara esta historia?
  * ¿Como afecta a la arquitectura del producto esta historia? ¿Hay gente 
    especifica del Team que deberá involucrarse en el diseño y revisión del 
@@ -1365,7 +1575,7 @@ estrés en la reunión. Se recomienda sin embargo que estas sean temprano o al
 comienzo de una jornada de trabajo, de esta forma el Team estará informado de 
 lo que ocurrió ayer y lo que ocurrirá hoy.
 
-El Scrum Master debe asegurarse que esto ocurre todo los días y que se cumplan 
+El Scrum Master debe asegurarse que esto ocurre todos los días y que se cumplan 
 con precisión los 15 minutos, sin embargo el Scrum Master debe dejar al equipo 
 guiar la reunión.
 
@@ -1377,9 +1587,9 @@ siguiente.
 Estas reuniones diarias:
 
  * mejoran la comunicación.
- * Elimina la necesidad de otras reuníones.
+ * Elimina la necesidad de otras reuniones.
  * Identifica impedimentos para poder removerlos.
- * resalta y promueve el proceso de tomar desiciones rápidas.
+ * resalta y promueve el proceso de tomar decisiones rápidas.
  * mejora el nivel de conocimiento del equipo de desarrollo.
  * Aumenta la probabilidad de que el equipo alcance el objetivo del sprint.
  * Mantiene a todo el equipo actualizado en el trabajo del equipo.
@@ -1388,9 +1598,9 @@ Estas reuniones diarias:
 
 Lo que se suele explicar en esta reunión es:
 
- * ¿En que ayudé ayer para alcanzar el objetivo del sprint?
- * ¿en que ayudaré hoy?
- * ¿veo algún impedimento en mi trabajo o en el de otros?
+ * ¿En qué ayudé ayer para alcanzar el objetivo del sprint?
+ * ¿En qué ayudaré hoy?
+ * ¿Veo algún impedimento en mi trabajo o en el de otros?
 
 Se aconseja tener una lista de los impedimentos encontrados durante estas 
 reuniones.
@@ -1416,17 +1626,17 @@ invitar a gente externa.
 
 Se debe pasar un checklist para comprobar el trabajo hecho y el trabajo 
 faltante. También se deben anotar todos los Bugs encontrados y todos los 
-comentarios del Product OWner, ya que este podría querer algunos cambios en el 
+comentarios del Product Owner, ya que este podría querer algunos cambios en el 
 trabajo realizado o podrían ocurrirse cosas nuevas, todo esto debe ser anotado 
 en el Product Backlog para luego ser discutido en el siguiente Backlog 
 Refinement Meeting.
 
-Cada error, bug o incidencia encontrada durante el review se consiedra un 
-Escaped Defects[^8], los cuales además pueden ser considerados menores, 
-regulares, importantes u bloqueantes[^9].
+Cada error, bug o incidencia encontrada durante el review se considera un 
+Escaped Defects[^11], los cuales además pueden ser considerados menores, 
+regulares, importantes u bloqueantes[^12].
 
-[^8]: http://www.agilebok.org/index.php?title=Escaped_Defects
-[^9]: Un Escaped Defect bloqueante implica que debido a él el programa no puede seguir su funcionamiento regular, en caso de encontrarse con este tipo de bugs se debe indicar al Product Owner algún "Work Around", o forma alternativa de realizar el trabajo afectado. Si el Work Around no existe entonces este Escaped Defect debe ser una historia con alta prioridad para ser reparada en el siguiente Sprint.
+[^11]: http://www.agilebok.org/index.php?title=Escaped_Defects
+[^12]: Un Escaped Defect bloqueante implica que debido a él el programa no puede seguir su funcionamiento regular, en caso de encontrarse con este tipo de bugs se debe indicar al Product Owner algún "Work Around", o forma alternativa de realizar el trabajo afectado. Si el Work Around no existe entonces este Escaped Defect debe ser una historia con alta prioridad para ser reparada en el siguiente Sprint.
 
 Esta reunión se realiza en el momento de haber terminado el desarrollo del 
 Sprint y antes del Sprint Retrospective Meeting.
@@ -1438,10 +1648,10 @@ Elementos importantes:
 
  * Debe estar presente el Team, el Scrum Master, el Product Owner y cualquier 
    stakeholder invitado por el Product Owner.
- * El Product Owner verifica que ítemes del Product Backlog han sido 
-   terminados y cuales no.
+ * El Product Owner verifica que ítems del Product Backlog han sido 
+   terminados y cuáles no.
  * El Team discute que cosas salieron bien en el Sprint, que problemas 
-   hubieron y como se resolvieron. Esto respecto a las historias, enfocandose 
+   hubieron y como se resolvieron. Esto respecto a las historias, enfocándose 
    más en el negocio que en los aspectos técnicos.
  * El Team muestra el trabajo hecho y responde preguntas sobre el incremento 
    realizado en comparación con lo que ya existía(Sprint anterior).
@@ -1451,7 +1661,7 @@ Elementos importantes:
    discutir y negociar.
  * Como ha mejorado y que ha cambiado del producto, así como también que es lo 
    más valioso(a nivel de negocio) que se podría hacer después.
- * Repaso del tiempo, presupuesto, capacidades, viabilidad, rentabilidad, etc 
+ * Repaso del tiempo, presupuesto, capacidades, viabilidad, rentabilidad, etc. 
    para poder realizar el siguiente sprint.
 
 #### Recomendaciones II
@@ -1483,7 +1693,7 @@ todos los miembros puedan tener feedback al respecto.
 
 Sin embargo, si la moral del Team es baja y estas reuniones son tensas, ya sea 
 por problemas internos o porque el Sprint del que se habla no resulto bien, no 
-se desesperen, es normal, aveces ocurre, sobre todo al comenzar con Scrum, por 
+se desesperen, es normal, a veces ocurre, sobre todo al comenzar con Scrum, por 
 lo que esta reunión debe darse para identificar lo que falló para luego en el 
 Sprint Retrospective abarcar los aspectos a fondo y mejorar el estado actual 
 del proyecto en el siguiente Sprint.
@@ -1522,7 +1732,7 @@ Se recomienda usar la lista de impedimentos creada durante las reuniones
 diarias para establecer temas de discusión.
 
 El objetivo máximo de esta reunión es mejorar la calidad de trabajo del Team y 
-el Scrum MAster para el siguiente Sprint, tanto personalmente como a nivel 
+el Scrum Master para el siguiente Sprint, tanto personalmente como a nivel 
 grupal.
 
 Esta reunión **debe** ocurrir después del Sprint Review.
@@ -1535,7 +1745,7 @@ Objetivo:
 
  * Inspeccionar como fue el último Sprint enfocándose en la gente, las 
    relaciones, el proceso y las herramientas.
- * Identificar y ordenar los ítemes más importantes que resultaron bien y que 
+ * Identificar y ordenar los ítems más importantes que resultaron bien y que 
    dieron mejoras potenciales.
  * Crear un plan para implementar mejoras a como el sistema Scrum funciona, 
    puede que algunas cosas sobre Scrum no funcionen bien en el
@@ -1565,7 +1775,7 @@ equipo trabaja y mejora sus técnicas.
 **2.- Conocer la impresión del equipo sobre el Sprint**
 
 Para empezar la reunión se recomienda hacer que cada integrante escriba en un 
-post-it un número del 1 (terrible) al 10 (increible)
+post-it un número del 1 (terrible) al 10 (increíble)
 representando como ellos se sienten respecto al Sprint en general. 
 Esto debe ser hecho de forma que nadie pueda ver tu número, por lo que al 
 escribirlo se debe entregar al Scrum Master quién luego calcula el promedio,
@@ -1587,13 +1797,13 @@ También al analizar la Burndown se deben hacer las siguientes preguntas:
 
 * ¿El equipo cumplió con el objetivo que se esperaba?
 * ¿Es la Burndown que todos esperaban?
-* ¿En que momentos se añadió o quitó trabajo durante el Sprint?
+* ¿En qué momentos se añadió o quitó trabajo durante el Sprint?
 
 Es importante comparar la curva esperada con la curva real y entender porque 
 son diferentes.
 
 Otro dato importante a usar es la **Velocidad**, esta representa cuantos Story 
-Points y cuanto valor se ha entregado en los últimos 7 Sprints ( o menos si
+Points y cuanto valor se ha entregado en los últimos 7 Sprints (o menos si
 no existen tantos). Un buen desarrollo de Scrum asegura que la velocidad 
 siempre va en aumento.
 
@@ -1618,18 +1828,18 @@ para que coloquen y digan porque escribieron eso.
 
 Usando los post-it anteriores, el moderador intenta ordenar los post-it, 
 agrupando aquellos similares o que están en áreas de interés similar, esto por 
-cada columna. Luego se le da tres puntos ( o menos si el equipo es pequeño) a 
+cada columna. Luego se le da tres puntos (o menos si el equipo es pequeño) a 
 cada miembro para cada columna. La idea es que con sus plumones marquen puntos 
 en los post-it en los que votan.
 
-Luego se toman los tres post-it más votado de cada columna y la reunión 
+Luego se toman los tres post-it más votados de cada columna y la reunión 
 continuara discutiendo estos puntos.
 
 **5.- Discusión**
 
 Esta es la parte más importante de la reunión, se recomienda que esta parte 
 dure una hora o más si es necesario para que todos los puntos sean discutidos, 
-también, cada ítem debe tener un tiempo establecido para que todos los ítemes 
+también, cada ítem debe tener un tiempo establecido para que todos los ítems 
 tengan el mismo nivel de atención. El moderador se preocupa de que esto se 
 cumpla así como también evita que durante una discusión se salgan del tópico 
 central.
@@ -1639,7 +1849,7 @@ la discusión el moderador debe ir tomando nota y una vez que
 se llegue a un consenso entre todos el moderador debe decir a todo el 
 equipo el consenso al que han llegado y si están de acuerdo. Luego
 se anota este consenso y se le asigna un responsable quién debe ser parte del 
-equipo. El responsable debe ofrecerse por si mismo. Esto se hace por cada tema.
+equipo. El responsable debe ofrecerse por sí mismo. Esto se hace por cada tema.
 
 **6.- Resultados públicos**
 
@@ -1710,21 +1920,21 @@ recomienda hacerse las siguientes preguntas:
 ### Criterio de Listo
 
 El criterio de listo se establece en el Sprint Planning y se aplica de forma 
-global a todos los ítemes del Product Backlog, por lo que determina que se 
+global a todos los ítems del Product Backlog, por lo que determina que se 
 debe hacer como mínimo para terminar una historia. Cuando una historia ha sido 
-terminada y se dice que está "lista" quiere decir que que todos entienden 
+terminada y se dice que está "lista" quiere decir que todos entienden 
 porque está lista y que es lo que esto implica.
 
-Está definición permite decidir cuanto trabajo es capas de hacer un Team 
-durante un Sprint, dándoles así un buen criterio para decidir que historia de
+Está definición permite decidir cuánto trabajo es capaz de hacer un Team 
+durante un Sprint, dándoles así un buen criterio para decidir qué historia de
 usuario irá en el Sprint Backlog o no.
 
 Un ejemplo normal de criterio de listo es:
 
- * Cada método generado tiene un caso de prueba para cada aspecto de el. (
+ * Cada método generado tiene un caso de prueba para cada aspecto de él. (
   usualmente es fácil de cumplir con esto usando TDD).
  * Todos los casos de prueba asociados no fallan.
- * La integración no ha arruinado otras historias ni sus casos de pruebas(en 
+ * La integración no ha arruinado otras historias ni sus casos de pruebas (en 
    caso de que si lo haga deben ser reparadas).
  * El código fuente está apropiadamente comentado.
  * El Product Owner ha aceptado le estado actual de la historia. (Esto es muy 
@@ -1763,26 +1973,26 @@ siguiendo este esquema:
     Escenario 2: ...
 ~~~
 
-Ejemplo: YO COMO "rol", QUIERO "necesidad", PARA "razón".
+Ejemplo:
 
 ~~~
-    "Story: El Dueño de la cuenta puede retirar dinero
+    "Historia: El Dueño de la cuenta puede retirar dinero
      Yo como 'Dueño de la cuenta'
      Quiero 'quiero retirar dinero de una ATM'
      Para 'poder retirar dinero cuando el banco esté cerrado'"
      
     Escenario 1: [la cuenta tiene suficientes fondos]
     Dado [el balance de la cuenta es $100]
-     Y [la tarjeta es valida]
+     Y [la tarjeta es válida]
      Y [la maquina tiene suficiente dinero]
     Cuando [el dueño de la cuenta requiera $20]
     Entonces [el ATM debiera entregar $20]
      Y [el balance de la cuenta debiera ser $80]
      Y [la tarjeta debiera ser devuelta]
      
-    Escenario 2: [la cuenta tiene fondo insuficientes]
+    Escenario 2: [la cuenta tiene fondos insuficientes]
     Dado [el balance de la cuenta es $10]
-     Y [la tarjeta es valida]
+     Y [la tarjeta es válida]
      Y [la maquina tiene suficiente dinero]
     Cuando [el dueño de la cuenta requiera $20]
     Entonces [el ATM no debe entregar ningún dinero]
@@ -1826,7 +2036,7 @@ Scrum, sin embargo puedo imaginarme como se agarran la cabeza para poder
 entender esta gran cantidad de contenido en tan poco tiempo, pues la 
 recomendación es: *no lo hagas*. No todo al mismo tiempo al menos.
 
-Scrum se desarrollo en Sprints de dos o 4 semanas y no todas las reuniones 
+Scrum se desarrolla en Sprints de dos o 4 semanas y no todas las reuniones 
 ocurren el mismo día, lo que te permite ir aprendiendo mientras lo vives.
 
 Por ello a continuación les dejo con una serie de recomendaciones para comenzar
@@ -1835,8 +2045,8 @@ a ser ágil y aprender Scrum!
 **1.- Armar el equipo**
 
 En este sentido el equipo es: Scrum Master + Team. Al armar el equipo se debe 
-repasar muy bien cual es el rol y responsabilidad de estos aspectos, de forma 
-que el Scrum Master se ofresca por si mismo y no que sea impuesto por el resto 
+repasar muy bien cuál es el rol y responsabilidad de estos aspectos, de forma 
+que el Scrum Master se ofrezca por sí mismo y no que sea impuesto por el resto 
 del equipo.
 
 También es importante que exista confianza en el equipo, para ello se 
@@ -1848,8 +2058,8 @@ compartiendo tiempo libre.
 Antes de empezar cualquier Sprint lo más probable es que no se tenga ni idea 
 de lo que se va a hacer, para ello se recomienda tener una reunión previa en 
 la que el Product Owner explicará el negocio a grandes rasgos, todo lo que el 
-anhela y lo maravilloso de su idea. Asegurence de hacer todas las preguntas 
-posibles para entender de que se trata, no se preocupen todavía de si es 
+anhela y lo maravilloso de su idea. Asegúrense de hacer todas las preguntas 
+posibles para entender de qué se trata, no se preocupen todavía de si es 
 factible o no, solo preocúpense de entender el negocio.
 
 En esta reunión es posible que noten que el cliente no sabe lo que es un 
@@ -1877,7 +2087,7 @@ necesario, no hay que ser muy riguroso en esto y se debe pedir la colaboración
 del Product Owner. Si no pueden ser presenciales se recomienda usar un chat 
 asíncrono.
 
-Respecto a las reuniones diarias, **haganlas todos los días en el mismo lugar 
+Respecto a las reuniones diarias, **háganlas todos los días en el mismo lugar 
 a la misma hora**. Usar una minuta es buena idea :)
 
 **5.- Auto-organización**
@@ -1902,14 +2112,14 @@ en clasificar cada historia en:
    completarse si es posible.
  * **C** (Could): Describe requerimientos que se desea que se completen pero 
    que pueden esperar.
- * **W** (Won't): Representa requerimientos que el Product OWner desea que se 
+ * **W** (Won't): Representa requerimientos que el Product Owner desea que se 
    implementen pero quizás en un futuro y si el tiempo lo permite (También 
    conocidos como **NICE TO HAVE**)
 
 Esta clasificación debe hacerse en el Sprint Planning con el Product Owner 
 presente, de forma que todos estén de acuerdo con la prioridad dada.
 
-**6.- Sprint Review informal y comodo**
+**6.- Sprint Review informal y cómodo**
 
 Esta reunión no es de estrés, es para mostrar lo avanzado. No terminar un 
 Sprint no significa haber fallado. Se debe aprender de los errores y mejorar 
@@ -1919,7 +2129,7 @@ siguiente iteración.
 
 También se recomienda que el Product Owner se quede con el software terminado 
 para que el tenga todo el tiempo del mundo de experimentar con él, esto 
-provocará que en el siguiente Backlog Refinement la discución sea más fluida, 
+provocará que en el siguiente Backlog Refinement la discusión sea más fluida, 
 el Product Owner sabrá con un poco más de claridad que es lo que quiere.
 
 **7.- Sprint Retrospective, a celebrar!**
@@ -1930,7 +2140,7 @@ que mejor resulte para ustedes.
 
 **8.- Transparencia**
 
-Todo el contenido, todos los errores, todas tareas, todo todo, debe ser 
+Todo el contenido, todos los errores, todas tareas, todo de todo debe ser 
 transparente para el Team, el Scrum Master y el Product Owner. Mayor 
 transparencia da mayor confianza, lo que creará un ambiente de trabajo más 
 amigable.
@@ -1940,7 +2150,7 @@ amigable.
 Uno de los grandes aspectos de las metodologías ágiles y de Scrum en general 
 es que no son metodologías rígidas in-alterables, ¿Crees que lo que haces no 
 funciona para tu equipo? ¿Crees que sería mejor implementar el siguiente 
-esquema de trabajo? ¿Quizas usar la siguiente métrica nos pueda ser útil?
+esquema de trabajo? ¿Quizás usar la siguiente métrica nos pueda ser útil?
 
 En Scrum todo esto es posible y debe ser discutido por el Team en las Sprint 
 Retrospective, experimenten prueben y mejoren! Tan solo no olviden el 
@@ -1949,7 +2159,7 @@ increíble.
 
 **10.- Compartir el conocimiento**
 
-"Claro, todos en el equipo deben saber como se hacen las cosas y blah blah", 
+"Claro, todos en el equipo deben saber cómo se hacen las cosas y blah blah", 
 sí es cierto, el equipo debe transmitir el conocimiento técnico entre ellos, 
 pero también es **sumamente importante** compartir con otros equipos Scrum, 
 sin importar si ellos están haciendo un proyecto absolutamente diferente.
