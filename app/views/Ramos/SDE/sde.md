@@ -2,7 +2,7 @@
 
 Este ramo corresponde a un electivo profesional enfocado a perfeccionar los 
 conocimientos adquiridos en el ramo de Sistemas Distribuidos, por lo que los 
-conocimientos de este ramo son fundamentales.
+conocimientos de este ramo son fundamentales para entender los conceptos básicos.
 
 El ramo considera presentaciones de varios temas, revisar papers de 
 investigación y finalmente presentar un paper sobre un tema de investigación

@@ -1,7 +1,7 @@
 ## Los Mejores Apuntes
 
 Apuntes que probablemente sirvan al salir de la USACH y que sería bueno tener 
-a la mano, de forma que esta página es solo un indice a los apuntes 
+a la mano, de forma que esta página es solo un índice a los apuntes 
 correspondientes.
 
 Para temas en más profundidad no olvide revisar los <a href="/tutorial" target="_blank">Tutoriales!</a>
