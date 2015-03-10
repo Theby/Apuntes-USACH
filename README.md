@@ -25,6 +25,6 @@ gestión y autentificación de usuarios.)
 El resto de las gemas importantes que son usadas pueden ser revisadas en 
 Gemfile, cada una tiene sus respectivos comentarios en ese archivo.
 
-Para hacer uso de ellas basta con hacer "bundle install", cada página cuenta con documentación en su respectivo repositorio.
+Para hacer uso de ellas basta con hacer "bundle install", cada gema cuenta con documentación en su respectivo repositorio.
 
 Ante cualquier duda contactame a esteban.gaete@usach.cl

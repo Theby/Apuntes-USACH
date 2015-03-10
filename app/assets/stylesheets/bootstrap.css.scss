@@ -5748,7 +5748,7 @@ button.close {
 }
 .carousel-inner > .active {
   left: 0;
-  height: 220px;
+  height: 100%;
 }
 .carousel-inner > .next,
 .carousel-inner > .prev {
@@ -6510,4 +6510,42 @@ body {
 
 .fb_iframe_widget_lift {
     margin-left: -271px;
+}
+
+.back-to-top {
+  background: transparent;
+  margin: 0;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 70px;
+  height: 70px;
+  z-index: 100;
+  display: none;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: transparent;
+}
+
+.back-to-top i {
+  font-size: 60px;
+}
+
+.back-to-back {
+  background: transparent;
+  margin: 0;
+  position: fixed;
+  bottom: 0;
+  right: 60px;
+  width: 70px;
+  height: 70px;
+  z-index: 100;
+  display: none;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: transparent;
+}
+
+.back-to-back i {
+  font-size: 60px;
 }
