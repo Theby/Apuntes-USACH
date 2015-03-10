@@ -7,12 +7,22 @@
 	  <meta name="author" content="Esteban Gaete Flores">
         <% if action_name == "home" %>
             <meta property="og:title" content="ApuntesUsach" />
+        <% elsif controller_name == "apuntes" %>
+            <% if action_name == "show" %>
+                <meta property="og:title" content="AU - <%= @publicacion.siglas %>:<%= @entry.nombre %>" />
+            <% elsif action_name == "index" %>
+                <meta property="og:title" content="AU - <%= @publicacion.nombre %>" />
+            <% elsif action_name == "mejores_apuntes" %>
+                <meta property="og:title" content="AU - Mejores Apuntes" />
+            <% end %>
         <% elsif action_name == "scrum" %>
             <meta property="og:title" content="AU - Metodología Ágil: Scrum" />
         <% elsif action_name == "memcached" %>
             <meta property="og:title" content="AU - Memcached en Ruby on Rails" />
         <% elsif action_name == "pingesoChecklist" %>
             <meta property="og:title" content="AU - PINGESO Checklist" />
+        <% elsif action_name == "contacto" %>
+                <meta property="og:title" content="AU - Contacto" />
         <%else %>
             <meta property="og:title" content="ApuntesUsach" />
         <% end %>

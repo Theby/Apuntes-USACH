@@ -21,8 +21,14 @@
                         </div>
                     </div>
                     <div id="fecha" class="col-md-2">
-
                         <p class="pull-right hidden-print"><kbd> <a href="http://alkaidyowkow.tumblr.com/" target="_blank" style="color: red;"> Alkaid </a> </kbd></p>
+                        <div class="fb-like hidden-print" 
+                             data-href="http://apuntesusach.herokuapp.com/mejores_apuntes"
+                             data-layout="button_count"
+                             data-action="like"
+                             data-show-faces="true"
+                             data-share="true"
+                        ></div>
                     </div>
                 </div>
             </div>
@@ -33,6 +39,14 @@
 
                 <%= markdown(render file: "Ramos/Mejores_Apuntes.md") %>
 
+                <h2 id="comentarios" class="hidden-print">Comentarios</h2>
+                <hr class="divider hidden-print">
+                <div class="fb-comments hidden-print" 
+                     data-href="http://apuntesusach.herokuapp.com/mejores_apuntes" 
+                     data-numposts="5" 
+                     data-colorscheme="light"
+                     data-width="100%"
+                ></div>
             </div>
         </section>
 
