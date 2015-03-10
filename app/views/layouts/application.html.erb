@@ -5,10 +5,10 @@
 	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	  <meta name="description" content="Apuntes universitarios de Universidad de Santiago de Chile USACH">
 	  <meta name="author" content="Esteban Gaete Flores">
-        <% if action_name == "home" %>
-            <meta property="og:title" content="ApuntesUsach" />
-        <% elsif controller_name == "apuntes" %>
-            <% if action_name == "show" %>
+        <% if controller_name == "apuntes" %>
+            <% if action_name == "home" %>
+                <meta property="og:title" content="ApuntesUsach" />
+            <% elsif action_name == "show" %>
                 <meta property="og:title" content="AU - <%= @publicacion.siglas %>:<%= @entry.nombre %>" />
             <% elsif action_name == "index" %>
                 <meta property="og:title" content="AU - <%= @publicacion.nombre %>" />
@@ -22,7 +22,9 @@
         <% elsif action_name == "pingesoChecklist" %>
             <meta property="og:title" content="AU - PINGESO Checklist" />
         <% elsif action_name == "contacto" %>
-                <meta property="og:title" content="AU - Contacto" />
+            <meta property="og:title" content="AU - Contacto" />
+        <% elsif controller_name == "tutoriales" and action_name == "home" %>
+            <meta property="og:title" content="AU - Tutoriales" />
         <%else %>
             <meta property="og:title" content="ApuntesUsach" />
         <% end %>
