@@ -172,7 +172,8 @@ es lo que el cliente deseaba en primer lugar.
     </div>
     <div class="col-md-6">
         <p align="center">
-            <%= image_tag('tutoriales/scrum/traditional-waterfall-development.png', :class => 'img-responsive img-thumbnail', :height => '50%', :weight => '50%') %> 
+            <%= image_tag('tutoriales/scrum/traditional-waterfall-development.png', :class => 'img-responsive img-thumbnail', :height => '50%', :weight => '50%') %>
+            </br><small>Fuente original de la imagen: <a href="http://scrumreferencecard.com/scrum-reference-card/">Scrum Reference Card</a></small>
         </p>
     </div>
 </div>
@@ -488,7 +489,8 @@ Scrum hace que esta sea una metodología bastante fácil de aprender.
     </div>
     <div class="col-md-6">
         <p align="center">
-            <%= image_tag('tutoriales/scrum/scrum-iteration-detail.png', :class => 'img-responsive img-thumbnail', :height => '50%', :weight => '50%') %> 
+            <%= image_tag('tutoriales/scrum/scrum-iteration-detail.png', :class => 'img-responsive img-thumbnail', :height => '50%', :weight => '50%') %>
+            </br><small>Fuente original de la imagen: <a href="http://scrumreferencecard.com/scrum-reference-card/">Scrum Reference Card</a></small>
         </p>
     </div>    
 </div>
@@ -875,6 +877,7 @@ debe ser posible ver el avance del valor entregado en cada Sprint.
 
 <p align="center">
     <%= image_tag('tutoriales/scrum/Sprint-Backlog.png', :class => 'img-responsive img-thumbnail', :height => '50%', :width => '50%') %>
+    </br><small>Fuente original de la imagen: <a href="http://scrumreferencecard.com/scrum-reference-card/">Scrum Reference Card</a></small>
 </p>
 
 El Sprint Backlog consiste de una serie de historias seleccionadas del Product 
@@ -1285,6 +1288,7 @@ Por ejemplo, si la aplicación es web se recomienda usar OWASP.
     <div class="col-md-6">
         <p align="center">
             <%= image_tag('tutoriales/scrum/scrum-flow.png', :class => 'img-responsive img-thumbnail', :height => '50%', :weight => '50%') %> 
+            </br><small>Fuente original de la imagen: <a href="http://scrumreferencecard.com/scrum-reference-card/">Scrum Reference Card</a></small>
         </p>
     </div>
 </div>
