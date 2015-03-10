@@ -4311,10 +4311,10 @@
       }
       .breadcrumb {
         padding: 8px 15px;
-        margin-bottom: 20px;
-        list-style: none;
-        background-color: #f5f5f5;
+        margin-bottom: -10px;
+        list-style: outside none none;
         border-radius: 4px;
+        padding-left: 3px;
       }
       .breadcrumb > li {
         display: inline-block;
@@ -5758,6 +5758,7 @@
       }
       .carousel-inner > .active {
         left: 0;
+        height: 220px;
       }
       .carousel-inner > .next,
       .carousel-inner > .prev {
@@ -5920,7 +5921,7 @@
           padding-bottom: 30px;
         }
         .carousel-indicators {
-          bottom: 20px;
+          bottom: 0px;
         }
       }
       .clearfix:before,
@@ -6006,9 +6007,15 @@
       }
       .affix {
         position: fixed;
-        -webkit-transform: translate3d(0, -169px, 0);
-             -o-transform: translate3d(0, -169px, 0);
-                transform: translate3d(0, -169px, 0);
+        -webkit-transform: translate3d(0, 0, 0);
+             -o-transform: translate3d(0, 0, 0);
+                transform: translate3d(0, -107px, 0);
+      }
+      .affix-top{
+        position:absolute;
+      }
+      .affix-bottom{
+        position:absolute;
       }
       @-ms-viewport {
         width: device-width;
@@ -6231,17 +6238,23 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       /* Custom data */
-
-      body {
-          padding-top: 50px;
-          padding-bottom: 0px;
-      }
-
-      #body {
-          padding-top: 10px;
-          padding-bottom: 10px;
-      }
 
       .sidebar-nav {
           padding: 9px 0;
@@ -6303,6 +6316,9 @@
       .allWhite {
         background-color: #FFFFFF;
       }
+      .footerGrey {
+        background-color: #B7B7B7; 
+      }
 
       /* Anchor padding */
 
@@ -6332,10 +6348,181 @@
         text-decoration: underline;
         font-weight: bold;
       }
+
+
+
+      .back-image {
+        background-image: url("/assets/estilo/background.png");
+        background-repeat: repeat;
+      }
+      .header-title {
+        padding-top: 9px;  
+        padding-bottom: 9px;
+      }
+      .triple-footer {
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        color: #FFFFFF;
+        lenght: 15px;
+        font-weight: bold;
+      }
+      .paypal-img{
+        padding-top: 58px;
+      }
+      .paypal-text{
+        font-family: inherit;
+        font-weight: inherit;
+        font-size: inherit;
+        padding-top: 30px;
+        padding-left: 34px;
+        padding-bottom: 20px;
+        margin-right: -65px;
+      }
+      .mail-img{
+        padding-top: 43px;
+      }
+      .mail-text{
+        font-family: inherit;
+        font-weight: inherit;
+        font-size: inherit;
+        padding-top: 48px;
+        padding-bottom: 20px;
+        padding-right: 6px;
+        margin-right: -34px;
+      }
+      .footer-logo{
+        margin-left: 81px;
+        padding-top: 20px;
+      }
+      .firma-footer{
+        padding-left: 157px;
+        margin-top: -21px;
+      }
+      .title-sub{
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        color: #FFFFFF;
+        font-weight: bold;
+        margin-left: -111px;
+        padding-top: 48px;
+      }
+      .title-contacto{
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        color: #FFFFFF;
+        font-weight: bold;
+        padding-left: 14px;
+        padding-top: 27px;
+      }
+      .title-header{
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        color: #FFFFFF;
+        font-weight: bold;
+        margin-left: -115px;
+        padding-top: 7px;
+      }
+      .title-teacher{
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        color: #FFFFFF;
+        margin-left: -112px;
+        margin-top: -8px;
+      }
+      #contenido{
+        min-height: 350px;
+      }
+
+      /* bottom footer */
+
+      #footer {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        left: 0;
+      }
+
+      html{
+        height: 100%;
+      }
+
+      body {
+          padding-top: 50px;
+          padding-bottom: 0px;
+          position: relative;
+          min-height: 100%;
+      }
+
+      #body {
+          padding-top: 10px;
+          padding-bottom: 190px;
+      }
+
+      #item-carrusel {
+        padding-top: 37px;
+      }
+      #item-carrusel > .col-md-4{
+        padding-left: 20px;
+        padding-top: 16px;
+      }
+      #item-carrusel > .col-md-8{
+        margin-left: -113px;
+      }
+
+      .carousel-control.left, 
+      .carousel-control.right {
+          background-image: none
+      }
+
+      .carousel-indicators li {
+        background-color: #1D58A8;
+      }
+      .carousel-indicators .active {
+        background-color: #083C87;
+      }
+
+      #navegador a {
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        color: #FFFFFF;
+        font-weight: bold;
+      }
+      #navegador .active {
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        color: #FFFFFF;
+      }
+
+      #contenido hr {
+        border-color: black;
+        margin-top: -7px;
+      }
+
+      #contenido p,
+      #contenido ol,
+      #contenido ul,
+      #contenido td {
+        font-size: 15px;
+      }
+
+      .disclaimer{
+        padding-bottom: 0px;
+      }
+
+      .selection_checkbox:checked + .selection_label {
+        text-decoration:line-through
+      }
+
+      .selection_checkbox {
+        margin-left: 0px !important;
+      }
+
+      .selection_label {
+        font-size: 15px;
+      }
+
+      .boton-pajarito {
+        margin-bottom: -5px;
+      }
+
+
     </style>
   </head>
 
-  <body>
+  <body data-no-turbolink>
     <!-- Header -->
         <nav class="navbar navbar-default navbar-fixed-top strongBlue" role="navigation">
             <div class="container-fluid">
@@ -6345,42 +6532,99 @@
             </div>
         </nav> <!-- Header -->
 
-      <div id="title" class="shinyOrange">
+      <section id="title" class="shinyOrange">
         <div class="container">
           <div class="row">
-            <div class="col-md-6">
-              <h1>Página no encontrada</h1>    
+            <div class="col-md-10">
+              <div class="hidden-xs"> 
+                <div class="col-md-4">
+                  <a href="/home"><img src="/assets/estilo/header_3.png" class="header-title"></img></a>
+                </div>
+                <div class="col-md-8">
+                  <p class="title-sub">
+                    Apuntes de Ingeniería Civil Informática ~
+                    </br>
+                    ¡De la clase al cuaderno, del cuaderno a internet!
+                  </p>    
+                </div>
+              </div>
+            </div>
+            <div id="fecha" class="col-md-2">
             </div>
           </div>
         </div>
-      </div>
+      </section>
 
     </section>
 
-    <section id="body" class="officialGrey">
+    <section id="body" class="back-image">
       <div id="contenido" class="container allWhite">
+        <div class="col-md-12">
+          <h2>Error 404</h2>
 
-        <h2>Error 404</h2>
+          <p class="lead">
+            Lo siento, esta página no existe o aún está en construcción </br>
 
-        <p class="lead">
-          Lo siento, esta página no existe o aún está en construcción </br>
+            Le rogamos:
+            <ul>
+              <li><a href="home">Volver a la página principal.</a></li>
+              <li><a href="contacto">Contactarme para informar del error.</a></li>
+            </ul>
 
-          Le rogamos:
-          <ul>
-            <li><a href="home">Volver a la página principal.</a></li>
-            <li><a href="contacto">Contactarme para informar del error.</a></li>
-          </ul>
-
-          De antemano, muchas gracias!
-          </p>
+            De antemano, muchas gracias!
+            </p>
+        </div>
       </div>
     </section>
 
-    <section id="footer" class="officialGrey">
+    <section id="home-footer" class="navbar-fixed-bottom footerGrey hidden-print">
       <div class="container">
-        <div class="panel panel-success">
-          <div class="panel-heading">
-            <h3 class="panel-title" align="center"> Desarrollado por Esteban Gaete Flores </h3>
+        <div class="triple-footer" align="center">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="row">
+                <div class="paypal-img col-md-4">
+                  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="8PPW7PY96FNNS">
+                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+                  </form>
+                </div>
+                <div class="col-md-8">
+                  <p class="paypal-text text-justify">
+                    Realizar esta página tomó bastante trabajo, esfuerzo y tiempo.
+                  </br>
+                    Por supuesto es gratis para todos ustedes, pero si deseas devolverme el favor puedes donar presionando este botón!
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="row">
+                <div class="col-md-12">
+                  <img src="/assets/estilo/footer_5.png" class="footer-logo" width="100%"></img>
+                </div>
+                <div class="col-md-12">
+                  <p class="firma-footer">
+                    Desarrollado por Esteban Gaete Flores
+                  </p>
+                </div>
+              </div>              
+            </div>
+            <div class="col-md-4">
+              <div class="col-md-8">
+                <p class="mail-text" align="right">
+                  E-mal Contacto
+                  </br>
+                  ¡Respuestas en 24hrs!
+                  </br>
+                  esteban.gaete@usach.cl
+                </p>
+              </div>
+              <div class="col-md-4">
+              </div>    
+            </div>
           </div>
         </div>
       </div>
