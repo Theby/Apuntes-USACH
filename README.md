@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/Theby/Apuntes-USACH.svg?branch=master)](https://travis-ci.org/Theby/Apuntes-USACH)
+
 Apuntes-USACH
 =============
 
