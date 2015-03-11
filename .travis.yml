@@ -5,12 +5,12 @@ addons:
   postgresql: "9.2"
 before_script:
   - cp config/database.yml.travis config/database.yml
-  #- psql -c 'create database travis_ci_test;' -U postgres
+  - psql -c 'create database travis_ci_test;' -U postgres
 before_install:
   - 'echo ''gem: --no-ri --no-rdoc'' > ~/.gemrc'
   - gem install bundler
   - bundle install
-  - bundle exec rake db:create db:migrate db:schema:load
+  #- bundle exec rake db:create db:migrate db:schema:load
 install: 
   - gem install rails
 notifications:
