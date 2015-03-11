@@ -1,0 +1,208 @@
+<section id="title" class="shinyOrange">
+   <div class="container">
+       <div class="row">
+           <div class="col-md-6">
+               <div class="hidden-xs"> 
+                   <div class="col-md-4">
+                       <%= image_tag('estilo/header_3.png', :class => 'header-title') %>   
+                   </div>
+                   <div class="col-md-8">
+                       <h1 class="title-about">Sobre ApuntesUsach</h1>      
+                   </div>
+               </div>
+               <div class="hidden-sm hidden-md hidden-lg">
+                   <h1>Sobre ApuntesUsach</h1>
+               </div>
+           </div>
+           <div id="fecha" class="col-md-6">
+               <p class="pull-right hidden-print"><kbd> <a href="https://www.youtube.com/watch?v=-pPXuFNGEr8" target="_blank" style="color: red;"> Nuclear</a> </kbd></p>
+           </div>
+       </div>
+   </div>
+</section>       
+
+<section id="body" class="back-image">
+    <div id="contenido" class="container allWhite">
+        <h2>General</h2>
+        <hr class="divider">
+        <p>
+            ApuntesUsach fue creada por <b>Esteban Gaete Flores</b> (esteban.gaete@usach.cl) el 17 de Agosto del 2014 y hecha pública el 9 de marzo del 2015.
+            </br></br>
+            Desde entonces se han generado:
+
+            <div class="row">
+                <div class="col-md-2">
+                    <div class="panel panel-info" align="center">
+                        <div class="panel-heading">Tutoriales</div>
+                        <div class="panel-body">3</div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="panel panel-info" align="center">
+                        <div class="panel-heading">Secciones</div>
+                        <div class="panel-body"><%= allSections.count %></div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="panel panel-info" align="center">
+                        <div class="panel-heading">Publicaciones</div>
+                        <div class="panel-body"><%= allPublicaciones.count %></div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="panel panel-info" align="center">
+                        <div class="panel-heading">Clases</div>
+                        <div class="panel-body"><%= allEntries.count %></div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="panel panel-info" align="center">
+                        <div class="panel-heading">Profesores</div>
+                        <div class="panel-body"><%= allExpositores.count %></div>
+                    </div>
+                </div>
+            </div>
+
+        </p>
+
+        <h2>Versiones</h2>
+        <hr class="divider">
+        <p>
+            sección en construcción
+        </p>
+
+        <h2>Técnologías Usadas</h2>
+        <hr class="divider">
+        <p>
+            sección en construcción
+        </p>
+
+        <h2>FAQ - Preguntas frecuentes</h2>
+        <hr class="divider">
+        <div class="row">
+            <div class="col-md-4 hidden-xs">
+                <p class="text-center">
+                    <%= fa_stacked_icon "heart", base: "square-o", class: "fa-5x text-danger" %>
+                </p>
+            </div>
+            <div class="col-md-8">
+                <h3>Razones y Motivaciones</h3>
+                <blockquote>
+                    <p class="text-justify">Los cuadernos gastan mucho espacio, acumulan polvo y son difíciles de navegar, así que: ¿Por qué no mejor tener todo en un solo sitio, más ordenado y accesible? De esta idea nació crear una página de apuntes. La otra motivación es ayudar al resto de mis compañeros con acceso a guías, comentarios y contenido :)</p>
+                </blockquote>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 hidden-xs">
+                <p class="text-center">
+                    <%= fa_stacked_icon "question", base: "square-o", class: "fa-5x text-primary" %>
+                </p>
+            </div>
+            <div class="col-md-8">
+                <h3>¿Y qué es esta página exactamente?</h3>
+                <blockquote>
+                    <p class="text-justify">Está página corresponde a mis apuntes en clase desde el segundo semestre del 2014 hasta el final de mi carrera. Cada apunte es un reflejo de mis cuadernos, por lo que algunos temas no son muy detallados mientras otros sí.</p>
+                </blockquote>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 hidden-xs">
+                <p class="text-center">
+                    <%= fa_stacked_icon "search-minus", base: "square-o", class: "fa-5x text-warning" %>
+                </p>
+            </div>
+            <div class="col-md-8">
+                <h3>¿Por qué solo hay apuntes desde el noveno semestre y no desde el comienzo de la carrera?</h3>
+                <blockquote>
+                    <p class="text-justify">Porque recién tengo los conocimientos suficientes para crear y montar mi propia página web, además... ¡¡perdí los cuadernos de los semestres anteriores!! Aunque si me preguntas a mí, estos semestres son lejos los más complicados.</p>
+                </blockquote>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 hidden-xs">
+                <p class="text-center">
+                    <%= fa_stacked_icon "plus", base: "square-o", class: "fa-5x text-success" %>
+                </p>
+            </div>
+            <div class="col-md-8">
+                <h3>¿Puedo incluir mis apuntes en tu página?</h3>
+                <blockquote>
+                    <p class="text-justify">¡Claro! tan solo envíame un mail <%= link_to "(Datos de contacto)", contacto_path %> y te daré las indicaciones necesarias para incluir tus apuntes!! (y por supuesto que tu nombre será incluidos en ellos si lo deseas <i class="fa fa-smile-o"></i>) </p>
+                </blockquote>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 hidden-xs">
+                <p class="text-center">
+                    <span class="fa-stack fa-5x">
+                        <i class="fa fa-square-o fa-stack-2x text-info"></i>
+                        <i class="fa fa-users fa-stack-1x text-info"></i>
+                        <i class="fa fa-ban fa-stack-2x text-danger"></i>
+                    </span>
+                </p>
+            </div>
+            <div class="col-md-8">
+                <h3>¡No quiero mis apuntes en tu sucia página!</h3>
+                <blockquote>
+                    <p class="text-justify">¡Comprendo, pero no te pongas así! :c </br> Esta página es código libre :) Ha sido desarrollada usando Ruby On Rails y Postgresql. Puedes ver el código fuente <a href="https://github.com/Theby/Apuntes-USACH">Aquí</a>. Ante cualquier duda no desistas en <%= link_to "preguntarme!", contacto_path %></p>
+                </blockquote>
+            </div>
+        </div>
+        </br>
+        </br>
+    </div>
+</section>
+
+<section id="footer" class="footerGrey hidden-print">
+    <div class="container">
+        <div class="triple-footer" align="center">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="row">
+                        <div class="paypal-img col-md-4">
+                            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+                                <input type="hidden" name="cmd" value="_s-xclick">
+                                <input type="hidden" name="hosted_button_id" value="8PPW7PY96FNNS">
+                                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                <img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+                            </form>
+                        </div>
+                        <div class="col-md-8">
+                            <p class="paypal-text text-justify">
+                                Realizar esta página tomó bastante trabajo, esfuerzo y tiempo.
+                            </br>
+                                Por supuesto es gratis para todos ustedes, pero si deseas devolverme el favor puedes donar presionando este botón!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <%= image_tag('estilo/footer_5.png', class: "footer-logo", :width => "100%") %>
+                        </div>
+                        <div class="col-md-12">
+                            <p class="firma-footer">
+                                Desarrollado por Esteban Gaete Flores
+                            </p>
+                        </div>
+                    </div>                          
+                </div>
+                <div class="col-md-4">
+                    <div class="col-md-8">
+                        <p class="mail-text" align="right">
+                            E-mal Contacto
+                            </br>
+                            ¡Respuestas en 24hrs!
+                            </br>
+                            esteban.gaete@usach.cl
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <%= fa_icon "envelope 5x", class: "mail-img" %>
+                    </div>      
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
