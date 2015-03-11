@@ -1,7 +1,6 @@
 language: ruby
 rvm:
   - 2.1.2
-  - 2.1.0
   - "1.8.7"
   - "1.9.2"
   - "1.9.3"
@@ -9,6 +8,10 @@ addons:
   postgresql: "9.2"
 before_script:
   - psql -c 'create database travis_ci_test;' -U postgres
+before_install:
+  - 'echo ''gem: --no-ri --no-rdoc'' > ~/.gemrc'
+  - gem install bundler
+  - bundle install
   - bundle exec rake db:create db:migrate db:schema:load
 install: gem install rails
 notifications:
