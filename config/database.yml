@@ -26,7 +26,6 @@ development:
   adapter: postgresql
   encoding: unicode
   pool: 5
-  
   database: ApuntesUsach_development
 
   # The specified database role being used to connect to postgres.
@@ -61,14 +60,9 @@ development:
 # Do not set this db to the same as development or production.
 test:
   <<: *default
-  database: ApuntesUsach_test
-
+  database: travis_ci_test
   adapter: postgresql
-  encoding: unicode
-  host: localhost
-  pool: 5
-  username: root
-  password: root
+  username: postgres  
 
 # As with config/secrets.yml, you never want to store sensitive information,
 # like your database password, in your source code. If your source code is
