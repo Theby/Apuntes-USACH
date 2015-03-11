@@ -44,6 +44,9 @@ Rails.application.routes.draw do
   # Ruta a la página de contacto
   get 'contacto' => 'apuntes#contacto'
 
+  # Ruta a la página de about
+  get 'about' => 'apuntes#about'
+
   # Ruta a la página de tutoriales
   get 'tutorial' => 'tutoriales#home'
   # Ruta al tutorial de Memcached

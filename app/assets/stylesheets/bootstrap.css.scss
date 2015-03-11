@@ -935,7 +935,6 @@ img {
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
   display: block;
-  width: 100% \9;
   max-width: 100%;
   height: auto;
 }
@@ -5729,6 +5728,7 @@ button.close {
   position: relative;
   width: 100%;
   overflow: hidden;
+  height: 240px;
 }
 .carousel-inner > .item {
   position: relative;
@@ -5741,6 +5741,37 @@ button.close {
 .carousel-inner > .item > a > img {
   line-height: 1;
 }
+@media all and (transform-3d), (-webkit-transform-3d) {
+  .carousel-inner > .item {
+    -webkit-transition: -webkit-transform .6s ease-in-out;
+         -o-transition:      -o-transform .6s ease-in-out;
+            transition:         transform .6s ease-in-out;
+
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+    -webkit-perspective: 1000;
+            perspective: 1000;
+  }
+  .carousel-inner > .item.next,
+  .carousel-inner > .item.active.right {
+    left: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+            transform: translate3d(100%, 0, 0);
+  }
+  .carousel-inner > .item.prev,
+  .carousel-inner > .item.active.left {
+    left: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+            transform: translate3d(-100%, 0, 0);
+  }
+  .carousel-inner > .item.next.left,
+  .carousel-inner > .item.prev.right,
+  .carousel-inner > .item.active {
+    left: 0;
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+  }
+}
 .carousel-inner > .active,
 .carousel-inner > .next,
 .carousel-inner > .prev {
@@ -5748,7 +5779,6 @@ button.close {
 }
 .carousel-inner > .active {
   left: 0;
-  height: 100%;
 }
 .carousel-inner > .next,
 .carousel-inner > .prev {
@@ -5836,6 +5866,7 @@ button.close {
   height: 20px;
   margin-top: -10px;
   font-family: serif;
+  line-height: 1;
 }
 .carousel-control .icon-prev:before {
   content: '\2039';
@@ -5908,10 +5939,10 @@ button.close {
   .carousel-caption {
     right: 20%;
     left: 20%;
-    padding-bottom: 30px;
+    padding-bottom: 8px;
   }
   .carousel-indicators {
-    bottom: 0px;
+    bottom: -6px;
   }
 }
 .clearfix:before,
@@ -6463,7 +6494,7 @@ body {
   background-color: #1D58A8;
 }
 .carousel-indicators .active {
-  background-color: #083C87;
+  background-color: #EF8D28;
 }
 
 #navegador a {
