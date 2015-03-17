@@ -22,7 +22,7 @@ nota, esta es la única evaluación del ramo.
 
 ### Herramientas Útiles
 
-
+[Tutorial de Scrum](http://apuntesusach.herokuapp.com/tutorial/scrum)
 
 ### Apuntes de Clases
 
