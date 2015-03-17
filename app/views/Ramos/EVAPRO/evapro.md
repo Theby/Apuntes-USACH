@@ -26,7 +26,7 @@ Ve temas como:
 Considera un trabajo de investigación en el que se presenta un proyecto 
 rentable.
 
-#### Bibliografía
+### Bibliografía
 
  * Reinaldo y Nassir Sapag. Preparación y evaluación de proyectos. 4ta o 5ta edición.
  * Gabriel Baca. Evaluación de Proyectos. 4ta o 5ta edición.

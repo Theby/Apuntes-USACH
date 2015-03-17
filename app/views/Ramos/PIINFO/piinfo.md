@@ -27,7 +27,7 @@ Temas del ramo:
  * Análisis de mercado y financieros.
  * Desarrollo de prototipos.
 
-#### Bibliografía
+### Bibliografía
 
  * Evaluación de Proyectos de inversión en la empresa - Nassir Sapag. Primera edición.
 

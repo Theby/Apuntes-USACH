@@ -9,7 +9,7 @@ creará interdependencia entre los miembros de los equipos.
 El curso considera un proyecto dividido en 4 presentaciones, cada una con su 
 nota, esta es la única evaluación del ramo.
 
-#### Bibliografía
+### Bibliografía
 
  1. Henrik Kniberg, **Scrum y XP desde las trincheras**, 2007, Enterprise 
     Software Development.

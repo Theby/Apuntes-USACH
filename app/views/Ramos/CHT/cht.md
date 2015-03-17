@@ -10,7 +10,7 @@ de poder llegar a una conclusión unificada.
 Debido a que este ramo es mayoritariamente lectura, los apuntes consistirán de
 resúmenes a algunos capítulos, links a videos de ayuda y links a descargas de los libros.
 
-#### Bibliografía
+### Bibliografía
 
  * Libro del Enagrama
  * El Árbol del Conocimiento, Humberto Maturana y Fco. Varela.
