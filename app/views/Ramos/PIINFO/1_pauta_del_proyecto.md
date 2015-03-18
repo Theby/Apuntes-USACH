@@ -50,3 +50,5 @@ Los siguientes puntos deben ser abarcados durante este informe
  * Tapa con logo, nombre del proyecto , pauta, integrantes y fecha.
  * Fuente de las imágenes.
  * La estructura interna depende de cada grupo.
+
+## Citas
