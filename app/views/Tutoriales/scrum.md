@@ -1839,7 +1839,7 @@ en los post-it en los que votan.
 Luego se toman los tres post-it más votados de cada columna y la reunión 
 continuara discutiendo estos puntos.
 
-**5.- Discusión**
+**6.- Discusión**
 
 Esta es la parte más importante de la reunión, se recomienda que esta parte 
 dure una hora o más si es necesario para que todos los puntos sean discutidos, 
@@ -1855,7 +1855,7 @@ equipo el consenso al que han llegado y si están de acuerdo. Luego
 se anota este consenso y se le asigna un responsable quién debe ser parte del 
 equipo. El responsable debe ofrecerse por sí mismo. Esto se hace por cada tema.
 
-**6.- Resultados públicos**
+**7.- Resultados públicos**
 
 Al finalizar la reunión debe quedar registro de todo lo discutido y de las 
 métricas obtenidas (punto 2 y 3), este registro debe estar accesible a todo el 
