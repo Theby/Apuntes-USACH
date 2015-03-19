@@ -370,12 +370,12 @@ Y utilizado para:
             <li>Aplicaciones certificadas ISO 9001</li>
             <li>Sistemas Embebidos</li>
             <li>Joint Strike Fighter</li>
-            <li>Desarrollo de video juegos</li>
+            <li>Desarrollo de vídeo juegos</li>
         </ol>
     </div>
     <div class="col-md-6">
         <ol>
-            <li>Sistemas críticos de soporte vital, aprobados por laFDA</li>
+            <li>Sistemas críticos de soporte vital, aprobados por la FDA</li>
             <li>Software de control satelital</li>
             <li>Sitios Web</li>
             <li>Software para Handheld</li>
@@ -392,7 +392,7 @@ Dentro de las características más importantes se encuentran los siguientes
 puntos:
 
  * Es simple de usar y entender aunque es difícil de perfeccionar en la
-   practica.
+   práctica.
  * Equipos auto-organizados.
  * El producto avanza con Sprints de dos semanas hasta uno o dos meses de 
    duración.
@@ -500,15 +500,15 @@ Scrum hace que esta sea una metodología bastante fácil de aprender.
 
 El corazón de Scrum es el Sprint, es en este en donde se usan la mayoría de 
 los artefactos y en donde ocurren la mayoría de las reuniones. Un proyecto 
-siempre esta dividido en varios Sprints.
+siempre está dividido en varios Sprints.
 
 Debe tener un tiempo fijo y que, idealmente, debe mantenerse igual para todos 
 los demás Sprints. Se recomienda que dure entre 2 semanas y un mes según la
 envergadura del proyecto.
 
-Un nuevo Sprint debe empezar inmediatamente después que a acabado uno, de esta 
-forma no se pierde el ritmo de trabajo y se puede aplicar más efectivamente el
-desarrollo ágil de proyectos.
+Un nuevo Sprint debe empezar inmediatamente después que ha acabado uno, de 
+esta forma no se pierde el ritmo de trabajo y se puede aplicar más 
+efectivamente el desarrollo ágil de proyectos.
 
 A grandes rasgos el Sprint consiste de un Sprint Planning, Reuniones diarias, 
 trabajo de desarrollo, Sprint Review y Sprint Retrospective.
@@ -818,7 +818,7 @@ historias más pequeñas y más precisas. Si existe un conjunto de Epics
 relacionados, estos se dicen que son parte de un "Tema", ya que apuntan a
 una misma funcionalidad del sistema.
 
-Cada historia se compone de un conjunto de **Tasks** (tareas), las cuáles 
+Cada historia se compone de un conjunto de **Tasks** (tareas), las cuales 
 corresponden a todos los pasos que debieran llevarse a cabo para poder 
 completar la historia satisfactoriamente. Las Task no se reparten ni se 
 asignan entre los miembros del Team, sino más bien, cada miembro del Team 
@@ -901,7 +901,7 @@ Sprint, como por ejemplo:
 
 Estás se denominan Tasks técnicas y cumplen con las mismas características que 
 las otras Tasks, con la única diferencia de que no son valoradas por el 
-Product Owner ya que por si solas no entregan valor al cliente, si no más 
+Product Owner ya que por si solas no entregan valor al cliente, sino más 
 bien, estás Tasks son solo estimadas por el Team y son responsabilidad de 
 ellos mismos. Además Estás Tasks son independientes de cualquier Historia.
 
@@ -1311,7 +1311,7 @@ historia vale la mitad de otra es porque es la mitad de importante, etc.
 
 Con esto el Product Owner ha dado a conocer que es lo más importante para él, 
 sin embargo en este proceso se debe guiar al Product Owner, preguntándole 
-porque el piensa que una historia es más importante que otra y mostrándole 
+porque él piensa que una historia es más importante que otra y mostrándole 
 otras alternativas hasta que tanto el Product Owner y el Team esté satisfecho 
 en el orden dado. Para esto, tanto el Team como el Scrum Master deben ser los 
 guías.
@@ -1336,7 +1336,7 @@ modo que las historias más importantes sean lo más transparente posible.
 
 Tanto en esta reunión como en el Sprint Planning el Team debe aprender a 
 decirle "NO" al Product Owner, muchas veces sueña muy grande y es 
-responsabilidad del Team y el Scrum Mmaster el saber cuándo decir que no a 
+responsabilidad del Team y el Scrum Master el saber cuándo decir que no a 
 ciertos requerimientos.
 
 
@@ -1347,7 +1347,7 @@ Esta reunión debe durar 2 horas en un Sprint de dos semanas y hasta 8 horas en
 un Sprint de un mes.
 
 Se seleccionan historias a partir del Product Backlog, los cuales intentarán 
-cumplirse en el Sprint. Debe participar el Product Owner, Srum Master y el 
+cumplirse en el Sprint. Debe participar el Product Owner, Scrum Master y el 
 Team, además es importante establecer el objetivo del Sprint.
 
 Es responsabilidad del Scrum Master que esta reunión se realice y que se 
@@ -1495,7 +1495,7 @@ Idealmente el Product Owner debe ser quién, después de poner todos al día con
 el estado del negocio, comienza la discusión sobre la planificación del
 Sprint, el Product Owner debiera comenzar por ver la velocidad del Team para 
 tener una idea de cuantas historias el Team es capaz de abarcar en el
-siguiente Sprint. El Product Owner También debiera considerar:
+siguiente Sprint. El Product Owner también debiera considerar:
 
  * Días feriados, vacaciones del personal, eventos del Team y/u organización.
  * Prioridad de las historias en el Product Backlog.
@@ -1521,13 +1521,13 @@ Las preguntas que ayudan a guiar este proceso son:
 
  * ¿Ha cambiado la definición de esta historia desde la última vez? ¿Hay nueva
    información sobre el contexto de esta que el Team necesita considerar?
- * ¿Es valida la estimación actual de la historia? ¿Todo el Team está 
+ * ¿Es válida la estimación actual de la historia? ¿Todo el Team está 
    de acuerdo con este valor? Si no, el Scrum Master debe guiar el proceso 
    para volver a estimar.
  * ¿Qué tareas se deberán hacer para completar esta historia? Si al momento de 
    pensar en las tareas de la historia surgen nuevas historias estas se deben 
    discutir para ser implementadas en el Product Backlog.
- * ¿Cuales son las implicaciones en Testing que tiene esta historia? ¿Se puede 
+ * ¿Cuáles son las implicaciones en Testing que tiene esta historia? ¿Se puede 
    automatizar el testing?
  * ¿Se necesita habilidades o conocimientos técnicos específicos para realizar 
    esta historia? De ser así, ¿Cómo optimizar el tiempo del especialista que 
