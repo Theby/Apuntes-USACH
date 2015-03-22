@@ -46,7 +46,6 @@ Los siguientes puntos deben ser abarcados durante este informe
  * Imágenes claras.
  * Bibliografía.
  * Anexo para detalles.
- * Fechas de entregas y presentaciones.
  * Tapa con logo, nombre del proyecto , pauta, integrantes y fecha.
  * Fuente de las imágenes.
  * La estructura interna depende de cada grupo.
