@@ -1,4 +1,4 @@
-## _Clase 1 - Pauta 1: Perfil del Proyecto_
+## _Pauta 1: Perfil del Proyecto_
 
 Se deben ver los objetivos generales y específicos, los alcances y cuál es la 
 necesidad del mercado que se busca satisfacer.
@@ -38,6 +38,8 @@ Los siguientes puntos deben ser abarcados durante este informe
  * Riguroso en conceptos.
  * ¿Cómo se financiará el proyecto?
  * Citas y referencias.
+ * Encuesta de mercado.
+ * ¿Jerarquía innovadora?
 
 ### Estructura General del Informe
 
