@@ -30,6 +30,16 @@ Los tres negocios más grandes en Chile son:
     cinco años). Identifica los problemas y necesidades, formula planes y 
     programas involucrando Recursos humanos, materiales y financieros. 
     Establece las metas operativas.
+    
+    Para que las estrategias sean operables y cumplan con su función, es necesario:
+    - Asegurarse de que sean consistentes y contribuyan al logro del objetivo.
+    - Determinarlas con claridad.
+    - No confundir las estrategias con las tácticas, ya que estas ultimas combinan la acción con los medios para 
+      alcanzar el objetivo.
+    - Considerar las experiencias pasadas para su establecimiento; esto permitirá sugerir un mayor número de cursos de
+      acción.
+    - Analizar las consecuencias que pudieran presentarse al momento de aplicarlas.
+    - Al establecerlas, auxiliarse de técnicas de investigación y de planeación.
  2. **Organización:** Distribuir tareas, asumir responsabilidades y asignar 
     recursos. Integra el recurso humano.
 
@@ -74,7 +84,35 @@ Los tres negocios más grandes en Chile son:
     responsabilidades orientadas a acciones deseadas. Motiva iniciativas 
     individuales y colectivas. Establece afianzas y estratégicas, resuelve 
     conflictos y toma decisiones.
- 4. **Control:** Verificar que lo realizado corresponda a la planificado. Estable estándares. Supervisa, monitorea y evalúa. Retroalimenta.
+
+    En esta etapa del proceso administrativo comprende la influencia del administrador en la realización de planes, 
+    obteniendo una respuesta positiva de sus empleados mediante la comunicación, la supervisión y la motivación.
+    
+    Los elementos del concepto son:
+    1. ejecución de los planes de acuerdo con la estructura organizacional.
+    2. motivación.
+    3. guía o conducción de los esfuerzos de los subordinados.
+    4. comunicación.
+    5. supervisión.
+    6. alcanzar las metas de la organización.
+
+ 4. **Control:** Verificar que lo realizado corresponda a la planificado. Estable estándares. Supervisa, monitorea y 
+    evalúa. Retroalimenta.
+    
+    Elementos del control:
+
+    - Establecimiento de estándares. Es la aplicación de una unidad de medida, que servirá como modelo, guía o patrón 
+      en base en lo cual se efectuará el control.
+    - Medición de resultados. La acción de medir la ejecución y los resultados, puede de algún modo modificar la misma
+      unidad de medida.
+    - Corrección. La utilidad concreta y tangible del control está en la acción correctiva para integrar las
+      desviaciones en relación con los estándares.
+    - Retroalimentación. El establecimiento de medidas correctivas da lugar a la retroalimentación; es aquí en donde 
+      se encuentra la relación más estrecha entre la planeación y el control.
+
+
+Leer más: http://www.monografias.com/trabajos/administracion/administracion.shtml#ixzz3VwTlRseK
+ 
 
 El proceso se da al mismo tiempo. Es decir, el administrador realiza estas funciones simultáneamente.
 
