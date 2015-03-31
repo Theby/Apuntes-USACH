@@ -101,18 +101,16 @@ Los tres negocios más grandes en Chile son:
     
     Elementos del control:
 
-    - Establecimiento de estándares. Es la aplicación de una unidad de medida, que servirá como modelo, guía o patrón 
-      en base en lo cual se efectuará el control.
-    - Medición de resultados. La acción de medir la ejecución y los resultados, puede de algún modo modificar la misma
-      unidad de medida.
-    - Corrección. La utilidad concreta y tangible del control está en la acción correctiva para integrar las
-      desviaciones en relación con los estándares.
-    - Retroalimentación. El establecimiento de medidas correctivas da lugar a la retroalimentación; es aquí en donde 
-      se encuentra la relación más estrecha entre la planeación y el control.
-
-
-Leer más: http://www.monografias.com/trabajos/administracion/administracion.shtml#ixzz3VwTlRseK
+   - Establecimiento de estándares. Es la aplicación de una unidad de medida, que servirá como modelo, guía o patrón 
+     en base en lo cual se efectuará el control.
+   - Medición de resultados. La acción de medir la ejecución y los resultados, puede de algún modo modificar la misma
+     unidad de medida.
+   - Corrección. La utilidad concreta y tangible del control está en la acción correctiva para integrar las
+     desviaciones en relación con los estándares.
+   - Retroalimentación. El establecimiento de medidas correctivas da lugar a la retroalimentación; es aquí en donde 
+     se encuentra la relación más estrecha entre la planeación y el control.
  
+### Relaciones
 
 El proceso se da al mismo tiempo. Es decir, el administrador realiza estas funciones simultáneamente.
 
