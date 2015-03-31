@@ -27,9 +27,14 @@ Los tres negocios más grandes en Chile son:
  1. **Planificación:** Se determina el objetivo y se seleccionan recursos. Se 
     responde el ¿Qué?, ¿Cómo? y ¿Dónde?. Se introduce la variable tiempo; corto
     (menos de dos años), mediano(de dos a cinco años) y largo plazo(más de 
-    cinco años). 
+    cinco años). Identifica los problemas y necesidades, formula planes y 
+    programas involucrando Recursos humanos, materiales y financieros. 
+    Establece las metas operativas.
  2. **Organización:** Distribuir tareas, asumir responsabilidades y asignar 
-    recursos.
- 3. **Dirección:** Ejecución. Se lleva a cabo lo planificado, es donde se 
-    comunican y emiten ordenes.
- 4. **Control:** Verificar que lo realizado corresponda a la planificado.
+    recursos. Integra el recurso humano.
+ 3. **Dirección-Ejecución:** Se lleva a cabo lo planificado, es donde se 
+    comunican y emiten ordenes. Orienta y conduce los recursos, delegando 
+    responsabilidades orientadas a acciones deseadas. Motiva iniciativas 
+    individuales y colectivas. Establece afianzas y estratégicas, resuelve 
+    conflictos y toma decisiones.
+ 4. **Control:** Verificar que lo realizado corresponda a la planificado. Estable estándares. Supervisa, monitorea y evalúa. Retroalimenta.
